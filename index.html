@@ -1,0 +1,34 @@
+<!doctype html>
+<html><head>
+  <meta charset="utf-8">
+
+  <title>
+    RPG Sheet
+  </title>
+
+  <link rel="shortcut icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" id="sheet-css">
+</head>
+
+<body>
+  <nav><ul>
+    <li><a class="title"><img src="logo.png">
+      RPG Sheet
+    </a></li>
+
+    <li><a id="export-sheet">
+      Export
+    </a></li>
+
+    <li><a id="import-sheet">
+      Import
+    </a><input type="file" id="sheet-file"></li>
+  </ul></nav>
+
+  <main id="sheet-html"></main>
+
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/jquery.serializejson.min.js"></script>
+  <script src="rpg-sheet.js"></script>
+</body></html>

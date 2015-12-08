@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+  margin: 0;
+  background-color: #f8e9d5;
+}
+nav {
+  margin-bottom: 30px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3d4048;
+}
+nav li a {
+  border: none;
+  float:right;
+  display: block;
+  padding: 14px 16px;
+  font-family: sans-serif;
+  color: #aa7570;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav a.title {
+  float: left;
+  font-weight: bold;
+  color: #3d4048;
+  background-color: #aa7570;
+  cursor: default;
+}
+nav a.title img {
+  height: 32px;
+  margin: -9px;
+  margin-right: 4px
+}
+nav li a:hover {
+  color: #3d4048;
+  background-color: #aa7570;
+}
+#sheet-file {
+  display: none;
+}
+#sheet section {
+  position: relative;
+  width: 960px;
+  min-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 20px #888;
+}
+#sheet img.page {
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  display: block;
+}
+#sheet input {
+  border: 0;
+  outline: 0;
+  position: absolute;
+  background: transparent;
+}
+#sheet input[type=checkbox] {
+  width: 10px;
+  height: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  outline: 0;
+  border: 0;
+  display: inline-block;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+#sheet input[type=checkbox]:focus {
+  outline: 0px;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+#sheet input[type=checkbox]:checked {
+  background-color: black;
+  text-align: center;
+  border-radius: 100%;
+}
+
+/* only show character sheet pages when printing */
+@media print {
+  * {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body {
+    background-color: white;
+  }
+  header, nav, footer {
+    display: none !important;
+  }
+  section {
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-shadow: none;
+  }
+  img.page {
+    display: inline;
+  }
+}

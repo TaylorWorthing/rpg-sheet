@@ -1,0 +1,29 @@
+#sheet-html h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #aa7570;
+}
+ul#new-sheet {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#new-sheet li a {
+  border: none;
+  display: block;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 14px 16px;
+  color: #aa7570;
+  background-color: #3d4048;
+  box-shadow: 2px 2px 5px #888;
+  font-family: sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+#new-sheet a:hover {
+  color: #3d4048;
+  background-color: #aa7570;
+}
