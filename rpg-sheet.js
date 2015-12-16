@@ -1,4 +1,9 @@
 // https://github.com/marioizquierdo/jquery.serializeJSON/issues/32#issuecomment-71833934
+var dirtyForm=false;
+window.onbeforeunload = function(e){
+  if(dirtyForm)
+    return 'Some changes have not been exported. Are you sure you want to exit?';
+};
 (function($){
   $.fn.deserializeJSON = function(s){
     $(this).find("input, select, textarea").each(function(){
@@ -58,7 +63,8 @@ function exportSheet() {
   var a = $("#export-sheet")[0];
   a.href = 'data:' + data;
   a.download = filename + '.json';
-  document.title = filename
+  document.title = filename;
+  dirtyForm=false;
 }
 function importSheet() {
   $("#sheet-file").trigger('click');
@@ -69,6 +75,7 @@ function importSheet() {
       newSheet(data.meta['sheet'], data);
     });
     $("#sheet-file").val("");
+    dirtyForm=false;
   });
 }
 function newSheet(sheetName, sheetData) {
@@ -78,10 +85,39 @@ function newSheet(sheetName, sheetData) {
       $("#sheet").deserializeJSON(sheetData);
       document.title = $("#filename").val();
    };
+   dirtyForm=false;
+   //super simple change event on every form input
+   $("form :input").change(function() {
+     dirtyForm=true;
+   });
   });
 }
 
-$("#import-sheet").on("click", importSheet);
+//If I thought about this longer I could probably consolodate these into one function, but I'm lazy for now
+function importCheckFirst(){
+  if(dirtyForm)
+  {
+    var result=window.confirm('Some data may be overwritten by an import. Continue?');
+    if(result)
+      importSheet();
+  }
+  else
+    importSheet();
+}
+function titleDataCheck(){
+  if(dirtyForm)
+  {
+    var result=window.confirm('Some data may be overwritten. Are you sure you want to create a new sheet?');
+    if(result)
+      newSheet('default');
+  }
+  else
+    newSheet('default');
+}
+
+
+
+$("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
-$(".title").on("click", function(){ newSheet("default") });
+$(".title").on("click", titleDataCheck);
 window.onload = newSheet("default");
