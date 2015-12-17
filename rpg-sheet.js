@@ -75,7 +75,6 @@ function importSheet() {
       newSheet(data.meta['sheet'], data);
     });
     $("#sheet-file").val("");
-    dirtyForm=false;
   });
 }
 function newSheet(sheetName, sheetData) {
@@ -114,8 +113,6 @@ function titleDataCheck(){
   else
     newSheet('default');
 }
-
-
 
 $("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
