@@ -1,5 +1,8 @@
+*This project is still a work-in-progress. It is not fully
+functional yet and may be prone to some breakages.*
+
 # RPG Sheet
-Easy, browser character sheets.
+Easy Character Sheets
 
 ## What is RPG Sheet?
 RPG Sheet is a web-based tool for managing character sheets for role-playing games.
