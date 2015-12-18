@@ -13,159 +13,177 @@
   content: url(page-4.png);
 }
 
+/* add some color to help with mapping */
+input[type=text],
+textarea,
+figure {
+  background: lightpink !important;
+  opacity: 0.5;
+}
+
 #sheet input {
   font-size: large;
   text-align: center;
-  /* add some color to help with mapping */
-  background: lightblue;
-  opacity: 0.5;
 }
-#sheet input[name="character-name"] {
+#sheet [name="character-name[1]"] {
   top: 95px;
   left: 75px;
   height: 30px;
   width: 270px;
   font-size: x-large;
 }
-#sheet input[name="class-level"] {
+#sheet [name="class-and-level"] {
   top: 75px;
   left: 425px;
   height: 25px;
   width: 165px;
 }
-#sheet input[name="race"] {
+#sheet [name="race"] {
   top: 115px;
   left: 425px;
   height: 25px;
   width: 165px;
 }
-#sheet input[name="background"] {
+#sheet [name="background"] {
   top: 75px;
   left: 600px;
   height: 25px;
   width: 140px;
 }
-#sheet input[name="alignment"] {
+#sheet [name="alignment"] {
   top: 115px;
   left: 600px;
   height: 25px;
   width: 140px;
 }
-#sheet input[name="player-name"] {
+#sheet [name="player-name"] {
   top: 75px;
   left: 750px;
   height: 25px;
   width: 140px;
 }
-#sheet input[name="experience-points"] {
+#sheet [name="experience-points"] {
   top: 115px;
   left: 750px;
   height: 25px;
   width: 140px;
 }
-#sheet input[name="abilities[strength][score]"] {
+#sheet [name="abilities[strength][score]"] {
   top: 194px;
   left: 84px;
   height: 20px;
   width: 30px;
 }
-#sheet input[name="abilities[strength][modifier]"] {
+#sheet [name="abilities[strength][modifier]"] {
   top: 223px;
   left: 69px;
   height: 35px;
   width: 60px;
   font-size: xx-large;
 }
-#sheet input[name="abilities[dexterity][score]"] {
+#sheet [name="abilities[dexterity][score]"] {
   top: 301px;
   left: 84px;
   height: 20px;
   width: 30px;
 }
-#sheet input[name="abilities[dexterity][modifier]"] {
+#sheet [name="abilities[dexterity][modifier]"] {
   top: 330px;
   left: 69px;
   height: 35px;
   width: 60px;
   font-size: xx-large;
 }
-#sheet input[name="abilities[constitution][score]"] {
+#sheet [name="abilities[constitution][score]"] {
   top: 408px;
   left: 84px;
   height: 20px;
   width: 30px;
 }
-#sheet input[name="abilities[constitution][modifier]"] {
+#sheet [name="abilities[constitution][modifier]"] {
   top: 437px;
   left: 69px;
   height: 35px;
   width: 60px;
   font-size: xx-large;
 }
-#sheet input[name="abilities[intelligence][score]"] {
+#sheet [name="abilities[intelligence][score]"] {
   top: 515px;
   left: 84px;
   height: 20px;
   width: 30px;
 }
-#sheet input[name="abilities[intelligence][modifier]"] {
+#sheet [name="abilities[intelligence][modifier]"] {
   top: 544px;
   left: 69px;
   height: 35px;
   width: 60px;
   font-size: xx-large;
 }
-#sheet input[name="abilities[wisdom][score]"] {
+#sheet [name="abilities[wisdom][score]"] {
   top: 622px;
   left: 84px;
   height: 20px;
   width: 30px;
 }
-#sheet input[name="abilities[wisdom][modifier]"] {
+#sheet [name="abilities[wisdom][modifier]"] {
   top: 651px;
   left: 69px;
   height: 35px;
   width: 60px;
   font-size: xx-large;
 }
-#sheet input[name="abilities[charisma][score]"] {
+#sheet [name="abilities[charisma][score]"] {
   top: 729px;
   left: 84px;
   height: 20px;
   width: 30px;
 }
-#sheet input[name="abilities[charisma][modifier]"] {
+#sheet [name="abilities[charisma][modifier]"] {
   top: 758px;
   left: 69px;
   height: 35px;
   width: 60px;
   font-size: xx-large;
 }
-#sheet input[name="saving-throws[strength][proficient]"] {
+#sheet [name="saving-throws[strength][proficient]"] {
   top: 194px;
   left: 158px;
 }
-#sheet input[name="saving-throws[dexterity][proficient]"] {
+#sheet [name="saving-throws[dexterity][proficient]"] {
   top: 301px;
   left: 158px;
 }
-#sheet input[name="saving-throws[constitution][proficient]"] {
+#sheet [name="saving-throws[constitution][proficient]"] {
   top: 408px;
   left: 158px;
 }
-#sheet input[name="saving-throws[intelligence][proficient]"] {
+#sheet [name="saving-throws[intelligence][proficient]"] {
   top: 515px;
   left: 158px;
 }
-#sheet input[name="saving-throws[wisdom][proficient]"] {
+#sheet [name="saving-throws[wisdom][proficient]"] {
   top: 622px;
   left: 158px;
 }
-#sheet input[name="saving-throws[charisma][proficient]"] {
+#sheet [name="saving-throws[charisma][proficient]"] {
   top: 729px;
   left: 158px;
 }
-#sheet input[name="skills[athletics][proficient]"] {
+#sheet [name="skills[athletics][proficient]"] {
   top: 852px;
   left: 158px;
+}
+
+#sheet figure#character {
+  top: 206px;
+  left: 57px;
+  height: 341px;
+  width: 252px;
+}
+#sheet figure#org-symbol {
+  top: 270px;
+  left: 661px;
+  height: 175px;
+  width: 222px;
 }

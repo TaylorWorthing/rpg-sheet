@@ -57,11 +57,26 @@ nav li a:hover {
   max-width: 100%;
   display: block;
 }
-#sheet input {
+#sheet input,
+#sheet textarea {
   border: 0;
   outline: 0;
   position: absolute;
   background: transparent;
+  resize: none;
+}
+#sheet figure {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: block;
+}
+#sheet figure img {
+  margin: auto;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
 }
 #sheet input[type=checkbox] {
   width: 10px;

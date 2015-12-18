@@ -78,17 +78,20 @@ function importSheet() {
   });
 }
 function newSheet(sheetName, sheetData) {
-  $("#sheet-css")[0].href = "sheets/" + sheetName + "/sheet.css";
-  $("#sheet-html").load( "sheets/" + sheetName + "/sheet.html", function() {
-   if (sheetData) {
+  var sheet = "sheets/" + sheetName + "/sheet";
+  $("#sheet-css")[0].href = sheet + ".css";
+  $("#sheet-html").load(sheet + ".html", function() {
+    if (sheetData) {
       $("#sheet").deserializeJSON(sheetData);
       document.title = $("#filename").val();
-   };
-   dirtyForm=false;
-   //super simple change event on every form input
-   $("form :input").change(function() {
-     dirtyForm=true;
-   });
+    };
+    dirtyForm=false;
+    //super simple change event on every form input
+    $("form :input").change(function() {
+      dirtyForm=true;
+    });
+    $("figure").on("click", promptImage);
+    setImages();
   });
 }
 
@@ -113,8 +116,23 @@ function titleDataCheck(){
   else
     newSheet('default');
 }
+function promptImage(e) {
+  var current = $(e.target).children("input").val();
+  var url = window.prompt("Enter an image URL.", current);
+  if (url === null || url === current) {
+    return false;
+  }
+  $(e.target).children("input").val(url);
+  setImages();
+}
+function setImages() {
+  $("figure input").each(function(i, obj){
+    var url = $(obj).val();
+    $(obj).next("img").attr("src", url);
+  });
+}
 
 $("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
-$(".title").on("click", titleDataCheck);
+$(".title").on("click", function(){ location.reload(true); });
 window.onload = newSheet("default");
