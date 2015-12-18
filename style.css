@@ -70,6 +70,7 @@ nav li a:hover {
   padding: 0;
   position: absolute;
   display: block;
+  cursor: pointer;
 }
 #sheet figure img {
   margin: auto;
@@ -81,6 +82,8 @@ nav li a:hover {
 #sheet input[type=checkbox] {
   width: 10px;
   height: 10px;
+  margin: 0;
+  padding: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -91,6 +94,7 @@ nav li a:hover {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
+  cursor: pointer;
 }
 #sheet input[type=checkbox]:focus {
   outline: 0px;

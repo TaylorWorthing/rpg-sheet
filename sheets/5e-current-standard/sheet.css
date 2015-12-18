@@ -147,32 +147,100 @@ figure {
   font-size: xx-large;
 }
 #sheet [name="saving-throws[strength][proficient]"] {
-  top: 194px;
-  left: 158px;
-}
-#sheet [name="saving-throws[dexterity][proficient]"] {
-  top: 301px;
-  left: 158px;
-}
-#sheet [name="saving-throws[constitution][proficient]"] {
-  top: 408px;
-  left: 158px;
-}
-#sheet [name="saving-throws[intelligence][proficient]"] {
-  top: 515px;
-  left: 158px;
-}
-#sheet [name="saving-throws[wisdom][proficient]"] {
-  top: 622px;
-  left: 158px;
-}
-#sheet [name="saving-throws[charisma][proficient]"] {
-  top: 729px;
-  left: 158px;
+  top: 197px;
+  left: 161px;
 }
 #sheet [name="skills[athletics][proficient]"] {
-  top: 852px;
-  left: 158px;
+  top: 213px;
+  left: 161px;
+}
+#sheet [name="saving-throws[dexterity][proficient]"] {
+  top: 304px;
+  left: 161px;
+}
+#sheet [name="skills[acrobatics][proficient]"] {
+  top: 320px;
+  left: 161px;
+}
+#sheet [name="skills[sleight-of-hand][proficient]"] {
+  top: 335px;
+  left: 161px;
+}
+#sheet [name="skills[stealth][proficient]"] {
+  top: 350px;
+  left: 161px;
+}
+#sheet [name="saving-throws[constitution][proficient]"] {
+  top: 411px;
+  left: 161px;
+}
+#sheet [name="saving-throws[intelligence][proficient]"] {
+  top: 518px;
+  left: 161px;
+}
+#sheet [name="skills[arcana][proficient]"] {
+  top: 534px;
+  left: 161px;
+}
+#sheet [name="skills[history][proficient]"] {
+  top: 549px;
+  left: 161px;
+}
+#sheet [name="skills[investigation][proficient]"] {
+  top: 564px;
+  left: 161px;
+}
+#sheet [name="skills[nature][proficient]"] {
+  top: 579px;
+  left: 161px;
+}
+#sheet [name="skills[religion][proficient]"] {
+  top: 593px;
+  left: 161px;
+}
+#sheet [name="saving-throws[wisdom][proficient]"] {
+  top: 625px;
+  left: 161px;
+}
+#sheet [name="skills[animal-handling][proficient]"] {
+  top: 641px;
+  left: 161px;
+}
+#sheet [name="skills[insight][proficient]"] {
+  top: 656px;
+  left: 161px;
+}
+#sheet [name="skills[medicine][proficient]"] {
+  top: 671px;
+  left: 161px;
+}
+#sheet [name="skills[perception][proficient]"] {
+  top: 686px;
+  left: 161px;
+}
+#sheet [name="skills[survival][proficient]"] {
+  top: 701px;
+  left: 161px;
+}
+#sheet [name="saving-throws[charisma][proficient]"] {
+  top: 732px;
+  left: 161px;
+}
+#sheet [name="skills[deception][proficient]"] {
+  top: 748px;
+  left: 161px;
+}
+#sheet [name="skills[intimidation][proficient]"] {
+  top: 763px;
+  left: 161px;
+}
+#sheet [name="skills[performance][proficient]"] {
+  top: 778px;
+  left: 161px;
+}
+#sheet [name="skills[persuasion][proficient]"] {
+  top: 793px;
+  left: 161px;
 }
 
 #sheet figure#character {
