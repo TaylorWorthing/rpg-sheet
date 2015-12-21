@@ -117,12 +117,12 @@ function titleDataCheck(){
     newSheet('default');
 }
 function promptImage(e) {
-  var current = $(e.target).children("input").val();
+  var current = $(this).children("input").val();
   var url = window.prompt("Enter an image URL.", current);
   if (url === null || url === current) {
     return false;
   }
-  $(e.target).children("input").val(url);
+  $(this).children("input").val(url);
   setImages();
 }
 function setImages() {
