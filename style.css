@@ -98,7 +98,7 @@ nav li a:hover {
 }
 #sheet input[type=checkbox]:focus {
   outline: 0px;
-  border: none !important;
+  border: 1px dotted black;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;

@@ -1,5 +1,3 @@
-/* D&D 5e Current Standard v1.4 */
-
 #page-1 img.page {
   content: url(page-1.png);
 }
@@ -25,6 +23,7 @@ figure {
   font-size: large;
   text-align: center;
 }
+
 #sheet [name="character-name[1]"] {
   top: 95px;
   left: 75px;
@@ -150,12 +149,28 @@ figure {
   top: 197px;
   left: 161px;
 }
-#sheet [name="skills[athletics][proficient]"] {
-  top: 213px;
-  left: 161px;
-}
 #sheet [name="saving-throws[dexterity][proficient]"] {
   top: 304px;
+  left: 161px;
+}
+#sheet [name="saving-throws[constitution][proficient]"] {
+  top: 411px;
+  left: 161px;
+}
+#sheet [name="saving-throws[intelligence][proficient]"] {
+  top: 518px;
+  left: 161px;
+}
+#sheet [name="saving-throws[wisdom][proficient]"] {
+  top: 625px;
+  left: 161px;
+}
+#sheet [name="saving-throws[charisma][proficient]"] {
+  top: 732px;
+  left: 161px;
+}
+#sheet [name="skills[athletics][proficient]"] {
+  top: 213px;
   left: 161px;
 }
 #sheet [name="skills[acrobatics][proficient]"] {
@@ -168,14 +183,6 @@ figure {
 }
 #sheet [name="skills[stealth][proficient]"] {
   top: 350px;
-  left: 161px;
-}
-#sheet [name="saving-throws[constitution][proficient]"] {
-  top: 411px;
-  left: 161px;
-}
-#sheet [name="saving-throws[intelligence][proficient]"] {
-  top: 518px;
   left: 161px;
 }
 #sheet [name="skills[arcana][proficient]"] {
@@ -198,10 +205,6 @@ figure {
   top: 593px;
   left: 161px;
 }
-#sheet [name="saving-throws[wisdom][proficient]"] {
-  top: 625px;
-  left: 161px;
-}
 #sheet [name="skills[animal-handling][proficient]"] {
   top: 641px;
   left: 161px;
@@ -222,10 +225,6 @@ figure {
   top: 701px;
   left: 161px;
 }
-#sheet [name="saving-throws[charisma][proficient]"] {
-  top: 732px;
-  left: 161px;
-}
 #sheet [name="skills[deception][proficient]"] {
   top: 748px;
   left: 161px;
@@ -241,6 +240,202 @@ figure {
 #sheet [name="skills[persuasion][proficient]"] {
   top: 793px;
   left: 161px;
+}
+#sheet [name="proficiency-bonus"] {
+  top: 831px;
+  left: 76px;
+  height: 26px;
+  width: 42px;
+  font-size: x-large;
+}
+#sheet [name="passive-perception"] {
+  top: 878px;
+  left: 76px;
+  height: 26px;
+  width: 42px;
+  font-size: x-large;
+}
+#sheet [name="carry-weight[current]"] {
+  top: 927px;
+  left: 127px;
+  height: 24px;
+  width: 42px;
+  font-size: small;
+}
+#sheet [name="carry-weight[maximum]"] {
+  top: 927px;
+  left: 196px;
+  height: 24px;
+  width: 42px;
+  font-size: small;
+}
+#sheet [name="saving-throws[strength][modifier]"] {
+  top: 195px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="saving-throws[dexterity][modifier]"] {
+  top: 300px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="saving-throws[constitution][modifier]"] {
+  top: 407px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="saving-throws[intelligence][modifier]"] {
+  top: 514px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="saving-throws[wisdom][modifier]"] {
+  top: 621px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="saving-throws[charisma][modifier]"] {
+  top: 728px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[athletics][modifier]"] {
+  top: 210px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[acrobatics][modifier]"] {
+  top: 315px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[sleight-of-hand][modifier]"] {
+  top: 330px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[stealth][modifier]"] {
+  top: 345px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[arcana][modifier]"] {
+  top: 529px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[history][modifier]"] {
+  top: 544px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[investigation][modifier]"] {
+  top: 559px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[nature][modifier]"] {
+  top: 574px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[religion][modifier]"] {
+  top: 589px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[animal-handling][modifier]"] {
+  top: 636px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[insight][modifier]"] {
+  top: 651px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[medicine][modifier]"] {
+  top: 666px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[perception][modifier]"] {
+  top: 681px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[survival][modifier]"] {
+  top: 696px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[deception][modifier]"] {
+  top: 743px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[intimidation][modifier]"] {
+  top: 758px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[performance][modifier]"] {
+  top: 773px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
+}
+#sheet [name="skills[persuasion][modifier]"] {
+  top: 788px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+  font-size: x-small;
 }
 
 #sheet figure#character {
