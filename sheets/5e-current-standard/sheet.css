@@ -1,12 +1,15 @@
 /* add some color to help with mapping */
 input[type=text], textarea, figure {
   background: lightpink !important; opacity: 0.5; }
-
+/* sheet style {{{ */
 nav {
   min-width: 960px; }
-input[type=checkbox] {
-  height: 11px !important; width: 11px !important; }
-
+#sheet input {
+  font-size: large; text-align: center; }
+#sheet input[type=checkbox] {
+  height: 11px; width: 11px; }
+/* }}} */
+/* page images {{{ */
 #page-1 img.page {
   content: url(page-1.png); }
 #page-2 img.page {
@@ -15,9 +18,8 @@ input[type=checkbox] {
   content: url(page-3.png); }
 #page-4 img.page {
   content: url(page-4.png); }
-
-#sheet input {
-  font-size: large; text-align: center; }
+/* }}} */
+/* page-1 {{{ */
 #sheet [name="character-name[1]"] {
   top: 95px; left: 75px; height: 30px; width: 270px; font-size: x-large; }
 #sheet [name="class-and-level"] {
@@ -395,8 +397,37 @@ input[type=checkbox] {
   top: 580px; left: 645px; height: 140px; width: 259px; }
 #sheet [name="features-and-traits[1]"] {
   top: 758px; left: 645px; height: 424px; width: 259px; }
+/* }}} */
+/* page-2 {{{ */
+#sheet [name="character-name[2]"] {
+  top: 102px; left: 75px; height: 30px; width: 322px; font-size: x-large; }
+#sheet [name="age"] {
+  top: 79px; left: 416px; height: 25px; width: 165px; }
+#sheet [name="height"] {
+  top: 79px; left: 591px; height: 25px; width: 140px; }
+#sheet [name="weight"] {
+  top: 79px; left: 741px; height: 25px; width: 140px; }
+#sheet [name="eyes"] {
+  top: 119px; left: 416px; height: 25px; width: 165px; }
+#sheet [name="skin"] {
+  top: 119px; left: 591px; height: 25px; width: 140px; }
+#sheet [name="hair"] {
+  top: 119px; left: 741px; height: 25px; width: 140px; }
 
 #sheet figure#character {
   top: 206px; left: 57px; height: 341px; width: 252px; }
+
+#sheet [name="allies-and-organizations"] {
+  top: 206px; left: 353px; height: 341px; width: 278px; }
+#sheet [name="allies-and-organizations-symbol[name]"] {
+  top: 242px; left: 662px; height: 21px; width: 218px; }
 #sheet figure#org-symbol {
   top: 270px; left: 661px; height: 175px; width: 222px; }
+
+#sheet [name="character-backstory"] {
+  top: 605px; left: 55px; height: 575px; width: 254px; }
+#sheet [name="features-and-traits[2]"] {
+  top: 590px; left: 351px; height: 313px; width: 550px; }
+#sheet [name="other"] {
+  top: 948px; left: 351px; height: 232px; width: 550px; }
+/* }}} */
