@@ -1,3 +1,12 @@
+/* add some color to help with mapping */
+input[type=text], textarea, figure {
+  background: lightpink !important; opacity: 0.5; }
+
+nav {
+  min-width: 960px;}
+input[type=checkbox] {
+  height: 11px !important; width: 11px !important;}
+
 #page-1 img.page {
   content: url(page-1.png); }
 #page-2 img.page {
@@ -6,13 +15,6 @@
   content: url(page-3.png); }
 #page-4 img.page {
   content: url(page-4.png); }
-
-/* add some color to help with mapping */
-input[type=text], textarea, figure {
-  background: lightpink !important; opacity: 0.5; }
-
-input[type=checkbox] {
-  height: 11px !important; width: 11px !important;}
 
 #sheet input {
   font-size: large; text-align: center; }
@@ -363,6 +365,8 @@ input[type=checkbox] {
   top: 942px; left: 578px;}
 #sheet [name="ammo[6][have][10]"] {
   top: 942px; left: 597px;}
+
+
 
 #sheet figure#character {
   top: 206px; left: 57px; height: 341px; width: 252px; }

@@ -2,6 +2,7 @@
 body {
   margin: 0;
   background-color: #f8e9d5;
+  min-width: 360px;
 }
 nav {
   margin-bottom: 30px;
