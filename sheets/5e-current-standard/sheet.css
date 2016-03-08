@@ -1,15 +1,16 @@
 /* add some color to help with mapping */
 input[type=text], textarea, figure {
   background: lightpink !important; opacity: 0.5; }
-/* sheet style {{{ */
+
+/* sheet style */
 nav {
   min-width: 960px; }
 #sheet input {
   font-size: large; text-align: center; }
 #sheet input[type=checkbox] {
   height: 11px; width: 11px; }
-/* }}} */
-/* page images {{{ */
+
+/* page images */
 #page-1 img.page {
   content: url(page-1.png); }
 #page-2 img.page {
@@ -18,8 +19,8 @@ nav {
   content: url(page-3.png); }
 #page-4 img.page {
   content: url(page-4.png); }
-/* }}} */
-/* page-1 {{{ */
+
+/* page-1 */
 #sheet [name="character-name[1]"] {
   top: 95px; left: 75px; height: 30px; width: 270px; font-size: x-large; }
 #sheet [name="class-and-level"] {
@@ -108,8 +109,8 @@ nav {
 #sheet [name="skills[performance][proficient]"] {
   top: 778px; left: 161px; }
 #sheet [name="skills[persuasion][proficient]"] {
-
   top: 793px; left: 161px; }
+
 #sheet [name="proficiency-bonus"] {
   top: 831px; left: 76px; height: 26px; width: 42px; font-size: x-large; }
 #sheet [name="passive-perception"] {
@@ -397,8 +398,8 @@ nav {
   top: 580px; left: 645px; height: 140px; width: 259px; }
 #sheet [name="features-and-traits[1]"] {
   top: 758px; left: 645px; height: 424px; width: 259px; }
-/* }}} */
-/* page-2 {{{ */
+
+/* page-2 */
 #sheet [name="character-name[2]"] {
   top: 102px; left: 75px; height: 30px; width: 322px; font-size: x-large; }
 #sheet [name="age"] {
@@ -430,4 +431,6 @@ nav {
   top: 590px; left: 351px; height: 313px; width: 550px; }
 #sheet [name="other"] {
   top: 948px; left: 351px; height: 232px; width: 550px; }
-/* }}} */
+
+/* vim: set fdm=expr fdl=0: */
+/* vim: set fde=getline(v\:lnum)=~'^/\\*'?'>1'\:'1': */
