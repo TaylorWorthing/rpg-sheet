@@ -1,9 +1,9 @@
-// https://github.com/marioizquierdo/jquery.serializeJSON/issues/32#issuecomment-71833934
 var dirtyForm=false;
 window.onbeforeunload = function(e){
   if(dirtyForm)
-    return 'Some changes have not been exported. Are you sure you want to exit?';
+    return 'Some changes have not been exported.';
 };
+// https://github.com/marioizquierdo/jquery.serializeJSON/issues/32#issuecomment-71833934
 (function($){
   $.fn.deserializeJSON = function(s){
     $(this).find("input, select, textarea").each(function(){
