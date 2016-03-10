@@ -1,20 +1,26 @@
-*This project is still a work-in-progress. It is not fully
-functional yet and may be prone to some breakages.*
-
 # RPG Sheet
-Easy Character Sheets
+RPG Sheet is a web-based character sheet tool for role-playing games.
 
-## What is RPG Sheet?
-RPG Sheet is a web-based tool for managing character sheets for role-playing games.
+> This project is still under development. There is a chance that changes might
+> break existing exported sheets.
+
 
 ### Why use RPG Sheet over a form-fillable PDF or other tools?
-I decided to make RPG Sheet, after DM'ing a game online. Sending PDF's back and forth with players ended up being a major headache. One PDF reader would format things one way, another reader would change font sizes, and there was no easy way to version control, to see changes. I wanted something that could easily be shared or tweaked without needing to open a PDF. All while still looking like an actual character sheet and be printable.
+Sending PDF's back and forth with players is a major headache. One PDF reader
+will format fields one way, another will change font sizes, and there was no
+easy way to version control. RPG Sheet exports data to a flat-file as a JSON
+object, than can be imported back in. This means your exported character sheet
+can be shared, edited, synced with dropbox, or even put in a git repo, all with
+a file that will still only be a few KBs. RPG Sheet is also printable, for when
+you want a hard copy of your sheet.
 
-This tool is unique because it stores your sheet data in a text file as JSON. It is easily sharable, storable, portable, hackable, and should display the same on other people's machines.
+RPG Sheet itself is also easy to modify. It is static HTML, CSS, JavaScript and
+images. You can host it yourself using something as simple as `python -m
+SimpleHTTPServer`. You can also create your own sheet modules, or modify
+existing ones.
 
-RPG Sheet itself is also easy to modify. It is static HTML/CSS/JavaScript and images, including the sheets. You can modify or create your own sheet modules. It requires no special server configuration; just drop it into a web-server and go.
 
-### What is the fine print?
-- Probably only works in Chrome
-- Not really "responsive"
-- Might be prone to breakage
+## Contribution
+Do you want to add sheet module? Notice some terrible JavaScript or CSS? Have
+an improvement or bug-fix? Contributions will gladly be accepted. This should be
+a tool for the community, that means your input is important.
