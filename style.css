@@ -1,11 +1,16 @@
 /* General Styling */
 body {
   margin: 0;
+  padding-top: 65px;
   background-color: #f8e9d5;
   min-width: 360px;
 }
 nav {
-  margin-bottom: 30px;
+  width: 100%;
+  min-width: 360px;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
 }
 nav ul {
   list-style-type: none;

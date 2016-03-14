@@ -1,6 +1,4 @@
 /* sheet style */
-nav {
-  min-width: 960px; }
 #sheet input {
   font-size: large; text-align: center; }
 #sheet input[type=checkbox] {
