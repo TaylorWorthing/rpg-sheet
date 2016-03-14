@@ -1,3 +1,6 @@
+#export-sheet {
+  display: none;
+}
 #sheet-html h2 {
   font-family: sans-serif;
   text-align: center;
