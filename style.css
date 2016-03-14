@@ -126,7 +126,7 @@ nav li a:hover {
     margin: 0;
     padding: 0;
     display: block;
-    box-shadow: none;
+    box-shadow: none !important;
   }
   img.page {
     display: inline;
