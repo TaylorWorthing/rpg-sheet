@@ -193,6 +193,7 @@ function setImages() {
 
 $("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
+$("#print-sheet").on("click", function(){window.print());
 $("#zoom-in").on("click", function(){zoomSheet('in')});
 $("#zoom-out").on("click", function(){zoomSheet('out')});
 $("#zoom-reset").on("click", function(){zoomSheet('reset')});
