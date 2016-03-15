@@ -47,6 +47,66 @@ window.onbeforeunload = function(e){
   };
 })(jQuery);
 
+function zoomSheet(action) {
+  if ($('section').length > 0) {
+    $(".zoom-control").css('display', 'list-item');
+  } else {
+    return;
+  }
+  var sheetElement = $("#sheet-html");
+  var currentScale = getElementScale(document.getElementById('sheet-html'));
+  var sheetWidth = $("section")[0].getBoundingClientRect().width;
+  var windowWidth = $(window).width();
+  // get ratio of element, assumes a fixed ratio
+  function getElementScale(elem) {
+    var transform = /matrix\([^\)]+\)/.exec(window.getComputedStyle(elem)['transform']),
+    scale = 1
+    if( transform ) {
+      transform = transform[0].replace('matrix(', '').replace(')', '').split(', ');
+        scale = parseFloat(transform[0]);
+    }
+    return scale;
+  }
+  // fixes leftover space that is sometimes caused when zooming
+  function postZoomFix() {
+    var postHeight = sheetElement[0].getBoundingClientRect().height;
+    $('body').height(postHeight);
+  }
+  if(sheetWidth > windowWidth){
+    var origin = "top left";
+  } else {
+    var origin = "top center";
+  }
+  if (action === "auto"){
+    // if the sheet is wider than the viewport, auto-scale to fit
+    if(sheetWidth > windowWidth){
+      var newScale = windowWidth / sheetWidth;
+    } else {
+      return;
+    }
+  } else if (action === "in"){
+    var newScale = (currentScale + 0.1);
+  } else if (action === "out"){
+    var newScale = (currentScale - 0.1);
+  } else if (action === "reset"){
+    var origin = "top center";
+    var newScale = 1;
+  }
+  sheetElement.css('transform-origin', origin);
+  sheetElement.css('transform', 'scale(' + newScale + ')');
+  postZoomFix();
+  // make sure any leftover element selection is cleared
+  // http://stackoverflow.com/a/3169849
+  if (window.getSelection) {
+    if (window.getSelection().empty) {  // Chrome
+      window.getSelection().empty();
+    } else if (window.getSelection().removeAllRanges) {  // Firefox
+      window.getSelection().removeAllRanges();
+    }
+  } else if (document.selection) {  // IE?
+    document.selection.empty();
+  }
+}
 function exportSheet() {
   var customParse = function(val, inputName) {
     if (val === "") return null; // parse empty strings as nulls
@@ -92,6 +152,7 @@ function newSheet(sheetName, sheetData) {
     });
     $("figure").on("click", promptImage);
     setImages();
+    zoomSheet('auto');
   });
 }
 
@@ -134,5 +195,8 @@ function setImages() {
 
 $("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
+$("#zoom-in").on("click", function(){zoomSheet('in')});
+$("#zoom-out").on("click", function(){zoomSheet('out')});
+$("#zoom-reset").on("click", function(){zoomSheet('reset')});
 $(".title").on("click", function(){ location.reload(true); });
 window.onload = newSheet("default");

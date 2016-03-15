@@ -4,6 +4,7 @@ body {
   padding-top: 65px;
   background-color: #f8e9d5;
   min-width: 360px;
+  height: auto;
 }
 nav {
   width: 100%;
@@ -113,6 +114,9 @@ nav li a:hover {
   background-color: black;
   text-align: center;
   border-radius: 100%;
+}
+.hidden {
+  display: none;
 }
 
 /* only show character sheet pages when printing */
