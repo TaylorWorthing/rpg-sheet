@@ -121,8 +121,17 @@ nav li a:hover {
     margin: 0 !important;
     padding: 0 !important;
   }
+  html,
+  body,
+  main,
+  form,
+  section,
+  img.page {
+    height: 100%;
+  }
   body {
     background-color: white;
+    page-break-after: avoid;
   }
   header, nav, footer {
     display: none !important;
