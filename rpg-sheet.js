@@ -48,9 +48,7 @@ window.onbeforeunload = function(e){
 })(jQuery);
 
 function zoomSheet(action) {
-  if ($('section').length > 0) {
-    $(".zoom-control").css('display', 'list-item');
-  } else {
+  if (!$('form#sheet').hasClass("zoomable")) {
     return;
   }
   var sheetElement = $("#sheet-html");
