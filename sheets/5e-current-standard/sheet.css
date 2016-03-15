@@ -1,8 +1,6 @@
 /* sheet configurations */
 .export-control { /* show export controls */
   display: block; }
-.zoom-control { /* show zoom controls */
-  display: block; }
 /* sheet style */
 #sheet input {
   font-size: large; text-align: center; }
