@@ -135,21 +135,34 @@ function setImages() {
 function autoSizeInput(event) {
   // fetch all initial size values
   var textHeight = parseInt($(this).css('font-size'), 10);
-  var textWidth = this.scrollWidth;
-  var fieldHeight = parseInt($(this).css('height'), 10);
-  var fieldWidth = $(this).innerWidth();
-  var actualFieldWidth = parseInt($(this).css('width'), 10);
-  // only re-adjust if text is too short or too wide
-  if (textHeight != fieldHeight || textWidth > fieldWidth){
+  var scrollHeight = this.scrollHeight;
+  var scrollWidth = this.scrollWidth;
+  var fieldCssHeight = parseInt($(this).css('height'), 10);
+  var fieldCssWidth = parseInt($(this).css('width'), 10);
+  var fieldInnerHeight = $(this).innerHeight();
+  var fieldInnerWidth = $(this).innerWidth();
+  // only re-adjust if text is too short, too tall, or too wide
+  if (textHeight != fieldCssHeight || scrollHeight > fieldInnerHeight || scrollWidth > fieldInnerWidth ){
     // set baseline size to field height
-    $(this).css('font-size', fieldHeight);
+    $(this).css('font-size', fieldCssHeight);
     // fetch updated text sizes
     var updatedTextHeight = parseInt($(this).css('font-size'), 10);
-    var updatedTextWidth = this.scrollWidth;
-    // if the text is too wide after baseline, calculate a new font size
-    if (updatedTextWidth > fieldWidth){
-      var ratio = updatedTextHeight / updatedTextWidth;
-      var newHeight = actualFieldWidth * ratio;
+    var updatedScrollHeight = this.scrollHeight;
+    var updatedScrollWidth = this.scrollWidth;
+    // if text is too tall after baseline, calculate a new font size
+    if (updatedScrollHeight > fieldInnerHeight){
+      var variance = updatedScrollHeight - fieldCssHeight
+      var newHeight = updatedTextHeight - variance;
+      $(this).css('font-size', newHeight + 'px');
+    }
+    // fetch updated sizes, yet one more time
+    var updatedTextHeight = parseInt($(this).css('font-size'), 10);
+    var updatedScrollHeight = this.scrollHeight;
+    var updatedScrollWidth = this.scrollWidth;
+    // if the text is still too wide, calculate a new font size
+    if (updatedScrollWidth > fieldInnerWidth){
+      var ratio = updatedTextHeight / updatedScrollWidth;
+      var newHeight = fieldCssWidth * ratio;
       $(this).css('font-size', newHeight + 'px');
     }
   }
