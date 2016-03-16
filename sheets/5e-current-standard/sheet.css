@@ -3,7 +3,7 @@
   display: block; }
 /* sheet style */
 #sheet input {
-  font-size: large; text-align: center; }
+  text-align: center; }
 #sheet input[type=checkbox] {
   height: 11px; width: 11px; }
 
@@ -19,7 +19,7 @@
 
 /* page-1 */
 #sheet [name="character-name[1]"] {
-  top: 95px; left: 75px; height: 30px; width: 270px; font-size: x-large; }
+  top: 95px; left: 75px; height: 30px; width: 270px; }
 #sheet [name="class-and-level"] {
   top: 75px; left: 425px; height: 25px; width: 165px; }
 #sheet [name="race"] {
@@ -36,27 +36,27 @@
 #sheet [name="abilities[strength][score]"] {
   top: 194px; left: 84px; height: 20px; width: 30px; }
 #sheet [name="abilities[strength][modifier]"] {
-  top: 223px; left: 69px; height: 35px; width: 60px; font-size: xx-large; }
+  top: 223px; left: 69px; height: 35px; width: 60px; }
 #sheet [name="abilities[dexterity][score]"] {
   top: 301px; left: 84px; height: 20px; width: 30px; }
 #sheet [name="abilities[dexterity][modifier]"] {
-  top: 330px; left: 69px; height: 35px; width: 60px; font-size: xx-large; }
+  top: 330px; left: 69px; height: 35px; width: 60px; }
 #sheet [name="abilities[constitution][score]"] {
   top: 408px; left: 84px; height: 20px; width: 30px; }
 #sheet [name="abilities[constitution][modifier]"] {
-  top: 437px; left: 69px; height: 35px; width: 60px; font-size: xx-large; }
+  top: 437px; left: 69px; height: 35px; width: 60px; }
 #sheet [name="abilities[intelligence][score]"] {
   top: 515px; left: 84px; height: 20px; width: 30px; }
 #sheet [name="abilities[intelligence][modifier]"] {
-  top: 544px; left: 69px; height: 35px; width: 60px; font-size: xx-large; }
+  top: 544px; left: 69px; height: 35px; width: 60px; }
 #sheet [name="abilities[wisdom][score]"] {
   top: 622px; left: 84px; height: 20px; width: 30px; }
 #sheet [name="abilities[wisdom][modifier]"] {
-  top: 651px; left: 69px; height: 35px; width: 60px; font-size: xx-large; }
+  top: 651px; left: 69px; height: 35px; width: 60px; }
 #sheet [name="abilities[charisma][score]"] {
   top: 729px; left: 84px; height: 20px; width: 30px; }
 #sheet [name="abilities[charisma][modifier]"] {
-  top: 758px; left: 69px; height: 35px; width: 60px; font-size: xx-large; }
+  top: 758px; left: 69px; height: 35px; width: 60px; }
 
 #sheet [name="saving-throws[strength][proficient]"] {
   top: 197px; left: 161px; }
@@ -109,63 +109,63 @@
   top: 793px; left: 161px; }
 
 #sheet [name="proficiency-bonus"] {
-  top: 831px; left: 76px; height: 26px; width: 42px; font-size: x-large; }
+  top: 831px; left: 76px; height: 26px; width: 42px; }
 #sheet [name="passive-perception"] {
-  top: 878px; left: 76px; height: 26px; width: 42px; font-size: x-large; }
+  top: 878px; left: 76px; height: 26px; width: 42px; }
 #sheet [name="carry-weight[current]"] {
-  top: 927px; left: 127px; height: 24px; width: 42px; font-size: small; }
+  top: 927px; left: 127px; height: 24px; width: 42px; }
 #sheet [name="carry-weight[maximum]"] {
-  top: 927px; left: 196px; height: 24px; width: 42px; font-size: small; }
+  top: 927px; left: 196px; height: 24px; width: 42px; }
 
 #sheet [name="saving-throws[strength][modifier]"] {
-  top: 195px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 195px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="saving-throws[dexterity][modifier]"] {
-  top: 300px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 300px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="saving-throws[constitution][modifier]"] {
-  top: 407px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 407px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="saving-throws[intelligence][modifier]"] {
-  top: 514px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 514px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="saving-throws[wisdom][modifier]"] {
-  top: 621px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 621px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="saving-throws[charisma][modifier]"] {
-  top: 728px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 728px; left: 179px; height: 12px; width: 17px; }
 
 #sheet [name="skills[athletics][modifier]"] {
-  top: 210px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 210px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[acrobatics][modifier]"] {
-  top: 315px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 315px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[sleight-of-hand][modifier]"] {
-  top: 330px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 330px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[stealth][modifier]"] {
-  top: 345px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 345px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[arcana][modifier]"] {
-  top: 529px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 529px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[history][modifier]"] {
-  top: 544px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 544px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[investigation][modifier]"] {
-  top: 559px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 559px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[nature][modifier]"] {
-  top: 574px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 574px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[religion][modifier]"] {
-  top: 589px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 589px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[animal-handling][modifier]"] {
-  top: 636px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 636px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[insight][modifier]"] {
-  top: 651px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 651px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[medicine][modifier]"] {
-  top: 666px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 666px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[perception][modifier]"] {
-  top: 681px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 681px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[survival][modifier]"] {
-  top: 696px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 696px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[deception][modifier]"] {
-  top: 743px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 743px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[intimidation][modifier]"] {
-  top: 758px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 758px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[performance][modifier]"] {
-  top: 773px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 773px; left: 179px; height: 12px; width: 17px; }
 #sheet [name="skills[persuasion][modifier]"] {
-  top: 788px; left: 179px; height: 12px; width: 17px; font-size: x-small; }
+  top: 788px; left: 179px; height: 12px; width: 17px; }
 
 #sheet [name="conditions"] {
   top: 183px; left: 350px; height: 50px; width: 87px; font-size: x-small; text-align: center; }
@@ -174,19 +174,19 @@
 #sheet [name="boons"] {
   top: 183px; left: 516px; height: 50px; width: 87px; font-size: x-small; text-align: center; }
 #sheet [name="initiative"] {
-  top: 252px; left: 350px; height: 47px; width: 59px; font-size: xx-large; }
+  top: 252px; left: 350px; height: 47px; width: 59px; }
 #sheet [name="hit-dice[current]"] {
-  top: 319px; left: 380px; height: 10px; width: 29px; font-size: x-small; }
+  top: 319px; left: 380px; height: 10px; width: 29px; }
 #sheet [name="hit-dice[type]"] {
-  top: 331px; left: 350px; height: 36px; width: 59px; font-size: x-large; }
+  top: 331px; left: 350px; height: 36px; width: 59px; }
 #sheet [name="hit-points[temporary]"] {
   top: 258px; left: 461px; height: 22px; width: 33px; }
 #sheet [name="hit-points[current]"] {
-  top: 293px; left: 432px; height: 66px; width: 43px; font-size: x-large; }
+  top: 293px; left: 432px; height: 66px; width: 43px; }
 #sheet [name="hit-points[maximum]"] {
-  top: 293px; left: 480px; height: 66px; width: 43px; font-size: x-large; }
+  top: 293px; left: 480px; height: 66px; width: 43px; }
 #sheet [name="speed"] {
-  top: 252px; left: 546px; height: 47px; width: 59px; font-size: xx-large; }
+  top: 252px; left: 546px; height: 47px; width: 59px; }
 #sheet [name="death-saves[successes][1]"] {
   top: 329px; left: 555px; }
 #sheet [name="death-saves[successes][2]"] {
@@ -201,40 +201,40 @@
   top: 354px; left: 587px; }
 
 #sheet [name="attacks-and-spellcasting[1][name]"] {
-  top: 415px; left: 349px; height: 23px; width: 97px; font-size: medium; }
+  top: 415px; left: 349px; height: 23px; width: 97px; }
 #sheet [name="attacks-and-spellcasting[1][attack-bonus]"] {
-  top: 415px; left: 456px; height: 23px; width: 46px; font-size: medium; }
+  top: 415px; left: 456px; height: 23px; width: 46px; }
 #sheet [name="attacks-and-spellcasting[1][damage-and-type]"] {
-  top: 415px; left: 512px; height: 23px; width: 95px; font-size: medium; }
+  top: 415px; left: 512px; height: 23px; width: 95px; }
 #sheet [name="attacks-and-spellcasting[2][name]"] {
-  top: 447px; left: 349px; height: 23px; width: 97px; font-size: medium; }
+  top: 447px; left: 349px; height: 23px; width: 97px; }
 #sheet [name="attacks-and-spellcasting[2][attack-bonus]"] {
-  top: 447px; left: 456px; height: 23px; width: 46px; font-size: medium; }
+  top: 447px; left: 456px; height: 23px; width: 46px; }
 #sheet [name="attacks-and-spellcasting[2][damage-and-type]"] {
-  top: 447px; left: 512px; height: 23px; width: 95px; font-size: medium; }
+  top: 447px; left: 512px; height: 23px; width: 95px; }
 #sheet [name="attacks-and-spellcasting[3][name]"] {
-  top: 480px; left: 349px; height: 23px; width: 97px; font-size: medium; }
+  top: 480px; left: 349px; height: 23px; width: 97px; }
 #sheet [name="attacks-and-spellcasting[3][attack-bonus]"] {
-  top: 480px; left: 456px; height: 23px; width: 46px; font-size: medium; }
+  top: 480px; left: 456px; height: 23px; width: 46px; }
 #sheet [name="attacks-and-spellcasting[3][damage-and-type]"] {
-  top: 480px; left: 512px; height: 23px; width: 95px; font-size: medium; }
+  top: 480px; left: 512px; height: 23px; width: 95px; }
 #sheet [name="attacks-and-spellcasting[4][name]"] {
-  top: 511px; left: 349px; height: 23px; width: 97px; font-size: medium; }
+  top: 511px; left: 349px; height: 23px; width: 97px; }
 #sheet [name="attacks-and-spellcasting[4][attack-bonus]"] {
-  top: 511px; left: 456px; height: 23px; width: 46px; font-size: medium; }
+  top: 511px; left: 456px; height: 23px; width: 46px; }
 #sheet [name="attacks-and-spellcasting[4][damage-and-type]"] {
-  top: 511px; left: 512px; height: 23px; width: 95px; font-size: medium; }
+  top: 511px; left: 512px; height: 23px; width: 95px; }
 #sheet [name="attacks-and-spellcasting[5][name]"] {
-  top: 542px; left: 349px; height: 23px; width: 97px; font-size: medium; }
+  top: 542px; left: 349px; height: 23px; width: 97px; }
 #sheet [name="attacks-and-spellcasting[5][attack-bonus]"] {
-  top: 542px; left: 456px; height: 23px; width: 46px; font-size: medium; }
+  top: 542px; left: 456px; height: 23px; width: 46px; }
 #sheet [name="attacks-and-spellcasting[5][damage-and-type]"] {
-  top: 542px; left: 512px; height: 23px; width: 95px; font-size: medium; }
+  top: 542px; left: 512px; height: 23px; width: 95px; }
 #sheet [name="attacks-and-spellcasting[extra]"] {
   top: 570px; left: 348px; height: 200px; width: 258px; }
 
 #sheet [name="ammo[1][name]"] {
-  top: 804px; left: 348px; height: 18px; width: 77px; font-size: small; }
+  top: 804px; left: 348px; height: 18px; width: 77px; }
 #sheet [name="ammo[1][have][1]"] {
   top: 809px; left: 434px; }
 #sheet [name="ammo[1][have][2]"] {
@@ -256,7 +256,7 @@
 #sheet [name="ammo[1][have][10]"] {
   top: 809px; left: 597px; }
 #sheet [name="ammo[2][name]"] {
-  top: 831px; left: 348px; height: 18px; width: 77px; font-size: small; }
+  top: 831px; left: 348px; height: 18px; width: 77px; }
 #sheet [name="ammo[2][have][1]"] {
   top: 836px; left: 434px; }
 #sheet [name="ammo[2][have][2]"] {
@@ -278,7 +278,7 @@
 #sheet [name="ammo[2][have][10]"] {
   top: 836px; left: 597px; }
 #sheet [name="ammo[3][name]"] {
-  top: 857px; left: 348px; height: 18px; width: 77px; font-size: small; }
+  top: 857px; left: 348px; height: 18px; width: 77px; }
 #sheet [name="ammo[3][have][1]"] {
   top: 862px; left: 434px; }
 #sheet [name="ammo[3][have][2]"] {
@@ -300,7 +300,7 @@
 #sheet [name="ammo[3][have][10]"] {
   top: 862px; left: 597px; }
 #sheet [name="ammo[4][name]"] {
-  top: 884px; left: 348px; height: 18px; width: 77px; font-size: small; }
+  top: 884px; left: 348px; height: 18px; width: 77px; }
 #sheet [name="ammo[4][have][1]"] {
   top: 889px; left: 434px; }
 #sheet [name="ammo[4][have][2]"] {
@@ -322,7 +322,7 @@
 #sheet [name="ammo[4][have][10]"] {
   top: 889px; left: 597px; }
 #sheet [name="ammo[5][name]"] {
-  top: 911px; left: 348px; height: 18px; width: 77px; font-size: small; }
+  top: 911px; left: 348px; height: 18px; width: 77px; }
 #sheet [name="ammo[5][have][1]"] {
   top: 916px; left: 434px; }
 #sheet [name="ammo[5][have][2]"] {
@@ -344,7 +344,7 @@
 #sheet [name="ammo[5][have][10]"] {
   top: 916px; left: 597px; }
 #sheet [name="ammo[6][name]"] {
-  top: 937px; left: 348px; height: 18px; width: 77px; font-size: small; }
+  top: 937px; left: 348px; height: 18px; width: 77px; }
 #sheet [name="ammo[6][have][1]"] {
   top: 942px; left: 434px; }
 #sheet [name="ammo[6][have][2]"] {
@@ -367,15 +367,15 @@
   top: 942px; left: 597px; }
 
 #sheet [name="coin[cp]"] {
-  top: 994px; left: 63px; height: 29px; width: 44px; font-size: small; }
+  top: 994px; left: 63px; height: 29px; width: 44px; }
 #sheet [name="coin[sp]"] {
-  top: 1036px; left: 63px; height: 29px; width: 44px; font-size: small; }
+  top: 1036px; left: 63px; height: 29px; width: 44px; }
 #sheet [name="coin[ep]"] {
-  top: 1077px; left: 63px; height: 29px; width: 44px; font-size: small; }
+  top: 1077px; left: 63px; height: 29px; width: 44px; }
 #sheet [name="coin[gp]"] {
-  top: 1117px; left: 63px; height: 29px; width: 44px; font-size: small; }
+  top: 1117px; left: 63px; height: 29px; width: 44px; }
 #sheet [name="coin[pp]"] {
-  top: 1158px; left: 63px; height: 29px; width: 44px; font-size: small; }
+  top: 1158px; left: 63px; height: 29px; width: 44px; }
 #sheet [name="equipment[1]"] {
   top: 987px; left: 124px; height: 195px; width: 188px; }
 #sheet [name="equipment[2]"] {
@@ -398,7 +398,7 @@
 
 /* page-2 */
 #sheet [name="character-name[2]"] {
-  top: 102px; left: 75px; height: 30px; width: 322px; font-size: x-large; }
+  top: 102px; left: 75px; height: 30px; width: 322px; }
 #sheet [name="age"] {
   top: 79px; left: 416px; height: 25px; width: 165px; }
 #sheet [name="height"] {
@@ -431,33 +431,33 @@
 
 /* page-3 */
 #sheet [name="spellcasting-class-and-ability"] {
-  top: 102px; left: 75px; height: 30px; width: 322px; font-size: x-large; }
+  top: 102px; left: 75px; height: 30px; width: 322px; }
 #sheet [name="prepared-spells-total"] {
-  top: 86px; left: 445px; height: 40px; width: 100px; font-size: xx-large; }
+  top: 86px; left: 445px; height: 40px; width: 100px; }
 #sheet [name="spell-save-dc"] {
-  top: 86px; left: 603px; height: 40px; width: 100px; font-size: xx-large; }
+  top: 86px; left: 603px; height: 40px; width: 100px; }
 #sheet [name="spell-attack-bonus"] {
-  top: 86px; left: 765px; height: 40px; width: 100px; font-size: xx-large; }
+  top: 86px; left: 765px; height: 40px; width: 100px; }
 
 #sheet [name="spells[cantrips][1]"] {
-  top: 271px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 271px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[cantrips][2]"] {
-  top: 293px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 293px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[cantrips][3]"] {
-  top: 315px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 315px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[cantrips][4]"] {
-  top: 337px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 337px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[cantrips][5]"] {
-  top: 359px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 359px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[cantrips][6]"] {
-  top: 381px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 381px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[cantrips][7]"] {
-  top: 403px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 403px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[cantrips][8]"] {
-  top: 425px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 425px; left: 65px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-1][slots][total]"] {
-  top: 492px; left: 81px; height: 31px; width: 60px; font-size: x-large; }
+  top: 492px; left: 81px; height: 31px; width: 60px; }
 #sheet [name="spells[level-1][slots][remaining][1]"] {
   top: 503px; left: 194px; }
 #sheet [name="spells[level-1][slots][remaining][2]"] {
@@ -495,32 +495,32 @@
 #sheet [name="spells[level-1][slots][12][prepared]"] {
   top: 811px; left: 50px; }
 #sheet [name="spells[level-1][slots][1][name]"] {
-  top: 562px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 562px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][2][name]"] {
-  top: 584px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 584px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][3][name]"] {
-  top: 606px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 606px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][4][name]"] {
-  top: 628px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 628px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][5][name]"] {
-  top: 650px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 650px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][6][name]"] {
-  top: 672px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 672px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][7][name]"] {
-  top: 694px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 694px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][8][name]"] {
-  top: 716px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 716px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][9][name]"] {
-  top: 738px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 738px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][10][name]"] {
-  top: 760px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 760px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][11][name]"] {
-  top: 782px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 782px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-1][slots][12][name]"] {
-  top: 804px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 804px; left: 65px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-2][slots][total]"] {
-  top: 850px; left: 81px; height: 31px; width: 60px; font-size: x-large; }
+  top: 850px; left: 81px; height: 31px; width: 60px; }
 #sheet [name="spells[level-2][slots][remaining][1]"] {
   top: 861px; left: 194px; }
 #sheet [name="spells[level-2][slots][remaining][2]"] {
@@ -560,34 +560,34 @@
 #sheet [name="spells[level-2][slots][13][prepared]"] {
   top: 1167px; left: 50px; }
 #sheet [name="spells[level-2][slots][1][name]"] {
-  top: 896px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 896px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][2][name]"] {
-  top: 918px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 918px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][3][name]"] {
-  top: 940px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 940px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][4][name]"] {
-  top: 962px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 962px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][5][name]"] {
-  top: 984px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 984px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][6][name]"] {
-  top: 1006px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1006px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][7][name]"] {
-  top: 1028px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1028px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][8][name]"] {
-  top: 1050px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1050px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][9][name]"] {
-  top: 1072px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1072px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][10][name]"] {
-  top: 1094px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1094px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][11][name]"] {
-  top: 1116px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1116px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][12][name]"] {
-  top: 1138px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1138px; left: 65px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-2][slots][13][name]"] {
-  top: 1160px; left: 65px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1160px; left: 65px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-3][slots][total]"] {
-  top: 229px; left: 377px; height: 31px; width: 60px; font-size: x-large; }
+  top: 229px; left: 377px; height: 31px; width: 60px; }
 #sheet [name="spells[level-3][slots][remaining][1]"] {
   top: 240px; left: 490px; }
 #sheet [name="spells[level-3][slots][remaining][2]"] {
@@ -627,34 +627,34 @@
 #sheet [name="spells[level-3][slots][13][prepared]"] {
   top: 545px; left: 346px; }
 #sheet [name="spells[level-3][slots][1][name]"] {
-  top: 274px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 274px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][2][name]"] {
-  top: 296px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 296px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][3][name]"] {
-  top: 318px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 318px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][4][name]"] {
-  top: 340px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 340px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][5][name]"] {
-  top: 362px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 362px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][6][name]"] {
-  top: 384px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 384px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][7][name]"] {
-  top: 406px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 406px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][8][name]"] {
-  top: 428px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 428px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][9][name]"] {
-  top: 450px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 450px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][10][name]"] {
-  top: 472px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 472px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][11][name]"] {
-  top: 494px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 494px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][12][name]"] {
-  top: 516px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 516px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-3][slots][13][name]"] {
-  top: 538px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 538px; left: 361px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-4][slots][total]"] {
-  top: 583px; left: 377px; height: 31px; width: 60px; font-size: x-large; }
+  top: 583px; left: 377px; height: 31px; width: 60px; }
 #sheet [name="spells[level-4][slots][remaining][1]"] {
   top: 594px; left: 489px; }
 #sheet [name="spells[level-4][slots][remaining][2]"] {
@@ -694,34 +694,34 @@
 #sheet [name="spells[level-4][slots][13][prepared]"] {
   top: 899px; left: 346px; }
 #sheet [name="spells[level-4][slots][1][name]"] {
-  top: 628px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 628px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][2][name]"] {
-  top: 650px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 650px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][3][name]"] {
-  top: 672px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 672px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][4][name]"] {
-  top: 694px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 694px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][5][name]"] {
-  top: 716px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 716px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][6][name]"] {
-  top: 738px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 738px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][7][name]"] {
-  top: 760px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 760px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][8][name]"] {
-  top: 782px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 782px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][9][name]"] {
-  top: 804px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 804px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][10][name]"] {
-  top: 826px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 826px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][11][name]"] {
-  top: 848px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 848px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][12][name]"] {
-  top: 870px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 870px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-4][slots][13][name]"] {
-  top: 892px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 892px; left: 361px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-5][slots][total]"] {
-  top: 938px; left: 377px; height: 31px; width: 60px; font-size: x-large; }
+  top: 938px; left: 377px; height: 31px; width: 60px; }
 #sheet [name="spells[level-5][slots][remaining][1]"] {
   top: 949px; left: 489px; }
 #sheet [name="spells[level-5][slots][remaining][2]"] {
@@ -753,26 +753,26 @@
 #sheet [name="spells[level-5][slots][9][prepared]"] {
   top: 1166px; left: 346px; }
 #sheet [name="spells[level-5][slots][1][name]"] {
-  top: 983px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 983px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][2][name]"] {
-  top: 1005px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1005px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][3][name]"] {
-  top: 1027px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1027px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][4][name]"] {
-  top: 1049px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1049px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][5][name]"] {
-  top: 1071px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1071px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][6][name]"] {
-  top: 1093px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1093px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][7][name]"] {
-  top: 1115px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1115px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][8][name]"] {
-  top: 1137px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1137px; left: 361px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-5][slots][9][name]"] {
-  top: 1159px; left: 361px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1159px; left: 361px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-6][slots][total]"] {
-  top: 229px; left: 671px; height: 31px; width: 60px; font-size: x-large; }
+  top: 229px; left: 671px; height: 31px; width: 60px; }
 #sheet [name="spells[level-6][slots][remaining][1]"] {
   top: 240px; left: 784px; }
 #sheet [name="spells[level-6][slots][remaining][2]"] {
@@ -804,26 +804,26 @@
 #sheet [name="spells[level-6][slots][9][prepared]"] {
   top: 457px; left: 640px; }
 #sheet [name="spells[level-6][slots][1][name]"] {
-  top: 274px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 274px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][2][name]"] {
-  top: 296px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 296px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][3][name]"] {
-  top: 318px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 318px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][4][name]"] {
-  top: 340px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 340px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][5][name]"] {
-  top: 362px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 362px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][6][name]"] {
-  top: 384px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 384px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][7][name]"] {
-  top: 406px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 406px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][8][name]"] {
-  top: 428px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 428px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-6][slots][9][name]"] {
-  top: 450px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 450px; left: 655px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-7][slots][total]"] {
-  top: 495px; left: 671px; height: 31px; width: 60px; font-size: x-large; }
+  top: 495px; left: 671px; height: 31px; width: 60px; }
 #sheet [name="spells[level-7][slots][remaining][1]"] {
   top: 506px; left: 781px; }
 #sheet [name="spells[level-7][slots][remaining][2]"] {
@@ -855,26 +855,26 @@
 #sheet [name="spells[level-7][slots][9][prepared]"] {
   top: 723px; left: 640px; }
 #sheet [name="spells[level-7][slots][1][name]"] {
-  top: 540px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 540px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][2][name]"] {
-  top: 562px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 562px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][3][name]"] {
-  top: 584px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 584px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][4][name]"] {
-  top: 606px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 606px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][5][name]"] {
-  top: 628px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 628px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][6][name]"] {
-  top: 650px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 650px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][7][name]"] {
-  top: 672px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 672px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][8][name]"] {
-  top: 694px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 694px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-7][slots][9][name]"] {
-  top: 716px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 716px; left: 655px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-8][slots][total]"] {
-  top: 761px; left: 671px; height: 31px; width: 60px; font-size: x-large; }
+  top: 761px; left: 671px; height: 31px; width: 60px; }
 #sheet [name="spells[level-8][slots][remaining][1]"] {
   top: 772px; left: 781px; }
 #sheet [name="spells[level-8][slots][remaining][2]"] {
@@ -902,22 +902,22 @@
 #sheet [name="spells[level-8][slots][7][prepared]"] {
   top: 945px; left: 640px; }
 #sheet [name="spells[level-8][slots][1][name]"] {
-  top: 806px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 806px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-8][slots][2][name]"] {
-  top: 828px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 828px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-8][slots][3][name]"] {
-  top: 850px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 850px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-8][slots][4][name]"] {
-  top: 872px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 872px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-8][slots][5][name]"] {
-  top: 894px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 894px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-8][slots][6][name]"] {
-  top: 916px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 916px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-8][slots][7][name]"] {
-  top: 938px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 938px; left: 655px; height: 16px; width: 250px; text-align: left; }
 
 #sheet [name="spells[level-9][slots][total]"] {
-  top: 982px; left: 671px; height: 31px; width: 60px; font-size: x-large; }
+  top: 982px; left: 671px; height: 31px; width: 60px; }
 #sheet [name="spells[level-9][slots][remaining][1]"] {
   top: 993px; left: 781px; }
 #sheet [name="spells[level-9][slots][remaining][2]"] {
@@ -945,19 +945,19 @@
 #sheet [name="spells[level-9][slots][7][prepared]"] {
   top: 1166px; left: 640px; }
 #sheet [name="spells[level-9][slots][1][name]"] {
-  top: 1027px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1027px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-9][slots][2][name]"] {
-  top: 1049px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1049px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-9][slots][3][name]"] {
-  top: 1071px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1071px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-9][slots][4][name]"] {
-  top: 1093px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1093px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-9][slots][5][name]"] {
-  top: 1115px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1115px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-9][slots][6][name]"] {
-  top: 1137px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1137px; left: 655px; height: 16px; width: 250px; text-align: left; }
 #sheet [name="spells[level-9][slots][7][name]"] {
-  top: 1159px; left: 655px; height: 16px; width: 250px; font-size: small; text-align: left; }
+  top: 1159px; left: 655px; height: 16px; width: 250px; text-align: left; }
 
 /* page-4 */
 #sheet [name="companions[1][name]"] {
@@ -978,58 +978,58 @@
 #sheet [name="companions[1][abilities][strength][score]"] {
   top: 146px; left: 105px; height: 27px; width: 34px; }
 #sheet [name="companions[1][abilities][strength][modifier]"] {
-  top: 180px; left: 91px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 180px; left: 91px; height: 34px; width: 62px; }
 #sheet [name="companions[1][abilities][dexterity][score]"] {
   top: 146px; left: 212px; height: 27px; width: 34px; }
 #sheet [name="companions[1][abilities][dexterity][modifier]"] {
-  top: 180px; left: 198px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 180px; left: 198px; height: 34px; width: 62px; }
 #sheet [name="companions[1][abilities][constitution][score]"] {
   top: 258px; left: 105px; height: 27px; width: 34px; }
 #sheet [name="companions[1][abilities][constitution][modifier]"] {
-  top: 292px; left: 91px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 292px; left: 91px; height: 34px; width: 62px; }
 #sheet [name="companions[1][abilities][intelligence][score]"] {
   top: 258px; left: 212px; height: 27px; width: 34px; }
 #sheet [name="companions[1][abilities][intelligence][modifier]"] {
-  top: 292px; left: 198px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 292px; left: 198px; height: 34px; width: 62px; }
 #sheet [name="companions[1][abilities][wisdom][score]"] {
   top: 366px; left: 105px; height: 27px; width: 34px; }
 #sheet [name="companions[1][abilities][wisdom][modifier]"] {
-  top: 400px; left: 91px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 400px; left: 91px; height: 34px; width: 62px; }
 #sheet [name="companions[1][abilities][charisma][score]"] {
   top: 366px; left: 212px; height: 27px; width: 34px; }
 #sheet [name="companions[1][abilities][charisma][modifier]"] {
-  top: 400px; left: 198px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 400px; left: 198px; height: 34px; width: 62px; }
 
 #sheet [name="companions[1][passive-perception]"] {
   top: 489px; left: 93px; height: 25px; width: 37px; }
 #sheet [name="companions[1][carry-weight][current]"] {
-  top: 548px; left: 120px; height: 25px; width: 45px; font-size: small; }
+  top: 548px; left: 120px; height: 25px; width: 45px; }
 #sheet [name="companions[1][carry-weight][maximum]"] {
-  top: 548px; left: 189px; height: 25px; width: 45px; font-size: small; }
+  top: 548px; left: 189px; height: 25px; width: 45px; }
 
 #sheet [name="companions[1][attacks-and-spellcasting][1][name]"] {
-  top: 158px; left: 345px; height: 23px; width: 98px; font-size: small; }
+  top: 158px; left: 345px; height: 23px; width: 98px; }
 #sheet [name="companions[1][attacks-and-spellcasting][1][attack-bonus]"] {
-  top: 158px; left: 453px; height: 23px; width: 46px; font-size: small; }
+  top: 158px; left: 453px; height: 23px; width: 46px; }
 #sheet [name="companions[1][attacks-and-spellcasting][1][damage-and-type]"] {
-  top: 158px; left: 509px; height: 23px; width: 94px; font-size: small; }
+  top: 158px; left: 509px; height: 23px; width: 94px; }
 #sheet [name="companions[1][attacks-and-spellcasting][2][name]"] {
-  top: 189px; left: 345px; height: 23px; width: 98px; font-size: small; }
+  top: 189px; left: 345px; height: 23px; width: 98px; }
 #sheet [name="companions[1][attacks-and-spellcasting][2][attack-bonus]"] {
-  top: 189px; left: 453px; height: 23px; width: 46px; font-size: small; }
+  top: 189px; left: 453px; height: 23px; width: 46px; }
 #sheet [name="companions[1][attacks-and-spellcasting][2][damage-and-type]"] {
-  top: 189px; left: 509px; height: 23px; width: 94px; font-size: small; }
+  top: 189px; left: 509px; height: 23px; width: 94px; }
 #sheet [name="companions[1][attacks-and-spellcasting][3][name]"] {
-  top: 222px; left: 345px; height: 23px; width: 98px; font-size: small; }
+  top: 222px; left: 345px; height: 23px; width: 98px; }
 #sheet [name="companions[1][attacks-and-spellcasting][3][attack-bonus]"] {
-  top: 222px; left: 453px; height: 23px; width: 46px; font-size: small; }
+  top: 222px; left: 453px; height: 23px; width: 46px; }
 #sheet [name="companions[1][attacks-and-spellcasting][3][damage-and-type]"] {
-  top: 222px; left: 509px; height: 23px; width: 94px; font-size: small; }
+  top: 222px; left: 509px; height: 23px; width: 94px; }
 #sheet [name="companions[1][attacks-and-spellcasting][extra]"] {
-  top: 253px; left: 345px; height: 83px; width: 257px; font-size: small; }
+  top: 253px; left: 345px; height: 83px; width: 257px; }
 
 #sheet [name="companions[1][ammo][1][name]"] {
-  top: 365px; left: 345px; height: 19px; width: 77px; font-size: small; }
+  top: 365px; left: 345px; height: 19px; width: 77px; }
 #sheet [name="companions[1][ammo][1][have][1]"] {
   top: 369px; left: 431px; }
 #sheet [name="companions[1][ammo][1][have][2]"] {
@@ -1051,7 +1051,7 @@
 #sheet [name="companions[1][ammo][1][have][10]"] {
   top: 369px; left: 594px; }
 #sheet [name="companions[1][ammo][2][name]"] {
-  top: 390px; left: 345px; height: 19px; width: 77px; font-size: small; }
+  top: 390px; left: 345px; height: 19px; width: 77px; }
 #sheet [name="companions[1][ammo][2][have][1]"] {
   top: 394px; left: 431px; }
 #sheet [name="companions[1][ammo][2][have][2]"] {
@@ -1082,11 +1082,11 @@
 #sheet [name="companions[1][boons]"] {
   top: 140px; left: 822px; height: 47px; width: 88px; font-size: x-small; }
 #sheet [name="companions[1][initiative]"] {
-  top: 207px; left: 656px; height: 43px; width: 58px; font-size: x-large; }
+  top: 207px; left: 656px; height: 43px; width: 58px; }
 #sheet [name="companions[1][hit-dice][current]"] {
-  top: 273px; left: 686px; height: 10px; width: 28px; font-size: xx-small }
+  top: 273px; left: 686px; height: 10px; width: 28px; }
 #sheet [name="companions[1][hit-dice][type]"] {
-  top: 287px; left: 656px; height: 32px; width: 58px; font-size: x-large; }
+  top: 287px; left: 656px; height: 32px; width: 58px; }
 #sheet [name="companions[1][hit-points][temporary]"] {
   top: 212px; left: 764px; height: 20px; width: 38px; }
 #sheet [name="companions[1][hit-points][current]"] {
@@ -1094,7 +1094,7 @@
 #sheet [name="companions[1][hit-points][maximum]"] {
   top: 246px; left: 786px; height: 68px; width: 42px; }
 #sheet [name="companions[1][speed]"] {
-  top: 207px; left: 852px; height: 43px; width: 58px; font-size: x-large; }
+  top: 207px; left: 852px; height: 43px; width: 58px; }
 #sheet [name="companions[1][death-saves][successes][1]"] {
   top: 282px; left: 860px; }
 #sheet [name="companions[1][death-saves][successes][2]"] {
@@ -1109,15 +1109,15 @@
   top: 307px; left: 892px; }
 
 #sheet [name="companions[1][coin][cp]"] {
-  top: 379px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 379px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[1][coin][sp]"] {
-  top: 420px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 420px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[1][coin][ep]"] {
-  top: 461px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 461px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[1][coin][gp]"] {
-  top: 502px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 502px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[1][coin][pp]"] {
-  top: 542px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 542px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[1][equipment]"] {
   top: 356px; left: 724px; height: 223px; width: 191px; text-align: left; }
 
@@ -1139,58 +1139,58 @@
 #sheet [name="companions[2][abilities][strength][score]"] {
   top: 766px; left: 104px; height: 27px; width: 34px; }
 #sheet [name="companions[2][abilities][strength][modifier]"] {
-  top: 800px; left: 90px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 800px; left: 90px; height: 34px; width: 62px; }
 #sheet [name="companions[2][abilities][dexterity][score]"] {
   top: 766px; left: 211px; height: 27px; width: 34px; }
 #sheet [name="companions[2][abilities][dexterity][modifier]"] {
-  top: 800px; left: 197px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 800px; left: 197px; height: 34px; width: 62px; }
 #sheet [name="companions[2][abilities][constitution][score]"] {
   top: 878px; left: 104px; height: 27px; width: 34px; }
 #sheet [name="companions[2][abilities][constitution][modifier]"] {
-  top: 912px; left: 90px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 912px; left: 90px; height: 34px; width: 62px; }
 #sheet [name="companions[2][abilities][intelligence][score]"] {
   top: 878px; left: 211px; height: 27px; width: 34px; }
 #sheet [name="companions[2][abilities][intelligence][modifier]"] {
-  top: 912px; left: 197px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 912px; left: 197px; height: 34px; width: 62px; }
 #sheet [name="companions[2][abilities][wisdom][score]"] {
   top: 986px; left: 104px; height: 27px; width: 34px; }
 #sheet [name="companions[2][abilities][wisdom][modifier]"] {
-  top: 1020px; left: 90px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 1020px; left: 90px; height: 34px; width: 62px; }
 #sheet [name="companions[2][abilities][charisma][score]"] {
   top: 986px; left: 211px; height: 27px; width: 34px; }
 #sheet [name="companions[2][abilities][charisma][modifier]"] {
-  top: 1020px; left: 197px; height: 34px; width: 62px; font-size: xx-large; }
+  top: 1020px; left: 197px; height: 34px; width: 62px; }
 
 #sheet [name="companions[2][passive-perception]"] {
   top: 1109px; left: 92px; height: 25px; width: 37px; }
 #sheet [name="companions[2][carry-weight][current]"] {
-  top: 1168px; left: 119px; height: 25px; width: 45px; font-size: small; }
+  top: 1168px; left: 119px; height: 25px; width: 45px; }
 #sheet [name="companions[2][carry-weight][maximum]"] {
-  top: 1168px; left: 188px; height: 25px; width: 45px; font-size: small; }
+  top: 1168px; left: 188px; height: 25px; width: 45px; }
 
 #sheet [name="companions[2][attacks-and-spellcasting][1][name]"] {
-  top: 780px; left: 345px; height: 23px; width: 98px; font-size: small; }
+  top: 780px; left: 345px; height: 23px; width: 98px; }
 #sheet [name="companions[2][attacks-and-spellcasting][1][attack-bonus]"] {
-  top: 780px; left: 453px; height: 23px; width: 46px; font-size: small; }
+  top: 780px; left: 453px; height: 23px; width: 46px; }
 #sheet [name="companions[2][attacks-and-spellcasting][1][damage-and-type]"] {
-  top: 780px; left: 509px; height: 23px; width: 94px; font-size: small; }
+  top: 780px; left: 509px; height: 23px; width: 94px; }
 #sheet [name="companions[2][attacks-and-spellcasting][2][name]"] {
-  top: 811px; left: 345px; height: 23px; width: 98px; font-size: small; }
+  top: 811px; left: 345px; height: 23px; width: 98px; }
 #sheet [name="companions[2][attacks-and-spellcasting][2][attack-bonus]"] {
-  top: 811px; left: 453px; height: 23px; width: 46px; font-size: small; }
+  top: 811px; left: 453px; height: 23px; width: 46px; }
 #sheet [name="companions[2][attacks-and-spellcasting][2][damage-and-type]"] {
-  top: 811px; left: 509px; height: 23px; width: 94px; font-size: small; }
+  top: 811px; left: 509px; height: 23px; width: 94px; }
 #sheet [name="companions[2][attacks-and-spellcasting][3][name]"] {
-  top: 844px; left: 345px; height: 23px; width: 98px; font-size: small; }
+  top: 844px; left: 345px; height: 23px; width: 98px; }
 #sheet [name="companions[2][attacks-and-spellcasting][3][attack-bonus]"] {
-  top: 844px; left: 453px; height: 23px; width: 46px; font-size: small; }
+  top: 844px; left: 453px; height: 23px; width: 46px; }
 #sheet [name="companions[2][attacks-and-spellcasting][3][damage-and-type]"] {
-  top: 844px; left: 509px; height: 23px; width: 94px; font-size: small; }
+  top: 844px; left: 509px; height: 23px; width: 94px; }
 #sheet [name="companions[2][attacks-and-spellcasting][extra]"] {
-  top: 875px; left: 345px; height: 83px; width: 257px; font-size: small; }
+  top: 875px; left: 345px; height: 83px; width: 257px; }
 
 #sheet [name="companions[2][ammo][1][name]"] {
-  top: 987px; left: 345px; height: 19px; width: 77px; font-size: small; }
+  top: 987px; left: 345px; height: 19px; width: 77px; }
 #sheet [name="companions[2][ammo][1][have][1]"] {
   top: 991px; left: 431px; }
 #sheet [name="companions[2][ammo][1][have][2]"] {
@@ -1212,7 +1212,7 @@
 #sheet [name="companions[2][ammo][1][have][10]"] {
   top: 991px; left: 594px; }
 #sheet [name="companions[2][ammo][2][name]"] {
-  top: 1012px; left: 345px; height: 19px; width: 77px; font-size: small; }
+  top: 1012px; left: 345px; height: 19px; width: 77px; }
 #sheet [name="companions[2][ammo][2][have][1]"] {
   top: 1016px; left: 431px; }
 #sheet [name="companions[2][ammo][2][have][2]"] {
@@ -1243,11 +1243,11 @@
 #sheet [name="companions[2][boons]"] {
   top: 762px; left: 822px; height: 47px; width: 88px; font-size: x-small; }
 #sheet [name="companions[2][initiative]"] {
-  top: 829px; left: 656px; height: 43px; width: 58px; font-size: x-large; }
+  top: 829px; left: 656px; height: 43px; width: 58px; }
 #sheet [name="companions[2][hit-dice][current]"] {
-  top: 895px; left: 686px; height: 10px; width: 28px; font-size: xx-small }
+  top: 895px; left: 686px; height: 10px; width: 28px; }
 #sheet [name="companions[2][hit-dice][type]"] {
-  top: 909px; left: 656px; height: 32px; width: 58px; font-size: x-large; }
+  top: 909px; left: 656px; height: 32px; width: 58px; }
 #sheet [name="companions[2][hit-points][temporary]"] {
   top: 834px; left: 764px; height: 20px; width: 38px; }
 #sheet [name="companions[2][hit-points][current]"] {
@@ -1255,7 +1255,7 @@
 #sheet [name="companions[2][hit-points][maximum]"] {
   top: 868px; left: 786px; height: 68px; width: 42px; }
 #sheet [name="companions[2][speed]"] {
-  top: 829px; left: 852px; height: 43px; width: 58px; font-size: x-large; }
+  top: 829px; left: 852px; height: 43px; width: 58px; }
 #sheet [name="companions[2][death-saves][successes][1]"] {
   top: 904px; left: 860px; }
 #sheet [name="companions[2][death-saves][successes][2]"] {
@@ -1270,15 +1270,15 @@
   top: 929px; left: 892px; }
 
 #sheet [name="companions[2][coin][cp]"] {
-  top: 1001px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 1001px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[2][coin][sp]"] {
-  top: 1042px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 1042px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[2][coin][ep]"] {
-  top: 1083px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 1083px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[2][coin][gp]"] {
-  top: 1124px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 1124px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[2][coin][pp]"] {
-  top: 1164px; left: 660px; height: 23px; width: 53px; font-size: medium; }
+  top: 1164px; left: 660px; height: 23px; width: 53px; }
 #sheet [name="companions[2][equipment]"] {
   top: 978px; left: 724px; height: 223px; width: 191px; text-align: left; }
 

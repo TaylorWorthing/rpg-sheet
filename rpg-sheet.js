@@ -82,6 +82,7 @@ function newSheet(sheetName, sheetData) {
   $("#sheet-html").load(sheet + ".html", function() {
     if (sheetData) {
       $("#sheet").deserializeJSON(sheetData);
+      $("input[type=text]").each(autoSizeInput);
       document.title = $("#filename").val();
     };
     dirtyForm=false;
@@ -130,9 +131,33 @@ function setImages() {
     $(obj).next("img").attr("src", url);
   });
 }
+// auto adjusts size of user input to fit field
+function autoSizeInput(event) {
+  // fetch all initial size values
+  var textHeight = parseInt($(this).css('font-size'), 10);
+  var textWidth = this.scrollWidth;
+  var fieldHeight = parseInt($(this).css('height'), 10);
+  var fieldWidth = $(this).innerWidth();
+  var actualFieldWidth = parseInt($(this).css('width'), 10);
+  // only re-adjust if text is too short or too wide
+  if (textHeight != fieldHeight || textWidth > fieldWidth){
+    // set baseline size to field height
+    $(this).css('font-size', fieldHeight);
+    // fetch updated text sizes
+    var updatedTextHeight = parseInt($(this).css('font-size'), 10);
+    var updatedTextWidth = this.scrollWidth;
+    // if the text is too wide after baseline, calculate a new font size
+    if (updatedTextWidth > fieldWidth){
+      var ratio = updatedTextHeight / updatedTextWidth;
+      var newHeight = actualFieldWidth * ratio;
+      $(this).css('font-size', newHeight + 'px');
+    }
+  }
+}
 
 $("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
 $("#print-sheet").on("click", function(){ window.print(); });
 $(".title").on("click", function(){ location.reload(true); });
+$("#sheet-html").on("keyup", 'input[type=text]', autoSizeInput);
 window.onload = newSheet("default");

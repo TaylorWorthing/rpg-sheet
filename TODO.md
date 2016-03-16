@@ -1,5 +1,5 @@
 # TODO
-- [ ] Auto-scale text that is too long to fit in text fields.
+- [x] Auto-scale text that is too long to fit in text fields.
     - Not for text areas, they scroll vertically as intended.
 
 - [ ] Attempt to use SVG as the file format for sheet images.
