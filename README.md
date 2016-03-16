@@ -24,3 +24,8 @@ existing ones.
 Do you want to add sheet module? Notice some terrible JavaScript or CSS? Have
 an improvement or bug-fix? Contributions will gladly be accepted. This should be
 a tool for the community, that means your input is important.
+
+## Credits
+- **Ploshy** *for concept development and helping with JavaScript.*
+- **Atellion** *for debugging CSS issues.*
+- Icosahedron by Beatrice Dalla Muta from the Noun Project
