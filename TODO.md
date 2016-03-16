@@ -8,3 +8,8 @@
 
 - [ ] Error handling for importing sheets.
     - Non-existent module or incompatible version.
+
+- [ ] Determine if it is possible to easily generate a PDF client-side.
+    - Printing support is basic and requires the user to select the correct
+      paper format, margins, background display, etc. This is too easily broken
+      for a consistant user experience.
