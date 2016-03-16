@@ -92,6 +92,7 @@ function newSheet(sheetName, sheetData) {
     });
     $("figure").on("click", promptImage);
     setImages();
+    setFooterPostion();
   });
 }
 
@@ -165,6 +166,14 @@ function autoSizeInput(event) {
       var newHeight = fieldCssWidth * ratio;
       $(this).css('font-size', newHeight + 'px');
     }
+  }
+}
+// make sure footer is always at the bottom
+function setFooterPostion() {
+  if ($(document).height() <= window.innerHeight){
+    $("footer").css("position", "absolute");
+  } else {
+    $('footer').css('position', '');
   }
 }
 
