@@ -21,17 +21,17 @@
 #sheet [name="character-name[1]"] {
   top: 95px; left: 75px; height: 30px; width: 270px; }
 #sheet [name="class-and-level"] {
-  top: 75px; left: 425px; height: 25px; width: 165px; }
+  top: 75px; left: 425px; height: 25px; width: 165px; text-align: left; }
 #sheet [name="race"] {
-  top: 115px; left: 425px; height: 25px; width: 165px; }
+  top: 115px; left: 425px; height: 25px; width: 165px; text-align: left; }
 #sheet [name="background"] {
-  top: 75px; left: 600px; height: 25px; width: 140px; }
+  top: 75px; left: 600px; height: 25px; width: 140px; text-align: left; }
 #sheet [name="alignment"] {
-  top: 115px; left: 600px; height: 25px; width: 140px; }
+  top: 115px; left: 600px; height: 25px; width: 140px; text-align: left; }
 #sheet [name="player-name"] {
-  top: 75px; left: 750px; height: 25px; width: 140px; }
+  top: 75px; left: 750px; height: 25px; width: 140px; text-align: left; }
 #sheet [name="experience-points"] {
-  top: 115px; left: 750px; height: 25px; width: 140px; }
+  top: 115px; left: 750px; height: 25px; width: 140px; text-align: left; }
 
 #sheet [name="abilities[strength][score]"] {
   top: 194px; left: 84px; height: 20px; width: 30px; }
@@ -400,17 +400,17 @@
 #sheet [name="character-name[2]"] {
   top: 102px; left: 75px; height: 30px; width: 322px; }
 #sheet [name="age"] {
-  top: 79px; left: 416px; height: 25px; width: 165px; }
+  top: 79px; left: 416px; height: 25px; width: 165px; text-align: left; }
 #sheet [name="height"] {
-  top: 79px; left: 591px; height: 25px; width: 140px; }
+  top: 79px; left: 591px; height: 25px; width: 140px; text-align: left; }
 #sheet [name="weight"] {
-  top: 79px; left: 741px; height: 25px; width: 140px; }
+  top: 79px; left: 741px; height: 25px; width: 140px; text-align: left; }
 #sheet [name="eyes"] {
-  top: 119px; left: 416px; height: 25px; width: 165px; }
+  top: 119px; left: 416px; height: 25px; width: 165px; text-align: left; }
 #sheet [name="skin"] {
-  top: 119px; left: 591px; height: 25px; width: 140px; }
+  top: 119px; left: 591px; height: 25px; width: 140px; text-align: left; }
 #sheet [name="hair"] {
-  top: 119px; left: 741px; height: 25px; width: 140px; }
+  top: 119px; left: 741px; height: 25px; width: 140px; text-align: left; }
 
 #sheet figure#character {
   top: 206px; left: 57px; height: 341px; width: 252px; }
@@ -963,17 +963,17 @@
 #sheet [name="companions[1][name]"] {
   top: 63px; left: 166px; height: 27px; width: 215px; }
 #sheet [name="companions[1][class-and-level]"] {
-  top: 46px; left: 450px; height: 20px; width: 135px; }
+  top: 46px; left: 450px; height: 20px; width: 135px; text-align: left; }
 #sheet [name="companions[1][relationship]"] {
-  top: 46px; left: 592px; height: 20px; width: 117px; }
+  top: 46px; left: 592px; height: 20px; width: 117px; text-align: left; }
 #sheet [name="companions[1][role]"] {
-  top: 46px; left: 715px; height: 20px; width: 110px; }
+  top: 46px; left: 715px; height: 20px; width: 110px; text-align: left; }
 #sheet [name="companions[1][race]"] {
-  top: 80px; left: 450px; height: 20px; width: 135px; }
+  top: 80px; left: 450px; height: 20px; width: 135px; text-align: left; }
 #sheet [name="companions[1][alignment]"] {
-  top: 80px; left: 592px; height: 20px; width: 117px; }
+  top: 80px; left: 592px; height: 20px; width: 117px; text-align: left; }
 #sheet [name="companions[1][experience-points]"] {
-  top: 80px; left: 715px; height: 20px; width: 110px; }
+  top: 80px; left: 715px; height: 20px; width: 110px; text-align: left; }
 
 #sheet [name="companions[1][abilities][strength][score]"] {
   top: 146px; left: 105px; height: 27px; width: 34px; }
@@ -1076,11 +1076,11 @@
 #sheet [name="companions[1][extra]"] {
   top: 434px; left: 345px; height: 130px; width: 257px; font-size: small; }
 #sheet [name="companions[1][conditions]"] {
-  top: 140px; left: 656px; height: 47px; width: 88px; font-size: x-small; }
+  top: 140px; left: 656px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
 #sheet [name="companions[1][armor-class]"] {
   top: 140px; left: 764px; height: 27px; width: 38px; }
 #sheet [name="companions[1][boons]"] {
-  top: 140px; left: 822px; height: 47px; width: 88px; font-size: x-small; }
+  top: 140px; left: 822px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
 #sheet [name="companions[1][initiative]"] {
   top: 207px; left: 656px; height: 43px; width: 58px; }
 #sheet [name="companions[1][hit-dice][current]"] {
@@ -1124,17 +1124,17 @@
 #sheet [name="companions[2][name]"] {
   top: 685px; left: 166px; height: 27px; width: 215px; }
 #sheet [name="companions[2][class-and-level]"] {
-  top: 668px; left: 450px; height: 20px; width: 135px; }
+  top: 668px; left: 450px; height: 20px; width: 135px; text-align: left; }
 #sheet [name="companions[2][relationship]"] {
-  top: 668px; left: 592px; height: 20px; width: 117px; }
+  top: 668px; left: 592px; height: 20px; width: 117px; text-align: left; }
 #sheet [name="companions[2][role]"] {
-  top: 668px; left: 715px; height: 20px; width: 110px; }
+  top: 668px; left: 715px; height: 20px; width: 110px; text-align: left; }
 #sheet [name="companions[2][race]"] {
-  top: 702px; left: 450px; height: 20px; width: 135px; }
+  top: 702px; left: 450px; height: 20px; width: 135px; text-align: left; }
 #sheet [name="companions[2][alignment]"] {
-  top: 702px; left: 592px; height: 20px; width: 117px; }
+  top: 702px; left: 592px; height: 20px; width: 117px; text-align: left; }
 #sheet [name="companions[2][experience-points]"] {
-  top: 702px; left: 715px; height: 20px; width: 110px; }
+  top: 702px; left: 715px; height: 20px; width: 110px; text-align: left; }
 
 #sheet [name="companions[2][abilities][strength][score]"] {
   top: 766px; left: 104px; height: 27px; width: 34px; }
@@ -1237,11 +1237,11 @@
 #sheet [name="companions[2][extra]"] {
   top: 1056px; left: 345px; height: 130px; width: 257px; font-size: small; }
 #sheet [name="companions[2][conditions]"] {
-  top: 762px; left: 656px; height: 47px; width: 88px; font-size: x-small; }
+  top: 762px; left: 656px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
 #sheet [name="companions[2][armor-class]"] {
   top: 762px; left: 764px; height: 27px; width: 38px; }
 #sheet [name="companions[2][boons]"] {
-  top: 762px; left: 822px; height: 47px; width: 88px; font-size: x-small; }
+  top: 762px; left: 822px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
 #sheet [name="companions[2][initiative]"] {
   top: 829px; left: 656px; height: 43px; width: 58px; }
 #sheet [name="companions[2][hit-dice][current]"] {
