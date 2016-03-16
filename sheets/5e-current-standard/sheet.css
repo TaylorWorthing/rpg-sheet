@@ -1,1286 +1,3297 @@
 /* sheet configurations */
 .export-control { /* show export controls */
-  display: block; }
+  display: block;
+}
+
 /* sheet style */
 #sheet input {
-  text-align: center; }
+  text-align: center;
+}
 #sheet input[type=checkbox] {
-  height: 11px; width: 11px; }
+  height: 11px;
+  width: 11px;
+}
 
 /* page images */
 #page-1 img.page {
-  content: url(page-1.svg); }
+  content: url(page-1.svg);
+}
 #page-2 img.page {
-  content: url(page-2.svg); }
+  content: url(page-2.svg);
+}
 #page-3 img.page {
-  content: url(page-3.svg); }
+  content: url(page-3.svg);
+}
 #page-4 img.page {
-  content: url(page-4.svg); }
+  content: url(page-4.svg);
+}
 
 /* page-1 */
 #sheet [name="character-name[1]"] {
-  top: 95px; left: 75px; height: 30px; width: 270px; }
+  top: 95px;
+  left: 75px;
+  height: 30px;
+  width: 270px;
+}
 #sheet [name="class-and-level"] {
-  top: 75px; left: 425px; height: 25px; width: 165px; text-align: left; }
+  top: 75px;
+  left: 425px;
+  height: 25px;
+  width: 165px;
+  text-align: left;
+}
 #sheet [name="race"] {
-  top: 115px; left: 425px; height: 25px; width: 165px; text-align: left; }
+  top: 115px;
+  left: 425px;
+  height: 25px;
+  width: 165px;
+  text-align: left;
+}
 #sheet [name="background"] {
-  top: 75px; left: 600px; height: 25px; width: 140px; text-align: left; }
+  top: 75px;
+  left: 600px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 #sheet [name="alignment"] {
-  top: 115px; left: 600px; height: 25px; width: 140px; text-align: left; }
+  top: 115px;
+  left: 600px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 #sheet [name="player-name"] {
-  top: 75px; left: 750px; height: 25px; width: 140px; text-align: left; }
+  top: 75px;
+  left: 750px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 #sheet [name="experience-points"] {
-  top: 115px; left: 750px; height: 25px; width: 140px; text-align: left; }
+  top: 115px;
+  left: 750px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 
 #sheet [name="abilities[strength][score]"] {
-  top: 194px; left: 84px; height: 20px; width: 30px; }
+  top: 194px;
+  left: 84px;
+  height: 20px;
+  width: 30px;
+}
 #sheet [name="abilities[strength][modifier]"] {
-  top: 223px; left: 69px; height: 35px; width: 60px; }
+  top: 223px;
+  left: 69px;
+  height: 35px;
+  width: 60px;
+}
 #sheet [name="abilities[dexterity][score]"] {
-  top: 301px; left: 84px; height: 20px; width: 30px; }
+  top: 301px;
+  left: 84px;
+  height: 20px;
+  width: 30px;
+}
 #sheet [name="abilities[dexterity][modifier]"] {
-  top: 330px; left: 69px; height: 35px; width: 60px; }
+  top: 330px;
+  left: 69px;
+  height: 35px;
+  width: 60px;
+}
 #sheet [name="abilities[constitution][score]"] {
-  top: 408px; left: 84px; height: 20px; width: 30px; }
+  top: 408px;
+  left: 84px;
+  height: 20px;
+  width: 30px;
+}
 #sheet [name="abilities[constitution][modifier]"] {
-  top: 437px; left: 69px; height: 35px; width: 60px; }
+  top: 437px;
+  left: 69px;
+  height: 35px;
+  width: 60px;
+}
 #sheet [name="abilities[intelligence][score]"] {
-  top: 515px; left: 84px; height: 20px; width: 30px; }
+  top: 515px;
+  left: 84px;
+  height: 20px;
+  width: 30px;
+}
 #sheet [name="abilities[intelligence][modifier]"] {
-  top: 544px; left: 69px; height: 35px; width: 60px; }
+  top: 544px;
+  left: 69px;
+  height: 35px;
+  width: 60px;
+}
 #sheet [name="abilities[wisdom][score]"] {
-  top: 622px; left: 84px; height: 20px; width: 30px; }
+  top: 622px;
+  left: 84px;
+  height: 20px;
+  width: 30px;
+}
 #sheet [name="abilities[wisdom][modifier]"] {
-  top: 651px; left: 69px; height: 35px; width: 60px; }
+  top: 651px;
+  left: 69px;
+  height: 35px;
+  width: 60px;
+}
 #sheet [name="abilities[charisma][score]"] {
-  top: 729px; left: 84px; height: 20px; width: 30px; }
+  top: 729px;
+  left: 84px;
+  height: 20px;
+  width: 30px;
+}
 #sheet [name="abilities[charisma][modifier]"] {
-  top: 758px; left: 69px; height: 35px; width: 60px; }
+  top: 758px;
+  left: 69px;
+  height: 35px;
+  width: 60px;
+}
 
 #sheet [name="saving-throws[strength][proficient]"] {
-  top: 197px; left: 161px; }
+  top: 197px;
+  left: 161px;
+}
 #sheet [name="saving-throws[dexterity][proficient]"] {
-  top: 304px; left: 161px; }
+  top: 304px;
+  left: 161px;
+}
 #sheet [name="saving-throws[constitution][proficient]"] {
-  top: 411px; left: 161px; }
+  top: 411px;
+  left: 161px;
+}
 #sheet [name="saving-throws[intelligence][proficient]"] {
-  top: 518px; left: 161px; }
+  top: 518px;
+  left: 161px;
+}
 #sheet [name="saving-throws[wisdom][proficient]"] {
-  top: 625px; left: 161px; }
+  top: 625px;
+  left: 161px;
+}
 #sheet [name="saving-throws[charisma][proficient]"] {
-  top: 732px; left: 161px; }
+  top: 732px;
+  left: 161px;
+}
 
 #sheet [name="skills[athletics][proficient]"] {
-  top: 213px; left: 161px; }
+  top: 213px;
+  left: 161px;
+}
 #sheet [name="skills[acrobatics][proficient]"] {
-  top: 320px; left: 161px; }
+  top: 320px;
+  left: 161px;
+}
 #sheet [name="skills[sleight-of-hand][proficient]"] {
-  top: 335px; left: 161px; }
+  top: 335px;
+  left: 161px;
+}
 #sheet [name="skills[stealth][proficient]"] {
-  top: 350px; left: 161px; }
+  top: 350px;
+  left: 161px;
+}
 #sheet [name="skills[arcana][proficient]"] {
-  top: 534px; left: 161px; }
+  top: 534px;
+  left: 161px;
+}
 #sheet [name="skills[history][proficient]"] {
-  top: 549px; left: 161px; }
+  top: 549px;
+  left: 161px;
+}
 #sheet [name="skills[investigation][proficient]"] {
-  top: 564px; left: 161px; }
+  top: 564px;
+  left: 161px;
+}
 #sheet [name="skills[nature][proficient]"] {
-  top: 579px; left: 161px; }
+  top: 579px;
+  left: 161px;
+}
 #sheet [name="skills[religion][proficient]"] {
-  top: 593px; left: 161px; }
+  top: 593px;
+  left: 161px;
+}
 #sheet [name="skills[animal-handling][proficient]"] {
-  top: 641px; left: 161px; }
+  top: 641px;
+  left: 161px;
+}
 #sheet [name="skills[insight][proficient]"] {
-  top: 656px; left: 161px; }
+  top: 656px;
+  left: 161px;
+}
 #sheet [name="skills[medicine][proficient]"] {
-  top: 671px; left: 161px; }
+  top: 671px;
+  left: 161px;
+}
 #sheet [name="skills[perception][proficient]"] {
-  top: 686px; left: 161px; }
+  top: 686px;
+  left: 161px;
+}
 #sheet [name="skills[survival][proficient]"] {
-  top: 701px; left: 161px; }
+  top: 701px;
+  left: 161px;
+}
 #sheet [name="skills[deception][proficient]"] {
-  top: 748px; left: 161px; }
+  top: 748px;
+  left: 161px;
+}
 #sheet [name="skills[intimidation][proficient]"] {
-  top: 763px; left: 161px; }
+  top: 763px;
+  left: 161px;
+}
 #sheet [name="skills[performance][proficient]"] {
-  top: 778px; left: 161px; }
+  top: 778px;
+  left: 161px;
+}
 #sheet [name="skills[persuasion][proficient]"] {
-  top: 793px; left: 161px; }
+  top: 793px;
+  left: 161px;
+}
 
 #sheet [name="proficiency-bonus"] {
-  top: 831px; left: 76px; height: 26px; width: 42px; }
+  top: 831px;
+  left: 76px;
+  height: 26px;
+  width: 42px;
+}
 #sheet [name="passive-perception"] {
-  top: 878px; left: 76px; height: 26px; width: 42px; }
+  top: 878px;
+  left: 76px;
+  height: 26px;
+  width: 42px;
+}
 #sheet [name="carry-weight[current]"] {
-  top: 927px; left: 127px; height: 24px; width: 42px; }
+  top: 927px;
+  left: 127px;
+  height: 24px;
+  width: 42px;
+}
 #sheet [name="carry-weight[maximum]"] {
-  top: 927px; left: 196px; height: 24px; width: 42px; }
+  top: 927px;
+  left: 196px;
+  height: 24px;
+  width: 42px;
+}
 
 #sheet [name="saving-throws[strength][modifier]"] {
-  top: 195px; left: 179px; height: 12px; width: 17px; }
+  top: 195px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="saving-throws[dexterity][modifier]"] {
-  top: 300px; left: 179px; height: 12px; width: 17px; }
+  top: 300px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="saving-throws[constitution][modifier]"] {
-  top: 407px; left: 179px; height: 12px; width: 17px; }
+  top: 407px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="saving-throws[intelligence][modifier]"] {
-  top: 514px; left: 179px; height: 12px; width: 17px; }
+  top: 514px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="saving-throws[wisdom][modifier]"] {
-  top: 621px; left: 179px; height: 12px; width: 17px; }
+  top: 621px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="saving-throws[charisma][modifier]"] {
-  top: 728px; left: 179px; height: 12px; width: 17px; }
+  top: 728px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 
 #sheet [name="skills[athletics][modifier]"] {
-  top: 210px; left: 179px; height: 12px; width: 17px; }
+  top: 210px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[acrobatics][modifier]"] {
-  top: 315px; left: 179px; height: 12px; width: 17px; }
+  top: 315px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[sleight-of-hand][modifier]"] {
-  top: 330px; left: 179px; height: 12px; width: 17px; }
+  top: 330px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[stealth][modifier]"] {
-  top: 345px; left: 179px; height: 12px; width: 17px; }
+  top: 345px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[arcana][modifier]"] {
-  top: 529px; left: 179px; height: 12px; width: 17px; }
+  top: 529px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[history][modifier]"] {
-  top: 544px; left: 179px; height: 12px; width: 17px; }
+  top: 544px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[investigation][modifier]"] {
-  top: 559px; left: 179px; height: 12px; width: 17px; }
+  top: 559px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[nature][modifier]"] {
-  top: 574px; left: 179px; height: 12px; width: 17px; }
+  top: 574px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[religion][modifier]"] {
-  top: 589px; left: 179px; height: 12px; width: 17px; }
+  top: 589px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[animal-handling][modifier]"] {
-  top: 636px; left: 179px; height: 12px; width: 17px; }
+  top: 636px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[insight][modifier]"] {
-  top: 651px; left: 179px; height: 12px; width: 17px; }
+  top: 651px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[medicine][modifier]"] {
-  top: 666px; left: 179px; height: 12px; width: 17px; }
+  top: 666px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[perception][modifier]"] {
-  top: 681px; left: 179px; height: 12px; width: 17px; }
+  top: 681px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[survival][modifier]"] {
-  top: 696px; left: 179px; height: 12px; width: 17px; }
+  top: 696px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[deception][modifier]"] {
-  top: 743px; left: 179px; height: 12px; width: 17px; }
+  top: 743px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[intimidation][modifier]"] {
-  top: 758px; left: 179px; height: 12px; width: 17px; }
+  top: 758px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[performance][modifier]"] {
-  top: 773px; left: 179px; height: 12px; width: 17px; }
+  top: 773px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 #sheet [name="skills[persuasion][modifier]"] {
-  top: 788px; left: 179px; height: 12px; width: 17px; }
+  top: 788px;
+  left: 179px;
+  height: 12px;
+  width: 17px;
+}
 
 #sheet [name="conditions"] {
-  top: 183px; left: 350px; height: 50px; width: 87px; font-size: x-small; text-align: center; }
+  top: 183px;
+  left: 350px;
+  height: 50px;
+  width: 87px;
+  font-size: x-small;
+  text-align: center;
+}
 #sheet [name="armor-class"] {
-  top: 189px; left: 461px; height: 25px; width: 33px; }
+  top: 189px;
+  left: 461px;
+  height: 25px;
+  width: 33px;
+}
 #sheet [name="boons"] {
-  top: 183px; left: 516px; height: 50px; width: 87px; font-size: x-small; text-align: center; }
+  top: 183px;
+  left: 516px;
+  height: 50px;
+  width: 87px;
+  font-size: x-small;
+  text-align: center;
+}
 #sheet [name="initiative"] {
-  top: 252px; left: 350px; height: 47px; width: 59px; }
+  top: 252px;
+  left: 350px;
+  height: 47px;
+  width: 59px;
+}
 #sheet [name="hit-dice[current]"] {
-  top: 319px; left: 380px; height: 10px; width: 29px; }
+  top: 319px;
+  left: 380px;
+  height: 10px;
+  width: 29px;
+}
 #sheet [name="hit-dice[type]"] {
-  top: 331px; left: 350px; height: 36px; width: 59px; }
+  top: 331px;
+  left: 350px;
+  height: 36px;
+  width: 59px;
+}
 #sheet [name="hit-points[temporary]"] {
-  top: 258px; left: 461px; height: 22px; width: 33px; }
+  top: 258px;
+  left: 461px;
+  height: 22px;
+  width: 33px;
+}
 #sheet [name="hit-points[current]"] {
-  top: 293px; left: 432px; height: 66px; width: 43px; }
+  top: 293px;
+  left: 432px;
+  height: 66px;
+  width: 43px;
+}
 #sheet [name="hit-points[maximum]"] {
-  top: 293px; left: 480px; height: 66px; width: 43px; }
+  top: 293px;
+  left: 480px;
+  height: 66px;
+  width: 43px;
+}
 #sheet [name="speed"] {
-  top: 252px; left: 546px; height: 47px; width: 59px; }
+  top: 252px;
+  left: 546px;
+  height: 47px;
+  width: 59px;
+}
 #sheet [name="death-saves[successes][1]"] {
-  top: 329px; left: 555px; }
+  top: 329px;
+  left: 555px;
+}
 #sheet [name="death-saves[successes][2]"] {
-  top: 329px; left: 571px; }
+  top: 329px;
+  left: 571px;
+}
 #sheet [name="death-saves[successes][3]"] {
-  top: 329px; left: 587px; }
+  top: 329px;
+  left: 587px;
+}
 #sheet [name="death-saves[failures][1]"] {
-  top: 354px; left: 555px; }
+  top: 354px;
+  left: 555px;
+}
 #sheet [name="death-saves[failures][2]"] {
-  top: 354px; left: 571px; }
+  top: 354px;
+  left: 571px;
+}
 #sheet [name="death-saves[failures][3]"] {
-  top: 354px; left: 587px; }
+  top: 354px;
+  left: 587px;
+}
 
 #sheet [name="attacks-and-spellcasting[1][name]"] {
-  top: 415px; left: 349px; height: 23px; width: 97px; }
+  top: 415px;
+  left: 349px;
+  height: 23px;
+  width: 97px;
+}
 #sheet [name="attacks-and-spellcasting[1][attack-bonus]"] {
-  top: 415px; left: 456px; height: 23px; width: 46px; }
+  top: 415px;
+  left: 456px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="attacks-and-spellcasting[1][damage-and-type]"] {
-  top: 415px; left: 512px; height: 23px; width: 95px; }
+  top: 415px;
+  left: 512px;
+  height: 23px;
+  width: 95px;
+}
 #sheet [name="attacks-and-spellcasting[2][name]"] {
-  top: 447px; left: 349px; height: 23px; width: 97px; }
+  top: 447px;
+  left: 349px;
+  height: 23px;
+  width: 97px;
+}
 #sheet [name="attacks-and-spellcasting[2][attack-bonus]"] {
-  top: 447px; left: 456px; height: 23px; width: 46px; }
+  top: 447px;
+  left: 456px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="attacks-and-spellcasting[2][damage-and-type]"] {
-  top: 447px; left: 512px; height: 23px; width: 95px; }
+  top: 447px;
+  left: 512px;
+  height: 23px;
+  width: 95px;
+}
 #sheet [name="attacks-and-spellcasting[3][name]"] {
-  top: 480px; left: 349px; height: 23px; width: 97px; }
+  top: 480px;
+  left: 349px;
+  height: 23px;
+  width: 97px;
+}
 #sheet [name="attacks-and-spellcasting[3][attack-bonus]"] {
-  top: 480px; left: 456px; height: 23px; width: 46px; }
+  top: 480px;
+  left: 456px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="attacks-and-spellcasting[3][damage-and-type]"] {
-  top: 480px; left: 512px; height: 23px; width: 95px; }
+  top: 480px;
+  left: 512px;
+  height: 23px;
+  width: 95px;
+}
 #sheet [name="attacks-and-spellcasting[4][name]"] {
-  top: 511px; left: 349px; height: 23px; width: 97px; }
+  top: 511px;
+  left: 349px;
+  height: 23px;
+  width: 97px;
+}
 #sheet [name="attacks-and-spellcasting[4][attack-bonus]"] {
-  top: 511px; left: 456px; height: 23px; width: 46px; }
+  top: 511px;
+  left: 456px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="attacks-and-spellcasting[4][damage-and-type]"] {
-  top: 511px; left: 512px; height: 23px; width: 95px; }
+  top: 511px;
+  left: 512px;
+  height: 23px;
+  width: 95px;
+}
 #sheet [name="attacks-and-spellcasting[5][name]"] {
-  top: 542px; left: 349px; height: 23px; width: 97px; }
+  top: 542px;
+  left: 349px;
+  height: 23px;
+  width: 97px;
+}
 #sheet [name="attacks-and-spellcasting[5][attack-bonus]"] {
-  top: 542px; left: 456px; height: 23px; width: 46px; }
+  top: 542px;
+  left: 456px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="attacks-and-spellcasting[5][damage-and-type]"] {
-  top: 542px; left: 512px; height: 23px; width: 95px; }
+  top: 542px;
+  left: 512px;
+  height: 23px;
+  width: 95px;
+}
 #sheet [name="attacks-and-spellcasting[extra]"] {
-  top: 570px; left: 348px; height: 200px; width: 258px; }
+  top: 570px;
+  left: 348px;
+  height: 200px;
+  width: 258px;
+}
 
 #sheet [name="ammo[1][name]"] {
-  top: 804px; left: 348px; height: 18px; width: 77px; }
+  top: 804px;
+  left: 348px;
+  height: 18px;
+  width: 77px;
+}
 #sheet [name="ammo[1][have][1]"] {
-  top: 809px; left: 434px; }
+  top: 809px;
+  left: 434px;
+}
 #sheet [name="ammo[1][have][2]"] {
-  top: 809px; left: 453px; }
+  top: 809px;
+  left: 453px;
+}
 #sheet [name="ammo[1][have][3]"] {
-  top: 809px; left: 471px; }
+  top: 809px;
+  left: 471px;
+}
 #sheet [name="ammo[1][have][4]"] {
-  top: 809px; left: 490px; }
+  top: 809px;
+  left: 490px;
+}
 #sheet [name="ammo[1][have][5]"] {
-  top: 809px; left: 507px; }
+  top: 809px;
+  left: 507px;
+}
 #sheet [name="ammo[1][have][6]"] {
-  top: 809px; left: 525px; }
+  top: 809px;
+  left: 525px;
+}
 #sheet [name="ammo[1][have][7]"] {
-  top: 809px; left: 543px; }
+  top: 809px;
+  left: 543px;
+}
 #sheet [name="ammo[1][have][8]"] {
-  top: 809px; left: 561px; }
+  top: 809px;
+  left: 561px;
+}
 #sheet [name="ammo[1][have][9]"] {
-  top: 809px; left: 578px; }
+  top: 809px;
+  left: 578px;
+}
 #sheet [name="ammo[1][have][10]"] {
-  top: 809px; left: 597px; }
+  top: 809px;
+  left: 597px;
+}
 #sheet [name="ammo[2][name]"] {
-  top: 831px; left: 348px; height: 18px; width: 77px; }
+  top: 831px;
+  left: 348px;
+  height: 18px;
+  width: 77px;
+}
 #sheet [name="ammo[2][have][1]"] {
-  top: 836px; left: 434px; }
+  top: 836px;
+  left: 434px;
+}
 #sheet [name="ammo[2][have][2]"] {
-  top: 836px; left: 453px; }
+  top: 836px;
+  left: 453px;
+}
 #sheet [name="ammo[2][have][3]"] {
-  top: 836px; left: 471px; }
+  top: 836px;
+  left: 471px;
+}
 #sheet [name="ammo[2][have][4]"] {
-  top: 836px; left: 490px; }
+  top: 836px;
+  left: 490px;
+}
 #sheet [name="ammo[2][have][5]"] {
-  top: 836px; left: 507px; }
+  top: 836px;
+  left: 507px;
+}
 #sheet [name="ammo[2][have][6]"] {
-  top: 836px; left: 525px; }
+  top: 836px;
+  left: 525px;
+}
 #sheet [name="ammo[2][have][7]"] {
-  top: 836px; left: 543px; }
+  top: 836px;
+  left: 543px;
+}
 #sheet [name="ammo[2][have][8]"] {
-  top: 836px; left: 561px; }
+  top: 836px;
+  left: 561px;
+}
 #sheet [name="ammo[2][have][9]"] {
-  top: 836px; left: 578px; }
+  top: 836px;
+  left: 578px;
+}
 #sheet [name="ammo[2][have][10]"] {
-  top: 836px; left: 597px; }
+  top: 836px;
+  left: 597px;
+}
 #sheet [name="ammo[3][name]"] {
-  top: 857px; left: 348px; height: 18px; width: 77px; }
+  top: 857px;
+  left: 348px;
+  height: 18px;
+  width: 77px;
+}
 #sheet [name="ammo[3][have][1]"] {
-  top: 862px; left: 434px; }
+  top: 862px;
+  left: 434px;
+}
 #sheet [name="ammo[3][have][2]"] {
-  top: 862px; left: 453px; }
+  top: 862px;
+  left: 453px;
+}
 #sheet [name="ammo[3][have][3]"] {
-  top: 862px; left: 471px; }
+  top: 862px;
+  left: 471px;
+}
 #sheet [name="ammo[3][have][4]"] {
-  top: 862px; left: 490px; }
+  top: 862px;
+  left: 490px;
+}
 #sheet [name="ammo[3][have][5]"] {
-  top: 862px; left: 507px; }
+  top: 862px;
+  left: 507px;
+}
 #sheet [name="ammo[3][have][6]"] {
-  top: 862px; left: 525px; }
+  top: 862px;
+  left: 525px;
+}
 #sheet [name="ammo[3][have][7]"] {
-  top: 862px; left: 543px; }
+  top: 862px;
+  left: 543px;
+}
 #sheet [name="ammo[3][have][8]"] {
-  top: 862px; left: 561px; }
+  top: 862px;
+  left: 561px;
+}
 #sheet [name="ammo[3][have][9]"] {
-  top: 862px; left: 578px; }
+  top: 862px;
+  left: 578px;
+}
 #sheet [name="ammo[3][have][10]"] {
-  top: 862px; left: 597px; }
+  top: 862px;
+  left: 597px;
+}
 #sheet [name="ammo[4][name]"] {
-  top: 884px; left: 348px; height: 18px; width: 77px; }
+  top: 884px;
+  left: 348px;
+  height: 18px;
+  width: 77px;
+}
 #sheet [name="ammo[4][have][1]"] {
-  top: 889px; left: 434px; }
+  top: 889px;
+  left: 434px;
+}
 #sheet [name="ammo[4][have][2]"] {
-  top: 889px; left: 453px; }
+  top: 889px;
+  left: 453px;
+}
 #sheet [name="ammo[4][have][3]"] {
-  top: 889px; left: 471px; }
+  top: 889px;
+  left: 471px;
+}
 #sheet [name="ammo[4][have][4]"] {
-  top: 889px; left: 490px; }
+  top: 889px;
+  left: 490px;
+}
 #sheet [name="ammo[4][have][5]"] {
-  top: 889px; left: 507px; }
+  top: 889px;
+  left: 507px;
+}
 #sheet [name="ammo[4][have][6]"] {
-  top: 889px; left: 525px; }
+  top: 889px;
+  left: 525px;
+}
 #sheet [name="ammo[4][have][7]"] {
-  top: 889px; left: 543px; }
+  top: 889px;
+  left: 543px;
+}
 #sheet [name="ammo[4][have][8]"] {
-  top: 889px; left: 561px; }
+  top: 889px;
+  left: 561px;
+}
 #sheet [name="ammo[4][have][9]"] {
-  top: 889px; left: 578px; }
+  top: 889px;
+  left: 578px;
+}
 #sheet [name="ammo[4][have][10]"] {
-  top: 889px; left: 597px; }
+  top: 889px;
+  left: 597px;
+}
 #sheet [name="ammo[5][name]"] {
-  top: 911px; left: 348px; height: 18px; width: 77px; }
+  top: 911px;
+  left: 348px;
+  height: 18px;
+  width: 77px;
+}
 #sheet [name="ammo[5][have][1]"] {
-  top: 916px; left: 434px; }
+  top: 916px;
+  left: 434px;
+}
 #sheet [name="ammo[5][have][2]"] {
-  top: 916px; left: 453px; }
+  top: 916px;
+  left: 453px;
+}
 #sheet [name="ammo[5][have][3]"] {
-  top: 916px; left: 471px; }
+  top: 916px;
+  left: 471px;
+}
 #sheet [name="ammo[5][have][4]"] {
-  top: 916px; left: 490px; }
+  top: 916px;
+  left: 490px;
+}
 #sheet [name="ammo[5][have][5]"] {
-  top: 916px; left: 507px; }
+  top: 916px;
+  left: 507px;
+}
 #sheet [name="ammo[5][have][6]"] {
-  top: 916px; left: 525px; }
+  top: 916px;
+  left: 525px;
+}
 #sheet [name="ammo[5][have][7]"] {
-  top: 916px; left: 543px; }
+  top: 916px;
+  left: 543px;
+}
 #sheet [name="ammo[5][have][8]"] {
-  top: 916px; left: 561px; }
+  top: 916px;
+  left: 561px;
+}
 #sheet [name="ammo[5][have][9]"] {
-  top: 916px; left: 578px; }
+  top: 916px;
+  left: 578px;
+}
 #sheet [name="ammo[5][have][10]"] {
-  top: 916px; left: 597px; }
+  top: 916px;
+  left: 597px;
+}
 #sheet [name="ammo[6][name]"] {
-  top: 937px; left: 348px; height: 18px; width: 77px; }
+  top: 937px;
+  left: 348px;
+  height: 18px;
+  width: 77px;
+}
 #sheet [name="ammo[6][have][1]"] {
-  top: 942px; left: 434px; }
+  top: 942px;
+  left: 434px;
+}
 #sheet [name="ammo[6][have][2]"] {
-  top: 942px; left: 453px; }
+  top: 942px;
+  left: 453px;
+}
 #sheet [name="ammo[6][have][3]"] {
-  top: 942px; left: 471px; }
+  top: 942px;
+  left: 471px;
+}
 #sheet [name="ammo[6][have][4]"] {
-  top: 942px; left: 490px; }
+  top: 942px;
+  left: 490px;
+}
 #sheet [name="ammo[6][have][5]"] {
-  top: 942px; left: 507px; }
+  top: 942px;
+  left: 507px;
+}
 #sheet [name="ammo[6][have][6]"] {
-  top: 942px; left: 525px; }
+  top: 942px;
+  left: 525px;
+}
 #sheet [name="ammo[6][have][7]"] {
-  top: 942px; left: 543px; }
+  top: 942px;
+  left: 543px;
+}
 #sheet [name="ammo[6][have][8]"] {
-  top: 942px; left: 561px; }
+  top: 942px;
+  left: 561px;
+}
 #sheet [name="ammo[6][have][9]"] {
-  top: 942px; left: 578px; }
+  top: 942px;
+  left: 578px;
+}
 #sheet [name="ammo[6][have][10]"] {
-  top: 942px; left: 597px; }
+  top: 942px;
+  left: 597px;
+}
 
 #sheet [name="coin[cp]"] {
-  top: 994px; left: 63px; height: 29px; width: 44px; }
+  top: 994px;
+  left: 63px;
+  height: 29px;
+  width: 44px;
+}
 #sheet [name="coin[sp]"] {
-  top: 1036px; left: 63px; height: 29px; width: 44px; }
+  top: 1036px;
+  left: 63px;
+  height: 29px;
+  width: 44px;
+}
 #sheet [name="coin[ep]"] {
-  top: 1077px; left: 63px; height: 29px; width: 44px; }
+  top: 1077px;
+  left: 63px;
+  height: 29px;
+  width: 44px;
+}
 #sheet [name="coin[gp]"] {
-  top: 1117px; left: 63px; height: 29px; width: 44px; }
+  top: 1117px;
+  left: 63px;
+  height: 29px;
+  width: 44px;
+}
 #sheet [name="coin[pp]"] {
-  top: 1158px; left: 63px; height: 29px; width: 44px; }
+  top: 1158px;
+  left: 63px;
+  height: 29px;
+  width: 44px;
+}
 #sheet [name="equipment[1]"] {
-  top: 987px; left: 124px; height: 195px; width: 188px; }
+  top: 987px;
+  left: 124px;
+  height: 195px;
+  width: 188px;
+}
 #sheet [name="equipment[2]"] {
-  top: 987px; left: 344px; height: 195px; width: 267px; }
+  top: 987px;
+  left: 344px;
+  height: 195px;
+  width: 267px;
+}
 
 #sheet [name="inspiration"] {
-  top: 197px; left: 678px; height: 20px !important; width: 20px !important; }
+  top: 197px;
+  left: 678px;
+  height: 20px !important;
+  width: 20px !important;
+}
 #sheet [name="personality-traits"] {
-  top: 236px; left: 657px; height: 51px; width: 235px; }
+  top: 236px;
+  left: 657px;
+  height: 51px;
+  width: 235px;
+}
 #sheet [name="ideals"] {
-  top: 318px; left: 657px; height: 51px; width: 235px; }
+  top: 318px;
+  left: 657px;
+  height: 51px;
+  width: 235px;
+}
 #sheet [name="bonds"] {
-  top: 402px; left: 657px; height: 51px; width: 235px; }
+  top: 402px;
+  left: 657px;
+  height: 51px;
+  width: 235px;
+}
 #sheet [name="flaws"] {
-  top: 486px; left: 657px; height: 51px; width: 235px; }
+  top: 486px;
+  left: 657px;
+  height: 51px;
+  width: 235px;
+}
 #sheet [name="proficiencies-and-languages"] {
-  top: 580px; left: 645px; height: 140px; width: 259px; }
+  top: 580px;
+  left: 645px;
+  height: 140px;
+  width: 259px;
+}
 #sheet [name="features-and-traits[1]"] {
-  top: 758px; left: 645px; height: 424px; width: 259px; }
+  top: 758px;
+  left: 645px;
+  height: 424px;
+  width: 259px;
+}
 
 /* page-2 */
 #sheet [name="character-name[2]"] {
-  top: 102px; left: 75px; height: 30px; width: 322px; }
+  top: 102px;
+  left: 75px;
+  height: 30px;
+  width: 322px;
+}
 #sheet [name="age"] {
-  top: 79px; left: 416px; height: 25px; width: 165px; text-align: left; }
+  top: 79px;
+  left: 416px;
+  height: 25px;
+  width: 165px;
+  text-align: left;
+}
 #sheet [name="height"] {
-  top: 79px; left: 591px; height: 25px; width: 140px; text-align: left; }
+  top: 79px;
+  left: 591px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 #sheet [name="weight"] {
-  top: 79px; left: 741px; height: 25px; width: 140px; text-align: left; }
+  top: 79px;
+  left: 741px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 #sheet [name="eyes"] {
-  top: 119px; left: 416px; height: 25px; width: 165px; text-align: left; }
+  top: 119px;
+  left: 416px;
+  height: 25px;
+  width: 165px;
+  text-align: left;
+}
 #sheet [name="skin"] {
-  top: 119px; left: 591px; height: 25px; width: 140px; text-align: left; }
+  top: 119px;
+  left: 591px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 #sheet [name="hair"] {
-  top: 119px; left: 741px; height: 25px; width: 140px; text-align: left; }
+  top: 119px;
+  left: 741px;
+  height: 25px;
+  width: 140px;
+  text-align: left;
+}
 
 #sheet figure#character {
-  top: 206px; left: 57px; height: 341px; width: 252px; }
+  top: 206px;
+  left: 57px;
+  height: 341px;
+  width: 252px;
+}
 
 #sheet [name="allies-and-organizations"] {
-  top: 206px; left: 353px; height: 341px; width: 278px; }
+  top: 206px;
+  left: 353px;
+  height: 341px;
+  width: 278px;
+}
 #sheet [name="allies-and-organizations-symbol[name]"] {
-  top: 242px; left: 662px; height: 21px; width: 218px; }
+  top: 242px;
+  left: 662px;
+  height: 21px;
+  width: 218px;
+}
 #sheet figure#org-symbol {
-  top: 270px; left: 661px; height: 175px; width: 222px; }
+  top: 270px;
+  left: 661px;
+  height: 175px;
+  width: 222px;
+}
 
 #sheet [name="character-backstory"] {
-  top: 605px; left: 55px; height: 575px; width: 254px; }
+  top: 605px;
+  left: 55px;
+  height: 575px;
+  width: 254px;
+}
 #sheet [name="features-and-traits[2]"] {
-  top: 590px; left: 351px; height: 313px; width: 550px; }
+  top: 590px;
+  left: 351px;
+  height: 313px;
+  width: 550px;
+}
 #sheet [name="other"] {
-  top: 948px; left: 351px; height: 232px; width: 550px; }
+  top: 948px;
+  left: 351px;
+  height: 232px;
+  width: 550px;
+}
 
 /* page-3 */
 #sheet [name="spellcasting-class-and-ability"] {
-  top: 102px; left: 75px; height: 30px; width: 322px; }
+  top: 102px;
+  left: 75px;
+  height: 30px;
+  width: 322px;
+}
 #sheet [name="prepared-spells-total"] {
-  top: 86px; left: 445px; height: 40px; width: 100px; }
+  top: 86px;
+  left: 445px;
+  height: 40px;
+  width: 100px;
+}
 #sheet [name="spell-save-dc"] {
-  top: 86px; left: 603px; height: 40px; width: 100px; }
+  top: 86px;
+  left: 603px;
+  height: 40px;
+  width: 100px;
+}
 #sheet [name="spell-attack-bonus"] {
-  top: 86px; left: 765px; height: 40px; width: 100px; }
+  top: 86px;
+  left: 765px;
+  height: 40px;
+  width: 100px;
+}
 
 #sheet [name="spells[cantrips][1]"] {
-  top: 271px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 271px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[cantrips][2]"] {
-  top: 293px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 293px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[cantrips][3]"] {
-  top: 315px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 315px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[cantrips][4]"] {
-  top: 337px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 337px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[cantrips][5]"] {
-  top: 359px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 359px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[cantrips][6]"] {
-  top: 381px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 381px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[cantrips][7]"] {
-  top: 403px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 403px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[cantrips][8]"] {
-  top: 425px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 425px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-1][slots][total]"] {
-  top: 492px; left: 81px; height: 31px; width: 60px; }
+  top: 492px;
+  left: 81px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-1][slots][remaining][1]"] {
-  top: 503px; left: 194px; }
+  top: 503px;
+  left: 194px;
+}
 #sheet [name="spells[level-1][slots][remaining][2]"] {
-  top: 503px; left: 210px; }
+  top: 503px;
+  left: 210px;
+}
 #sheet [name="spells[level-1][slots][remaining][3]"] {
-  top: 503px; left: 225px; }
+  top: 503px;
+  left: 225px;
+}
 #sheet [name="spells[level-1][slots][remaining][4]"] {
-  top: 503px; left: 241px; }
+  top: 503px;
+  left: 241px;
+}
 #sheet [name="spells[level-1][slots][remaining][5]"] {
-  top: 503px; left: 256px; }
+  top: 503px;
+  left: 256px;
+}
 #sheet [name="spells[level-1][slots][remaining][6]"] {
-  top: 503px; left: 271px; }
+  top: 503px;
+  left: 271px;
+}
 #sheet [name="spells[level-1][slots][1][prepared]"] {
-  top: 569px; left: 50px; }
+  top: 569px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][2][prepared]"] {
-  top: 591px; left: 50px; }
+  top: 591px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][3][prepared]"] {
-  top: 613px; left: 50px; }
+  top: 613px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][4][prepared]"] {
-  top: 635px; left: 50px; }
+  top: 635px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][5][prepared]"] {
-  top: 657px; left: 50px; }
+  top: 657px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][6][prepared]"] {
-  top: 679px; left: 50px; }
+  top: 679px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][7][prepared]"] {
-  top: 701px; left: 50px; }
+  top: 701px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][8][prepared]"] {
-  top: 723px; left: 50px; }
+  top: 723px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][9][prepared]"] {
-  top: 745px; left: 50px; }
+  top: 745px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][10][prepared]"] {
-  top: 767px; left: 50px; }
+  top: 767px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][11][prepared]"] {
-  top: 789px; left: 50px; }
+  top: 789px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][12][prepared]"] {
-  top: 811px; left: 50px; }
+  top: 811px;
+  left: 50px;
+}
 #sheet [name="spells[level-1][slots][1][name]"] {
-  top: 562px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 562px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][2][name]"] {
-  top: 584px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 584px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][3][name]"] {
-  top: 606px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 606px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][4][name]"] {
-  top: 628px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 628px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][5][name]"] {
-  top: 650px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 650px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][6][name]"] {
-  top: 672px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 672px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][7][name]"] {
-  top: 694px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 694px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][8][name]"] {
-  top: 716px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 716px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][9][name]"] {
-  top: 738px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 738px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][10][name]"] {
-  top: 760px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 760px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][11][name]"] {
-  top: 782px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 782px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-1][slots][12][name]"] {
-  top: 804px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 804px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-2][slots][total]"] {
-  top: 850px; left: 81px; height: 31px; width: 60px; }
+  top: 850px;
+  left: 81px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-2][slots][remaining][1]"] {
-  top: 861px; left: 194px; }
+  top: 861px;
+  left: 194px;
+}
 #sheet [name="spells[level-2][slots][remaining][2]"] {
-  top: 861px; left: 210px; }
+  top: 861px;
+  left: 210px;
+}
 #sheet [name="spells[level-2][slots][remaining][3]"] {
-  top: 861px; left: 225px; }
+  top: 861px;
+  left: 225px;
+}
 #sheet [name="spells[level-2][slots][remaining][4]"] {
-  top: 861px; left: 241px; }
+  top: 861px;
+  left: 241px;
+}
 #sheet [name="spells[level-2][slots][remaining][5]"] {
-  top: 861px; left: 256px; }
+  top: 861px;
+  left: 256px;
+}
 #sheet [name="spells[level-2][slots][remaining][6]"] {
-  top: 861px; left: 271px; }
+  top: 861px;
+  left: 271px;
+}
 #sheet [name="spells[level-2][slots][1][prepared]"] {
-  top: 903px; left: 50px; }
+  top: 903px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][2][prepared]"] {
-  top: 925px; left: 50px; }
+  top: 925px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][3][prepared]"] {
-  top: 947px; left: 50px; }
+  top: 947px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][4][prepared]"] {
-  top: 969px; left: 50px; }
+  top: 969px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][5][prepared]"] {
-  top: 991px; left: 50px; }
+  top: 991px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][6][prepared]"] {
-  top: 1013px; left: 50px; }
+  top: 1013px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][7][prepared]"] {
-  top: 1035px; left: 50px; }
+  top: 1035px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][8][prepared]"] {
-  top: 1057px; left: 50px; }
+  top: 1057px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][9][prepared]"] {
-  top: 1079px; left: 50px; }
+  top: 1079px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][10][prepared]"] {
-  top: 1101px; left: 50px; }
+  top: 1101px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][11][prepared]"] {
-  top: 1123px; left: 50px; }
+  top: 1123px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][12][prepared]"] {
-  top: 1145px; left: 50px; }
+  top: 1145px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][13][prepared]"] {
-  top: 1167px; left: 50px; }
+  top: 1167px;
+  left: 50px;
+}
 #sheet [name="spells[level-2][slots][1][name]"] {
-  top: 896px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 896px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][2][name]"] {
-  top: 918px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 918px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][3][name]"] {
-  top: 940px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 940px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][4][name]"] {
-  top: 962px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 962px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][5][name]"] {
-  top: 984px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 984px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][6][name]"] {
-  top: 1006px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1006px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][7][name]"] {
-  top: 1028px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1028px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][8][name]"] {
-  top: 1050px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1050px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][9][name]"] {
-  top: 1072px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1072px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][10][name]"] {
-  top: 1094px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1094px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][11][name]"] {
-  top: 1116px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1116px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][12][name]"] {
-  top: 1138px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1138px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-2][slots][13][name]"] {
-  top: 1160px; left: 65px; height: 16px; width: 250px; text-align: left; }
+  top: 1160px;
+  left: 65px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-3][slots][total]"] {
-  top: 229px; left: 377px; height: 31px; width: 60px; }
+  top: 229px;
+  left: 377px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-3][slots][remaining][1]"] {
-  top: 240px; left: 490px; }
+  top: 240px;
+  left: 490px;
+}
 #sheet [name="spells[level-3][slots][remaining][2]"] {
-  top: 240px; left: 506px; }
+  top: 240px;
+  left: 506px;
+}
 #sheet [name="spells[level-3][slots][remaining][3]"] {
-  top: 240px; left: 521px; }
+  top: 240px;
+  left: 521px;
+}
 #sheet [name="spells[level-3][slots][remaining][4]"] {
-  top: 240px; left: 537px; }
+  top: 240px;
+  left: 537px;
+}
 #sheet [name="spells[level-3][slots][remaining][5]"] {
-  top: 240px; left: 552px; }
+  top: 240px;
+  left: 552px;
+}
 #sheet [name="spells[level-3][slots][remaining][6]"] {
-  top: 240px; left: 567px; }
+  top: 240px;
+  left: 567px;
+}
 #sheet [name="spells[level-3][slots][1][prepared]"] {
-  top: 281px; left: 346px; }
+  top: 281px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][2][prepared]"] {
-  top: 303px; left: 346px; }
+  top: 303px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][3][prepared]"] {
-  top: 325px; left: 346px; }
+  top: 325px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][4][prepared]"] {
-  top: 347px; left: 346px; }
+  top: 347px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][5][prepared]"] {
-  top: 369px; left: 346px; }
+  top: 369px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][6][prepared]"] {
-  top: 391px; left: 346px; }
+  top: 391px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][7][prepared]"] {
-  top: 413px; left: 346px; }
+  top: 413px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][8][prepared]"] {
-  top: 435px; left: 346px; }
+  top: 435px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][9][prepared]"] {
-  top: 457px; left: 346px; }
+  top: 457px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][10][prepared]"] {
-  top: 479px; left: 346px; }
+  top: 479px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][11][prepared]"] {
-  top: 501px; left: 346px; }
+  top: 501px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][12][prepared]"] {
-  top: 523px; left: 346px; }
+  top: 523px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][13][prepared]"] {
-  top: 545px; left: 346px; }
+  top: 545px;
+  left: 346px;
+}
 #sheet [name="spells[level-3][slots][1][name]"] {
-  top: 274px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 274px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][2][name]"] {
-  top: 296px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 296px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][3][name]"] {
-  top: 318px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 318px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][4][name]"] {
-  top: 340px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 340px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][5][name]"] {
-  top: 362px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 362px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][6][name]"] {
-  top: 384px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 384px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][7][name]"] {
-  top: 406px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 406px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][8][name]"] {
-  top: 428px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 428px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][9][name]"] {
-  top: 450px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 450px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][10][name]"] {
-  top: 472px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 472px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][11][name]"] {
-  top: 494px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 494px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][12][name]"] {
-  top: 516px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 516px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-3][slots][13][name]"] {
-  top: 538px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 538px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-4][slots][total]"] {
-  top: 583px; left: 377px; height: 31px; width: 60px; }
+  top: 583px;
+  left: 377px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-4][slots][remaining][1]"] {
-  top: 594px; left: 489px; }
+  top: 594px;
+  left: 489px;
+}
 #sheet [name="spells[level-4][slots][remaining][2]"] {
-  top: 594px; left: 505px; }
+  top: 594px;
+  left: 505px;
+}
 #sheet [name="spells[level-4][slots][remaining][3]"] {
-  top: 594px; left: 520px; }
+  top: 594px;
+  left: 520px;
+}
 #sheet [name="spells[level-4][slots][remaining][4]"] {
-  top: 594px; left: 536px; }
+  top: 594px;
+  left: 536px;
+}
 #sheet [name="spells[level-4][slots][remaining][5]"] {
-  top: 594px; left: 551px; }
+  top: 594px;
+  left: 551px;
+}
 #sheet [name="spells[level-4][slots][remaining][6]"] {
-  top: 594px; left: 566px; }
+  top: 594px;
+  left: 566px;
+}
 #sheet [name="spells[level-4][slots][1][prepared]"] {
-  top: 635px; left: 346px; }
+  top: 635px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][2][prepared]"] {
-  top: 657px; left: 346px; }
+  top: 657px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][3][prepared]"] {
-  top: 679px; left: 346px; }
+  top: 679px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][4][prepared]"] {
-  top: 701px; left: 346px; }
+  top: 701px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][5][prepared]"] {
-  top: 723px; left: 346px; }
+  top: 723px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][6][prepared]"] {
-  top: 745px; left: 346px; }
+  top: 745px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][7][prepared]"] {
-  top: 767px; left: 346px; }
+  top: 767px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][8][prepared]"] {
-  top: 789px; left: 346px; }
+  top: 789px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][9][prepared]"] {
-  top: 811px; left: 346px; }
+  top: 811px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][10][prepared]"] {
-  top: 833px; left: 346px; }
+  top: 833px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][11][prepared]"] {
-  top: 855px; left: 346px; }
+  top: 855px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][12][prepared]"] {
-  top: 877px; left: 346px; }
+  top: 877px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][13][prepared]"] {
-  top: 899px; left: 346px; }
+  top: 899px;
+  left: 346px;
+}
 #sheet [name="spells[level-4][slots][1][name]"] {
-  top: 628px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 628px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][2][name]"] {
-  top: 650px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 650px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][3][name]"] {
-  top: 672px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 672px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][4][name]"] {
-  top: 694px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 694px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][5][name]"] {
-  top: 716px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 716px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][6][name]"] {
-  top: 738px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 738px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][7][name]"] {
-  top: 760px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 760px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][8][name]"] {
-  top: 782px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 782px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][9][name]"] {
-  top: 804px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 804px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][10][name]"] {
-  top: 826px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 826px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][11][name]"] {
-  top: 848px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 848px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][12][name]"] {
-  top: 870px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 870px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-4][slots][13][name]"] {
-  top: 892px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 892px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-5][slots][total]"] {
-  top: 938px; left: 377px; height: 31px; width: 60px; }
+  top: 938px;
+  left: 377px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-5][slots][remaining][1]"] {
-  top: 949px; left: 489px; }
+  top: 949px;
+  left: 489px;
+}
 #sheet [name="spells[level-5][slots][remaining][2]"] {
-  top: 949px; left: 505px; }
+  top: 949px;
+  left: 505px;
+}
 #sheet [name="spells[level-5][slots][remaining][3]"] {
-  top: 949px; left: 520px; }
+  top: 949px;
+  left: 520px;
+}
 #sheet [name="spells[level-5][slots][remaining][4]"] {
-  top: 949px; left: 536px; }
+  top: 949px;
+  left: 536px;
+}
 #sheet [name="spells[level-5][slots][remaining][5]"] {
-  top: 949px; left: 551px; }
+  top: 949px;
+  left: 551px;
+}
 #sheet [name="spells[level-5][slots][remaining][6]"] {
-  top: 949px; left: 566px; }
+  top: 949px;
+  left: 566px;
+}
 #sheet [name="spells[level-5][slots][1][prepared]"] {
-  top: 990px; left: 346px; }
+  top: 990px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][2][prepared]"] {
-  top: 1012px; left: 346px; }
+  top: 1012px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][3][prepared]"] {
-  top: 1034px; left: 346px; }
+  top: 1034px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][4][prepared]"] {
-  top: 1056px; left: 346px; }
+  top: 1056px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][5][prepared]"] {
-  top: 1078px; left: 346px; }
+  top: 1078px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][6][prepared]"] {
-  top: 1100px; left: 346px; }
+  top: 1100px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][7][prepared]"] {
-  top: 1122px; left: 346px; }
+  top: 1122px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][8][prepared]"] {
-  top: 1144px; left: 346px; }
+  top: 1144px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][9][prepared]"] {
-  top: 1166px; left: 346px; }
+  top: 1166px;
+  left: 346px;
+}
 #sheet [name="spells[level-5][slots][1][name]"] {
-  top: 983px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 983px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][2][name]"] {
-  top: 1005px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1005px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][3][name]"] {
-  top: 1027px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1027px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][4][name]"] {
-  top: 1049px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1049px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][5][name]"] {
-  top: 1071px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1071px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][6][name]"] {
-  top: 1093px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1093px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][7][name]"] {
-  top: 1115px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1115px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][8][name]"] {
-  top: 1137px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1137px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-5][slots][9][name]"] {
-  top: 1159px; left: 361px; height: 16px; width: 250px; text-align: left; }
+  top: 1159px;
+  left: 361px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-6][slots][total]"] {
-  top: 229px; left: 671px; height: 31px; width: 60px; }
+  top: 229px;
+  left: 671px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-6][slots][remaining][1]"] {
-  top: 240px; left: 784px; }
+  top: 240px;
+  left: 784px;
+}
 #sheet [name="spells[level-6][slots][remaining][2]"] {
-  top: 240px; left: 800px; }
+  top: 240px;
+  left: 800px;
+}
 #sheet [name="spells[level-6][slots][remaining][3]"] {
-  top: 240px; left: 815px; }
+  top: 240px;
+  left: 815px;
+}
 #sheet [name="spells[level-6][slots][remaining][4]"] {
-  top: 240px; left: 831px; }
+  top: 240px;
+  left: 831px;
+}
 #sheet [name="spells[level-6][slots][remaining][5]"] {
-  top: 240px; left: 846px; }
+  top: 240px;
+  left: 846px;
+}
 #sheet [name="spells[level-6][slots][remaining][6]"] {
-  top: 240px; left: 861px; }
+  top: 240px;
+  left: 861px;
+}
 #sheet [name="spells[level-6][slots][1][prepared]"] {
-  top: 281px; left: 640px; }
+  top: 281px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][2][prepared]"] {
-  top: 303px; left: 640px; }
+  top: 303px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][3][prepared]"] {
-  top: 325px; left: 640px; }
+  top: 325px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][4][prepared]"] {
-  top: 347px; left: 640px; }
+  top: 347px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][5][prepared]"] {
-  top: 369px; left: 640px; }
+  top: 369px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][6][prepared]"] {
-  top: 391px; left: 640px; }
+  top: 391px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][7][prepared]"] {
-  top: 413px; left: 640px; }
+  top: 413px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][8][prepared]"] {
-  top: 435px; left: 640px; }
+  top: 435px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][9][prepared]"] {
-  top: 457px; left: 640px; }
+  top: 457px;
+  left: 640px;
+}
 #sheet [name="spells[level-6][slots][1][name]"] {
-  top: 274px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 274px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][2][name]"] {
-  top: 296px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 296px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][3][name]"] {
-  top: 318px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 318px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][4][name]"] {
-  top: 340px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 340px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][5][name]"] {
-  top: 362px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 362px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][6][name]"] {
-  top: 384px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 384px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][7][name]"] {
-  top: 406px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 406px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][8][name]"] {
-  top: 428px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 428px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-6][slots][9][name]"] {
-  top: 450px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 450px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-7][slots][total]"] {
-  top: 495px; left: 671px; height: 31px; width: 60px; }
+  top: 495px;
+  left: 671px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-7][slots][remaining][1]"] {
-  top: 506px; left: 781px; }
+  top: 506px;
+  left: 781px;
+}
 #sheet [name="spells[level-7][slots][remaining][2]"] {
-  top: 506px; left: 797px; }
+  top: 506px;
+  left: 797px;
+}
 #sheet [name="spells[level-7][slots][remaining][3]"] {
-  top: 506px; left: 812px; }
+  top: 506px;
+  left: 812px;
+}
 #sheet [name="spells[level-7][slots][remaining][4]"] {
-  top: 506px; left: 828px; }
+  top: 506px;
+  left: 828px;
+}
 #sheet [name="spells[level-7][slots][remaining][5]"] {
-  top: 506px; left: 843px; }
+  top: 506px;
+  left: 843px;
+}
 #sheet [name="spells[level-7][slots][remaining][6]"] {
-  top: 506px; left: 858px; }
+  top: 506px;
+  left: 858px;
+}
 #sheet [name="spells[level-7][slots][1][prepared]"] {
-  top: 547px; left: 640px; }
+  top: 547px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][2][prepared]"] {
-  top: 569px; left: 640px; }
+  top: 569px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][3][prepared]"] {
-  top: 591px; left: 640px; }
+  top: 591px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][4][prepared]"] {
-  top: 613px; left: 640px; }
+  top: 613px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][5][prepared]"] {
-  top: 635px; left: 640px; }
+  top: 635px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][6][prepared]"] {
-  top: 657px; left: 640px; }
+  top: 657px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][7][prepared]"] {
-  top: 679px; left: 640px; }
+  top: 679px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][8][prepared]"] {
-  top: 701px; left: 640px; }
+  top: 701px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][9][prepared]"] {
-  top: 723px; left: 640px; }
+  top: 723px;
+  left: 640px;
+}
 #sheet [name="spells[level-7][slots][1][name]"] {
-  top: 540px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 540px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][2][name]"] {
-  top: 562px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 562px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][3][name]"] {
-  top: 584px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 584px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][4][name]"] {
-  top: 606px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 606px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][5][name]"] {
-  top: 628px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 628px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][6][name]"] {
-  top: 650px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 650px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][7][name]"] {
-  top: 672px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 672px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][8][name]"] {
-  top: 694px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 694px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-7][slots][9][name]"] {
-  top: 716px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 716px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-8][slots][total]"] {
-  top: 761px; left: 671px; height: 31px; width: 60px; }
+  top: 761px;
+  left: 671px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-8][slots][remaining][1]"] {
-  top: 772px; left: 781px; }
+  top: 772px;
+  left: 781px;
+}
 #sheet [name="spells[level-8][slots][remaining][2]"] {
-  top: 772px; left: 797px; }
+  top: 772px;
+  left: 797px;
+}
 #sheet [name="spells[level-8][slots][remaining][3]"] {
-  top: 772px; left: 812px; }
+  top: 772px;
+  left: 812px;
+}
 #sheet [name="spells[level-8][slots][remaining][4]"] {
-  top: 772px; left: 828px; }
+  top: 772px;
+  left: 828px;
+}
 #sheet [name="spells[level-8][slots][remaining][5]"] {
-  top: 772px; left: 843px; }
+  top: 772px;
+  left: 843px;
+}
 #sheet [name="spells[level-8][slots][remaining][6]"] {
-  top: 772px; left: 858px; }
+  top: 772px;
+  left: 858px;
+}
 #sheet [name="spells[level-8][slots][1][prepared]"] {
-  top: 813px; left: 640px; }
+  top: 813px;
+  left: 640px;
+}
 #sheet [name="spells[level-8][slots][2][prepared]"] {
-  top: 835px; left: 640px; }
+  top: 835px;
+  left: 640px;
+}
 #sheet [name="spells[level-8][slots][3][prepared]"] {
-  top: 857px; left: 640px; }
+  top: 857px;
+  left: 640px;
+}
 #sheet [name="spells[level-8][slots][4][prepared]"] {
-  top: 879px; left: 640px; }
+  top: 879px;
+  left: 640px;
+}
 #sheet [name="spells[level-8][slots][5][prepared]"] {
-  top: 901px; left: 640px; }
+  top: 901px;
+  left: 640px;
+}
 #sheet [name="spells[level-8][slots][6][prepared]"] {
-  top: 923px; left: 640px; }
+  top: 923px;
+  left: 640px;
+}
 #sheet [name="spells[level-8][slots][7][prepared]"] {
-  top: 945px; left: 640px; }
+  top: 945px;
+  left: 640px;
+}
 #sheet [name="spells[level-8][slots][1][name]"] {
-  top: 806px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 806px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-8][slots][2][name]"] {
-  top: 828px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 828px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-8][slots][3][name]"] {
-  top: 850px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 850px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-8][slots][4][name]"] {
-  top: 872px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 872px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-8][slots][5][name]"] {
-  top: 894px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 894px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-8][slots][6][name]"] {
-  top: 916px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 916px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-8][slots][7][name]"] {
-  top: 938px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 938px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 #sheet [name="spells[level-9][slots][total]"] {
-  top: 982px; left: 671px; height: 31px; width: 60px; }
+  top: 982px;
+  left: 671px;
+  height: 31px;
+  width: 60px;
+}
 #sheet [name="spells[level-9][slots][remaining][1]"] {
-  top: 993px; left: 781px; }
+  top: 993px;
+  left: 781px;
+}
 #sheet [name="spells[level-9][slots][remaining][2]"] {
-  top: 993px; left: 797px; }
+  top: 993px;
+  left: 797px;
+}
 #sheet [name="spells[level-9][slots][remaining][3]"] {
-  top: 993px; left: 812px; }
+  top: 993px;
+  left: 812px;
+}
 #sheet [name="spells[level-9][slots][remaining][4]"] {
-  top: 993px; left: 828px; }
+  top: 993px;
+  left: 828px;
+}
 #sheet [name="spells[level-9][slots][remaining][5]"] {
-  top: 993px; left: 843px; }
+  top: 993px;
+  left: 843px;
+}
 #sheet [name="spells[level-9][slots][remaining][6]"] {
-  top: 993px; left: 858px; }
+  top: 993px;
+  left: 858px;
+}
 #sheet [name="spells[level-9][slots][1][prepared]"] {
-  top: 1034px; left: 640px; }
+  top: 1034px;
+  left: 640px;
+}
 #sheet [name="spells[level-9][slots][2][prepared]"] {
-  top: 1056px; left: 640px; }
+  top: 1056px;
+  left: 640px;
+}
 #sheet [name="spells[level-9][slots][3][prepared]"] {
-  top: 1078px; left: 640px; }
+  top: 1078px;
+  left: 640px;
+}
 #sheet [name="spells[level-9][slots][4][prepared]"] {
-  top: 1100px; left: 640px; }
+  top: 1100px;
+  left: 640px;
+}
 #sheet [name="spells[level-9][slots][5][prepared]"] {
-  top: 1122px; left: 640px; }
+  top: 1122px;
+  left: 640px;
+}
 #sheet [name="spells[level-9][slots][6][prepared]"] {
-  top: 1144px; left: 640px; }
+  top: 1144px;
+  left: 640px;
+}
 #sheet [name="spells[level-9][slots][7][prepared]"] {
-  top: 1166px; left: 640px; }
+  top: 1166px;
+  left: 640px;
+}
 #sheet [name="spells[level-9][slots][1][name]"] {
-  top: 1027px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 1027px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-9][slots][2][name]"] {
-  top: 1049px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 1049px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-9][slots][3][name]"] {
-  top: 1071px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 1071px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-9][slots][4][name]"] {
-  top: 1093px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 1093px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-9][slots][5][name]"] {
-  top: 1115px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 1115px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-9][slots][6][name]"] {
-  top: 1137px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 1137px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 #sheet [name="spells[level-9][slots][7][name]"] {
-  top: 1159px; left: 655px; height: 16px; width: 250px; text-align: left; }
+  top: 1159px;
+  left: 655px;
+  height: 16px;
+  width: 250px;
+  text-align: left;
+}
 
 /* page-4 */
 #sheet [name="companions[1][name]"] {
-  top: 63px; left: 166px; height: 27px; width: 215px; }
+  top: 63px;
+  left: 166px;
+  height: 27px;
+  width: 215px;
+}
 #sheet [name="companions[1][class-and-level]"] {
-  top: 46px; left: 450px; height: 20px; width: 135px; text-align: left; }
+  top: 46px;
+  left: 450px;
+  height: 20px;
+  width: 135px;
+  text-align: left;
+}
 #sheet [name="companions[1][relationship]"] {
-  top: 46px; left: 592px; height: 20px; width: 117px; text-align: left; }
+  top: 46px;
+  left: 592px;
+  height: 20px;
+  width: 117px;
+  text-align: left;
+}
 #sheet [name="companions[1][role]"] {
-  top: 46px; left: 715px; height: 20px; width: 110px; text-align: left; }
+  top: 46px;
+  left: 715px;
+  height: 20px;
+  width: 110px;
+  text-align: left;
+}
 #sheet [name="companions[1][race]"] {
-  top: 80px; left: 450px; height: 20px; width: 135px; text-align: left; }
+  top: 80px;
+  left: 450px;
+  height: 20px;
+  width: 135px;
+  text-align: left;
+}
 #sheet [name="companions[1][alignment]"] {
-  top: 80px; left: 592px; height: 20px; width: 117px; text-align: left; }
+  top: 80px;
+  left: 592px;
+  height: 20px;
+  width: 117px;
+  text-align: left;
+}
 #sheet [name="companions[1][experience-points]"] {
-  top: 80px; left: 715px; height: 20px; width: 110px; text-align: left; }
+  top: 80px;
+  left: 715px;
+  height: 20px;
+  width: 110px;
+  text-align: left;
+}
 
 #sheet [name="companions[1][abilities][strength][score]"] {
-  top: 146px; left: 105px; height: 27px; width: 34px; }
+  top: 146px;
+  left: 105px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[1][abilities][strength][modifier]"] {
-  top: 180px; left: 91px; height: 34px; width: 62px; }
+  top: 180px;
+  left: 91px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[1][abilities][dexterity][score]"] {
-  top: 146px; left: 212px; height: 27px; width: 34px; }
+  top: 146px;
+  left: 212px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[1][abilities][dexterity][modifier]"] {
-  top: 180px; left: 198px; height: 34px; width: 62px; }
+  top: 180px;
+  left: 198px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[1][abilities][constitution][score]"] {
-  top: 258px; left: 105px; height: 27px; width: 34px; }
+  top: 258px;
+  left: 105px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[1][abilities][constitution][modifier]"] {
-  top: 292px; left: 91px; height: 34px; width: 62px; }
+  top: 292px;
+  left: 91px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[1][abilities][intelligence][score]"] {
-  top: 258px; left: 212px; height: 27px; width: 34px; }
+  top: 258px;
+  left: 212px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[1][abilities][intelligence][modifier]"] {
-  top: 292px; left: 198px; height: 34px; width: 62px; }
+  top: 292px;
+  left: 198px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[1][abilities][wisdom][score]"] {
-  top: 366px; left: 105px; height: 27px; width: 34px; }
+  top: 366px;
+  left: 105px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[1][abilities][wisdom][modifier]"] {
-  top: 400px; left: 91px; height: 34px; width: 62px; }
+  top: 400px;
+  left: 91px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[1][abilities][charisma][score]"] {
-  top: 366px; left: 212px; height: 27px; width: 34px; }
+  top: 366px;
+  left: 212px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[1][abilities][charisma][modifier]"] {
-  top: 400px; left: 198px; height: 34px; width: 62px; }
+  top: 400px;
+  left: 198px;
+  height: 34px;
+  width: 62px;
+}
 
 #sheet [name="companions[1][passive-perception]"] {
-  top: 489px; left: 93px; height: 25px; width: 37px; }
+  top: 489px;
+  left: 93px;
+  height: 25px;
+  width: 37px;
+}
 #sheet [name="companions[1][carry-weight][current]"] {
-  top: 548px; left: 120px; height: 25px; width: 45px; }
+  top: 548px;
+  left: 120px;
+  height: 25px;
+  width: 45px;
+}
 #sheet [name="companions[1][carry-weight][maximum]"] {
-  top: 548px; left: 189px; height: 25px; width: 45px; }
+  top: 548px;
+  left: 189px;
+  height: 25px;
+  width: 45px;
+}
 
 #sheet [name="companions[1][attacks-and-spellcasting][1][name]"] {
-  top: 158px; left: 345px; height: 23px; width: 98px; }
+  top: 158px;
+  left: 345px;
+  height: 23px;
+  width: 98px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][1][attack-bonus]"] {
-  top: 158px; left: 453px; height: 23px; width: 46px; }
+  top: 158px;
+  left: 453px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][1][damage-and-type]"] {
-  top: 158px; left: 509px; height: 23px; width: 94px; }
+  top: 158px;
+  left: 509px;
+  height: 23px;
+  width: 94px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][2][name]"] {
-  top: 189px; left: 345px; height: 23px; width: 98px; }
+  top: 189px;
+  left: 345px;
+  height: 23px;
+  width: 98px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][2][attack-bonus]"] {
-  top: 189px; left: 453px; height: 23px; width: 46px; }
+  top: 189px;
+  left: 453px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][2][damage-and-type]"] {
-  top: 189px; left: 509px; height: 23px; width: 94px; }
+  top: 189px;
+  left: 509px;
+  height: 23px;
+  width: 94px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][3][name]"] {
-  top: 222px; left: 345px; height: 23px; width: 98px; }
+  top: 222px;
+  left: 345px;
+  height: 23px;
+  width: 98px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][3][attack-bonus]"] {
-  top: 222px; left: 453px; height: 23px; width: 46px; }
+  top: 222px;
+  left: 453px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][3][damage-and-type]"] {
-  top: 222px; left: 509px; height: 23px; width: 94px; }
+  top: 222px;
+  left: 509px;
+  height: 23px;
+  width: 94px;
+}
 #sheet [name="companions[1][attacks-and-spellcasting][extra]"] {
-  top: 253px; left: 345px; height: 83px; width: 257px; }
+  top: 253px;
+  left: 345px;
+  height: 83px;
+  width: 257px;
+}
 
 #sheet [name="companions[1][ammo][1][name]"] {
-  top: 365px; left: 345px; height: 19px; width: 77px; }
+  top: 365px;
+  left: 345px;
+  height: 19px;
+  width: 77px;
+}
 #sheet [name="companions[1][ammo][1][have][1]"] {
-  top: 369px; left: 431px; }
+  top: 369px;
+  left: 431px;
+}
 #sheet [name="companions[1][ammo][1][have][2]"] {
-  top: 369px; left: 450px; }
+  top: 369px;
+  left: 450px;
+}
 #sheet [name="companions[1][ammo][1][have][3]"] {
-  top: 369px; left: 468px; }
+  top: 369px;
+  left: 468px;
+}
 #sheet [name="companions[1][ammo][1][have][4]"] {
-  top: 369px; left: 487px; }
+  top: 369px;
+  left: 487px;
+}
 #sheet [name="companions[1][ammo][1][have][5]"] {
-  top: 369px; left: 504px; }
+  top: 369px;
+  left: 504px;
+}
 #sheet [name="companions[1][ammo][1][have][6]"] {
-  top: 369px; left: 523px; }
+  top: 369px;
+  left: 523px;
+}
 #sheet [name="companions[1][ammo][1][have][7]"] {
-  top: 369px; left: 540px; }
+  top: 369px;
+  left: 540px;
+}
 #sheet [name="companions[1][ammo][1][have][8]"] {
-  top: 369px; left: 559px; }
+  top: 369px;
+  left: 559px;
+}
 #sheet [name="companions[1][ammo][1][have][9]"] {
-  top: 369px; left: 576px; }
+  top: 369px;
+  left: 576px;
+}
 #sheet [name="companions[1][ammo][1][have][10]"] {
-  top: 369px; left: 594px; }
+  top: 369px;
+  left: 594px;
+}
 #sheet [name="companions[1][ammo][2][name]"] {
-  top: 390px; left: 345px; height: 19px; width: 77px; }
+  top: 390px;
+  left: 345px;
+  height: 19px;
+  width: 77px;
+}
 #sheet [name="companions[1][ammo][2][have][1]"] {
-  top: 394px; left: 431px; }
+  top: 394px;
+  left: 431px;
+}
 #sheet [name="companions[1][ammo][2][have][2]"] {
-  top: 394px; left: 450px; }
+  top: 394px;
+  left: 450px;
+}
 #sheet [name="companions[1][ammo][2][have][3]"] {
-  top: 394px; left: 468px; }
+  top: 394px;
+  left: 468px;
+}
 #sheet [name="companions[1][ammo][2][have][4]"] {
-  top: 394px; left: 487px; }
+  top: 394px;
+  left: 487px;
+}
 #sheet [name="companions[1][ammo][2][have][5]"] {
-  top: 394px; left: 504px; }
+  top: 394px;
+  left: 504px;
+}
 #sheet [name="companions[1][ammo][2][have][6]"] {
-  top: 394px; left: 523px; }
+  top: 394px;
+  left: 523px;
+}
 #sheet [name="companions[1][ammo][2][have][7]"] {
-  top: 394px; left: 540px; }
+  top: 394px;
+  left: 540px;
+}
 #sheet [name="companions[1][ammo][2][have][8]"] {
-  top: 394px; left: 559px; }
+  top: 394px;
+  left: 559px;
+}
 #sheet [name="companions[1][ammo][2][have][9]"] {
-  top: 394px; left: 576px; }
+  top: 394px;
+  left: 576px;
+}
 #sheet [name="companions[1][ammo][2][have][10]"] {
-  top: 394px; left: 594px; }
+  top: 394px;
+  left: 594px;
+}
 
 #sheet [name="companions[1][extra]"] {
-  top: 434px; left: 345px; height: 130px; width: 257px; font-size: small; }
+  top: 434px;
+  left: 345px;
+  height: 130px;
+  width: 257px;
+  font-size: small;
+}
 #sheet [name="companions[1][conditions]"] {
-  top: 140px; left: 656px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
+  top: 140px;
+  left: 656px;
+  height: 47px;
+  width: 88px;
+  font-size: x-small;
+  text-align: center;
+}
 #sheet [name="companions[1][armor-class]"] {
-  top: 140px; left: 764px; height: 27px; width: 38px; }
+  top: 140px;
+  left: 764px;
+  height: 27px;
+  width: 38px;
+}
 #sheet [name="companions[1][boons]"] {
-  top: 140px; left: 822px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
+  top: 140px;
+  left: 822px;
+  height: 47px;
+  width: 88px;
+  font-size: x-small;
+  text-align: center;
+}
 #sheet [name="companions[1][initiative]"] {
-  top: 207px; left: 656px; height: 43px; width: 58px; }
+  top: 207px;
+  left: 656px;
+  height: 43px;
+  width: 58px;
+}
 #sheet [name="companions[1][hit-dice][current]"] {
-  top: 273px; left: 686px; height: 10px; width: 28px; }
+  top: 273px;
+  left: 686px;
+  height: 10px;
+  width: 28px;
+}
 #sheet [name="companions[1][hit-dice][type]"] {
-  top: 287px; left: 656px; height: 32px; width: 58px; }
+  top: 287px;
+  left: 656px;
+  height: 32px;
+  width: 58px;
+}
 #sheet [name="companions[1][hit-points][temporary]"] {
-  top: 212px; left: 764px; height: 20px; width: 38px; }
+  top: 212px;
+  left: 764px;
+  height: 20px;
+  width: 38px;
+}
 #sheet [name="companions[1][hit-points][current]"] {
-  top: 246px; left: 738px; height: 68px; width: 42px; }
+  top: 246px;
+  left: 738px;
+  height: 68px;
+  width: 42px;
+}
 #sheet [name="companions[1][hit-points][maximum]"] {
-  top: 246px; left: 786px; height: 68px; width: 42px; }
+  top: 246px;
+  left: 786px;
+  height: 68px;
+  width: 42px;
+}
 #sheet [name="companions[1][speed]"] {
-  top: 207px; left: 852px; height: 43px; width: 58px; }
+  top: 207px;
+  left: 852px;
+  height: 43px;
+  width: 58px;
+}
 #sheet [name="companions[1][death-saves][successes][1]"] {
-  top: 282px; left: 860px; }
+  top: 282px;
+  left: 860px;
+}
 #sheet [name="companions[1][death-saves][successes][2]"] {
-  top: 282px; left: 876px; }
+  top: 282px;
+  left: 876px;
+}
 #sheet [name="companions[1][death-saves][successes][3]"] {
-  top: 282px; left: 892px; }
+  top: 282px;
+  left: 892px;
+}
 #sheet [name="companions[1][death-saves][failures][1]"] {
-  top: 307px; left: 860px; }
+  top: 307px;
+  left: 860px;
+}
 #sheet [name="companions[1][death-saves][failures][2]"] {
-  top: 307px; left: 876px; }
+  top: 307px;
+  left: 876px;
+}
 #sheet [name="companions[1][death-saves][failures][3]"] {
-  top: 307px; left: 892px; }
+  top: 307px;
+  left: 892px;
+}
 
 #sheet [name="companions[1][coin][cp]"] {
-  top: 379px; left: 660px; height: 23px; width: 53px; }
+  top: 379px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[1][coin][sp]"] {
-  top: 420px; left: 660px; height: 23px; width: 53px; }
+  top: 420px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[1][coin][ep]"] {
-  top: 461px; left: 660px; height: 23px; width: 53px; }
+  top: 461px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[1][coin][gp]"] {
-  top: 502px; left: 660px; height: 23px; width: 53px; }
+  top: 502px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[1][coin][pp]"] {
-  top: 542px; left: 660px; height: 23px; width: 53px; }
+  top: 542px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[1][equipment]"] {
-  top: 356px; left: 724px; height: 223px; width: 191px; text-align: left; }
+  top: 356px;
+  left: 724px;
+  height: 223px;
+  width: 191px;
+  text-align: left;
+}
 
 #sheet [name="companions[2][name]"] {
-  top: 685px; left: 166px; height: 27px; width: 215px; }
+  top: 685px;
+  left: 166px;
+  height: 27px;
+  width: 215px;
+}
 #sheet [name="companions[2][class-and-level]"] {
-  top: 668px; left: 450px; height: 20px; width: 135px; text-align: left; }
+  top: 668px;
+  left: 450px;
+  height: 20px;
+  width: 135px;
+  text-align: left;
+}
 #sheet [name="companions[2][relationship]"] {
-  top: 668px; left: 592px; height: 20px; width: 117px; text-align: left; }
+  top: 668px;
+  left: 592px;
+  height: 20px;
+  width: 117px;
+  text-align: left;
+}
 #sheet [name="companions[2][role]"] {
-  top: 668px; left: 715px; height: 20px; width: 110px; text-align: left; }
+  top: 668px;
+  left: 715px;
+  height: 20px;
+  width: 110px;
+  text-align: left;
+}
 #sheet [name="companions[2][race]"] {
-  top: 702px; left: 450px; height: 20px; width: 135px; text-align: left; }
+  top: 702px;
+  left: 450px;
+  height: 20px;
+  width: 135px;
+  text-align: left;
+}
 #sheet [name="companions[2][alignment]"] {
-  top: 702px; left: 592px; height: 20px; width: 117px; text-align: left; }
+  top: 702px;
+  left: 592px;
+  height: 20px;
+  width: 117px;
+  text-align: left;
+}
 #sheet [name="companions[2][experience-points]"] {
-  top: 702px; left: 715px; height: 20px; width: 110px; text-align: left; }
+  top: 702px;
+  left: 715px;
+  height: 20px;
+  width: 110px;
+  text-align: left;
+}
 
 #sheet [name="companions[2][abilities][strength][score]"] {
-  top: 766px; left: 104px; height: 27px; width: 34px; }
+  top: 766px;
+  left: 104px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[2][abilities][strength][modifier]"] {
-  top: 800px; left: 90px; height: 34px; width: 62px; }
+  top: 800px;
+  left: 90px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[2][abilities][dexterity][score]"] {
-  top: 766px; left: 211px; height: 27px; width: 34px; }
+  top: 766px;
+  left: 211px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[2][abilities][dexterity][modifier]"] {
-  top: 800px; left: 197px; height: 34px; width: 62px; }
+  top: 800px;
+  left: 197px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[2][abilities][constitution][score]"] {
-  top: 878px; left: 104px; height: 27px; width: 34px; }
+  top: 878px;
+  left: 104px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[2][abilities][constitution][modifier]"] {
-  top: 912px; left: 90px; height: 34px; width: 62px; }
+  top: 912px;
+  left: 90px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[2][abilities][intelligence][score]"] {
-  top: 878px; left: 211px; height: 27px; width: 34px; }
+  top: 878px;
+  left: 211px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[2][abilities][intelligence][modifier]"] {
-  top: 912px; left: 197px; height: 34px; width: 62px; }
+  top: 912px;
+  left: 197px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[2][abilities][wisdom][score]"] {
-  top: 986px; left: 104px; height: 27px; width: 34px; }
+  top: 986px;
+  left: 104px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[2][abilities][wisdom][modifier]"] {
-  top: 1020px; left: 90px; height: 34px; width: 62px; }
+  top: 1020px;
+  left: 90px;
+  height: 34px;
+  width: 62px;
+}
 #sheet [name="companions[2][abilities][charisma][score]"] {
-  top: 986px; left: 211px; height: 27px; width: 34px; }
+  top: 986px;
+  left: 211px;
+  height: 27px;
+  width: 34px;
+}
 #sheet [name="companions[2][abilities][charisma][modifier]"] {
-  top: 1020px; left: 197px; height: 34px; width: 62px; }
+  top: 1020px;
+  left: 197px;
+  height: 34px;
+  width: 62px;
+}
 
 #sheet [name="companions[2][passive-perception]"] {
-  top: 1109px; left: 92px; height: 25px; width: 37px; }
+  top: 1109px;
+  left: 92px;
+  height: 25px;
+  width: 37px;
+}
 #sheet [name="companions[2][carry-weight][current]"] {
-  top: 1168px; left: 119px; height: 25px; width: 45px; }
+  top: 1168px;
+  left: 119px;
+  height: 25px;
+  width: 45px;
+}
 #sheet [name="companions[2][carry-weight][maximum]"] {
-  top: 1168px; left: 188px; height: 25px; width: 45px; }
+  top: 1168px;
+  left: 188px;
+  height: 25px;
+  width: 45px;
+}
 
 #sheet [name="companions[2][attacks-and-spellcasting][1][name]"] {
-  top: 780px; left: 345px; height: 23px; width: 98px; }
+  top: 780px;
+  left: 345px;
+  height: 23px;
+  width: 98px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][1][attack-bonus]"] {
-  top: 780px; left: 453px; height: 23px; width: 46px; }
+  top: 780px;
+  left: 453px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][1][damage-and-type]"] {
-  top: 780px; left: 509px; height: 23px; width: 94px; }
+  top: 780px;
+  left: 509px;
+  height: 23px;
+  width: 94px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][2][name]"] {
-  top: 811px; left: 345px; height: 23px; width: 98px; }
+  top: 811px;
+  left: 345px;
+  height: 23px;
+  width: 98px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][2][attack-bonus]"] {
-  top: 811px; left: 453px; height: 23px; width: 46px; }
+  top: 811px;
+  left: 453px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][2][damage-and-type]"] {
-  top: 811px; left: 509px; height: 23px; width: 94px; }
+  top: 811px;
+  left: 509px;
+  height: 23px;
+  width: 94px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][3][name]"] {
-  top: 844px; left: 345px; height: 23px; width: 98px; }
+  top: 844px;
+  left: 345px;
+  height: 23px;
+  width: 98px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][3][attack-bonus]"] {
-  top: 844px; left: 453px; height: 23px; width: 46px; }
+  top: 844px;
+  left: 453px;
+  height: 23px;
+  width: 46px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][3][damage-and-type]"] {
-  top: 844px; left: 509px; height: 23px; width: 94px; }
+  top: 844px;
+  left: 509px;
+  height: 23px;
+  width: 94px;
+}
 #sheet [name="companions[2][attacks-and-spellcasting][extra]"] {
-  top: 875px; left: 345px; height: 83px; width: 257px; }
+  top: 875px;
+  left: 345px;
+  height: 83px;
+  width: 257px;
+}
 
 #sheet [name="companions[2][ammo][1][name]"] {
-  top: 987px; left: 345px; height: 19px; width: 77px; }
+  top: 987px;
+  left: 345px;
+  height: 19px;
+  width: 77px;
+}
 #sheet [name="companions[2][ammo][1][have][1]"] {
-  top: 991px; left: 431px; }
+  top: 991px;
+  left: 431px;
+}
 #sheet [name="companions[2][ammo][1][have][2]"] {
-  top: 991px; left: 450px; }
+  top: 991px;
+  left: 450px;
+}
 #sheet [name="companions[2][ammo][1][have][3]"] {
-  top: 991px; left: 468px; }
+  top: 991px;
+  left: 468px;
+}
 #sheet [name="companions[2][ammo][1][have][4]"] {
-  top: 991px; left: 487px; }
+  top: 991px;
+  left: 487px;
+}
 #sheet [name="companions[2][ammo][1][have][5]"] {
-  top: 991px; left: 504px; }
+  top: 991px;
+  left: 504px;
+}
 #sheet [name="companions[2][ammo][1][have][6]"] {
-  top: 991px; left: 523px; }
+  top: 991px;
+  left: 523px;
+}
 #sheet [name="companions[2][ammo][1][have][7]"] {
-  top: 991px; left: 540px; }
+  top: 991px;
+  left: 540px;
+}
 #sheet [name="companions[2][ammo][1][have][8]"] {
-  top: 991px; left: 559px; }
+  top: 991px;
+  left: 559px;
+}
 #sheet [name="companions[2][ammo][1][have][9]"] {
-  top: 991px; left: 576px; }
+  top: 991px;
+  left: 576px;
+}
 #sheet [name="companions[2][ammo][1][have][10]"] {
-  top: 991px; left: 594px; }
+  top: 991px;
+  left: 594px;
+}
 #sheet [name="companions[2][ammo][2][name]"] {
-  top: 1012px; left: 345px; height: 19px; width: 77px; }
+  top: 1012px;
+  left: 345px;
+  height: 19px;
+  width: 77px;
+}
 #sheet [name="companions[2][ammo][2][have][1]"] {
-  top: 1016px; left: 431px; }
+  top: 1016px;
+  left: 431px;
+}
 #sheet [name="companions[2][ammo][2][have][2]"] {
-  top: 1016px; left: 450px; }
+  top: 1016px;
+  left: 450px;
+}
 #sheet [name="companions[2][ammo][2][have][3]"] {
-  top: 1016px; left: 468px; }
+  top: 1016px;
+  left: 468px;
+}
 #sheet [name="companions[2][ammo][2][have][4]"] {
-  top: 1016px; left: 487px; }
+  top: 1016px;
+  left: 487px;
+}
 #sheet [name="companions[2][ammo][2][have][5]"] {
-  top: 1016px; left: 504px; }
+  top: 1016px;
+  left: 504px;
+}
 #sheet [name="companions[2][ammo][2][have][6]"] {
-  top: 1016px; left: 523px; }
+  top: 1016px;
+  left: 523px;
+}
 #sheet [name="companions[2][ammo][2][have][7]"] {
-  top: 1016px; left: 540px; }
+  top: 1016px;
+  left: 540px;
+}
 #sheet [name="companions[2][ammo][2][have][8]"] {
-  top: 1016px; left: 559px; }
+  top: 1016px;
+  left: 559px;
+}
 #sheet [name="companions[2][ammo][2][have][9]"] {
-  top: 1016px; left: 576px; }
+  top: 1016px;
+  left: 576px;
+}
 #sheet [name="companions[2][ammo][2][have][10]"] {
-  top: 1016px; left: 594px; }
+  top: 1016px;
+  left: 594px;
+}
 
 #sheet [name="companions[2][extra]"] {
-  top: 1056px; left: 345px; height: 130px; width: 257px; font-size: small; }
+  top: 1056px;
+  left: 345px;
+  height: 130px;
+  width: 257px;
+  font-size: small;
+}
 #sheet [name="companions[2][conditions]"] {
-  top: 762px; left: 656px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
+  top: 762px;
+  left: 656px;
+  height: 47px;
+  width: 88px;
+  font-size: x-small;
+  text-align: center;
+}
 #sheet [name="companions[2][armor-class]"] {
-  top: 762px; left: 764px; height: 27px; width: 38px; }
+  top: 762px;
+  left: 764px;
+  height: 27px;
+  width: 38px;
+}
 #sheet [name="companions[2][boons]"] {
-  top: 762px; left: 822px; height: 47px; width: 88px; font-size: x-small; text-align: center; }
+  top: 762px;
+  left: 822px;
+  height: 47px;
+  width: 88px;
+  font-size: x-small;
+  text-align: center;
+}
 #sheet [name="companions[2][initiative]"] {
-  top: 829px; left: 656px; height: 43px; width: 58px; }
+  top: 829px;
+  left: 656px;
+  height: 43px;
+  width: 58px;
+}
 #sheet [name="companions[2][hit-dice][current]"] {
-  top: 895px; left: 686px; height: 10px; width: 28px; }
+  top: 895px;
+  left: 686px;
+  height: 10px;
+  width: 28px;
+}
 #sheet [name="companions[2][hit-dice][type]"] {
-  top: 909px; left: 656px; height: 32px; width: 58px; }
+  top: 909px;
+  left: 656px;
+  height: 32px;
+  width: 58px;
+}
 #sheet [name="companions[2][hit-points][temporary]"] {
-  top: 834px; left: 764px; height: 20px; width: 38px; }
+  top: 834px;
+  left: 764px;
+  height: 20px;
+  width: 38px;
+}
 #sheet [name="companions[2][hit-points][current]"] {
-  top: 868px; left: 738px; height: 68px; width: 42px; }
+  top: 868px;
+  left: 738px;
+  height: 68px;
+  width: 42px;
+}
 #sheet [name="companions[2][hit-points][maximum]"] {
-  top: 868px; left: 786px; height: 68px; width: 42px; }
+  top: 868px;
+  left: 786px;
+  height: 68px;
+  width: 42px;
+}
 #sheet [name="companions[2][speed]"] {
-  top: 829px; left: 852px; height: 43px; width: 58px; }
+  top: 829px;
+  left: 852px;
+  height: 43px;
+  width: 58px;
+}
 #sheet [name="companions[2][death-saves][successes][1]"] {
-  top: 904px; left: 860px; }
+  top: 904px;
+  left: 860px;
+}
 #sheet [name="companions[2][death-saves][successes][2]"] {
-  top: 904px; left: 876px; }
+  top: 904px;
+  left: 876px;
+}
 #sheet [name="companions[2][death-saves][successes][3]"] {
-  top: 904px; left: 892px; }
+  top: 904px;
+  left: 892px;
+}
 #sheet [name="companions[2][death-saves][failures][1]"] {
-  top: 929px; left: 860px; }
+  top: 929px;
+  left: 860px;
+}
 #sheet [name="companions[2][death-saves][failures][2]"] {
-  top: 929px; left: 876px; }
+  top: 929px;
+  left: 876px;
+}
 #sheet [name="companions[2][death-saves][failures][3]"] {
-  top: 929px; left: 892px; }
+  top: 929px;
+  left: 892px;
+}
 
 #sheet [name="companions[2][coin][cp]"] {
-  top: 1001px; left: 660px; height: 23px; width: 53px; }
+  top: 1001px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[2][coin][sp]"] {
-  top: 1042px; left: 660px; height: 23px; width: 53px; }
+  top: 1042px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[2][coin][ep]"] {
-  top: 1083px; left: 660px; height: 23px; width: 53px; }
+  top: 1083px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[2][coin][gp]"] {
-  top: 1124px; left: 660px; height: 23px; width: 53px; }
+  top: 1124px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[2][coin][pp]"] {
-  top: 1164px; left: 660px; height: 23px; width: 53px; }
+  top: 1164px;
+  left: 660px;
+  height: 23px;
+  width: 53px;
+}
 #sheet [name="companions[2][equipment]"] {
-  top: 978px; left: 724px; height: 223px; width: 191px; text-align: left; }
+  top: 978px;
+  left: 724px;
+  height: 223px;
+  width: 191px;
+  text-align: left;
+}
 
-/* vim: set fdm=expr fdl=0: */
-/* vim: set fde=getline(v\:lnum)=~'^/\\*'?'>1'\:'1': */
