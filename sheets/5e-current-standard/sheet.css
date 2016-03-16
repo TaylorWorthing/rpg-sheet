@@ -9,13 +9,13 @@
 
 /* page images */
 #page-1 img.page {
-  content: url(page-1.png); }
+  content: url(page-1.svg); }
 #page-2 img.page {
-  content: url(page-2.png); }
+  content: url(page-2.svg); }
 #page-3 img.page {
-  content: url(page-3.png); }
+  content: url(page-3.svg); }
 #page-4 img.page {
-  content: url(page-4.png); }
+  content: url(page-4.svg); }
 
 /* page-1 */
 #sheet [name="character-name[1]"] {

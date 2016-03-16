@@ -49,6 +49,7 @@ nav li a:hover {
   display: none;
 }
 #sheet section {
+  background-color: white;
   position: relative;
   width: 960px;
   min-width: 960px;
@@ -62,6 +63,7 @@ nav li a:hover {
   top: 0;
   left: 0;
   max-width: 100%;
+  min-width: 100%;
   display: block;
 }
 #sheet input,
