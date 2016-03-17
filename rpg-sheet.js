@@ -40,6 +40,11 @@ window.onbeforeunload = function(e){
               }
             }
         }else{
+          if ($(this).is(".modifier")){
+            if (o > 0){
+              o = "+" + o;
+            }
+          }
           $(this).val(o);
         }
       }
