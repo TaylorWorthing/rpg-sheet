@@ -178,7 +178,13 @@ function setFooterPostion() {
   if ($(document).height() <= window.innerHeight){
     $("footer").css("position", "absolute");
   } else {
-    $('footer').css('position', '');
+    $("footer").css("position", "");
+  }
+  if ($("footer").css("position") != "absolute" && $(document).width() >= window.innerHeight){
+    $("body").css("width", "");
+    $("body").css("width", $(document).width());
+  } else {
+    $("body").css("width", "");
   }
 }
 function browserCheck() {
@@ -206,3 +212,4 @@ $("#print-sheet").on("click", function(){ window.print(); });
 $(".title").on("click", function(){ location.reload(true); });
 $("#sheet-html").on("keyup", 'input[type=text]', autoSizeInput);
 window.onload = function(){ newSheet("default"); browserCheck(); };
+$(window).resize(setFooterPostion);
