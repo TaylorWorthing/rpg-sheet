@@ -423,7 +423,6 @@
   left: 350px;
   height: 50px;
   width: 87px;
-  font-size: x-small;
   text-align: center;
 }
 #sheet [name="armor-class"] {
@@ -437,7 +436,6 @@
   left: 516px;
   height: 50px;
   width: 87px;
-  font-size: x-small;
   text-align: center;
 }
 #sheet [name="initiative"] {
@@ -2737,14 +2735,12 @@
   left: 345px;
   height: 130px;
   width: 257px;
-  font-size: small;
 }
 #sheet [name="companions[1][conditions]"] {
   top: 140px;
   left: 656px;
   height: 47px;
   width: 88px;
-  font-size: x-small;
   text-align: center;
 }
 #sheet [name="companions[1][armor-class]"] {
@@ -2758,7 +2754,6 @@
   left: 822px;
   height: 47px;
   width: 88px;
-  font-size: x-small;
   text-align: center;
 }
 #sheet [name="companions[1][initiative]"] {
@@ -3166,14 +3161,12 @@
   left: 345px;
   height: 130px;
   width: 257px;
-  font-size: small;
 }
 #sheet [name="companions[2][conditions]"] {
   top: 762px;
   left: 656px;
   height: 47px;
   width: 88px;
-  font-size: x-small;
   text-align: center;
 }
 #sheet [name="companions[2][armor-class]"] {
@@ -3187,7 +3180,6 @@
   left: 822px;
   height: 47px;
   width: 88px;
-  font-size: x-small;
   text-align: center;
 }
 #sheet [name="companions[2][initiative]"] {
