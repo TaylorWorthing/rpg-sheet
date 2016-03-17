@@ -181,10 +181,28 @@ function setFooterPostion() {
     $('footer').css('position', '');
   }
 }
+function browserCheck() {
+  if (document.cookie.indexOf("browser_check") < 0) {
+     // http://stackoverflow.com/a/9851769
+    var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+    var isFirefox = typeof InstallTrigger !== 'undefined';
+    var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    var isEdge = !isIE && !!window.StyleMedia;
+    var isChrome = !!window.chrome && !!window.chrome.webstore;
+    var isBlink = (isChrome || isOpera) && !!window.CSS;
+    if (isFirefox || isIE || isEdge){
+      alert("RPG Sheet has only been tested in Chrome/Chromium. It is very likely to be broken in your browser. \n\nHere be dragons.");
+    } else if (isOpera || isSafari){
+      alert("RPG Sheet has only been tested in Chrome/Chromium. While it should work in most WebKit browsers, there are likely to be some bugs.\n\nHere be dragons.");
+    }
+    document.cookie="browser_check=true"
+  }
+}
 
 $("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
 $("#print-sheet").on("click", function(){ window.print(); });
 $(".title").on("click", function(){ location.reload(true); });
 $("#sheet-html").on("keyup", 'input[type=text]', autoSizeInput);
-window.onload = newSheet("default");
+window.onload = function(){ newSheet("default"); browserCheck(); };
