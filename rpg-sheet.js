@@ -71,20 +71,29 @@ function exportSheet() {
   dirtyForm=false;
 }
 function importSheet() {
-  $("#sheet-file").trigger('click');
+  $("#sheet-file").trigger("click");
   $("#sheet-file").bind("change", function () {
     var upload = $("#sheet-file")[0].files[0];
     var url = window.URL.createObjectURL(upload);
-    $.getJSON(url, function(data) {
-      newSheet(data.meta['sheet'], data);
+    $.getJSON(url, function(sheetData) {
+      var sheetName = sheetData.meta['sheet'];
+      newSheet(sheetName, sheetData);
     });
     $("#sheet-file").val("");
   });
 }
 function newSheet(sheetName, sheetData) {
-  var sheet = "sheets/" + sheetName + "/sheet";
-  $("#sheet-css")[0].href = sheet + ".css";
-  $("#sheet-html").load(sheet + ".html", function() {
+  var sheetDir = "sheets/" + sheetName + "/";
+  var sheetCss = sheetDir + "sheet.css";
+  var sheetHtml = sheetDir + "sheet.html";
+  // Some error checking to make sure the style sheet and html files we want
+  // even exist before we try to load them.
+  if (!urlCheck(sheetCss) || !urlCheck(sheetHtml)){
+    alert("The sheet module you are attempting to laod is not supported by this instance of RPG Sheet.\n\nEither the sheet module is not installed or you are importing a sheet with bad meta values.");
+    return;
+  }
+  $("#sheet-css")[0].href = sheetCss;
+  $("#sheet-html").load(sheetHtml, function() {
     if (sheetData) {
       $("#sheet").deserializeJSON(sheetData);
       $("input[type=text]").each(autoSizeInput);
@@ -111,6 +120,18 @@ function importCheckFirst(){
   }
   else
     importSheet();
+}
+function urlCheck(url){
+  // This works, but gives a warning in the console because it is a synchronous
+  // request, which is depreciated. This functionality might be removed from
+  // browsers in the future, because synchronous requests lock the browser and
+  // wait for the request to finish before moving forward. This is the behavior
+  // we want in this case as we do not want to start changing style sheets and
+  // html if they do not exist.
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  http.send();
+  return http.status!=404;
 }
 function titleDataCheck(){
   if(dirtyForm)
