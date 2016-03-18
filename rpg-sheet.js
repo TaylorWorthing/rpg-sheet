@@ -73,12 +73,14 @@ function exportSheet() {
 function importSheet() {
   $("#sheet-file").trigger("click");
   $("#sheet-file").bind("change", function () {
-    var upload = $("#sheet-file")[0].files[0];
-    var url = window.URL.createObjectURL(upload);
-    $.getJSON(url, function(sheetData) {
+    var sheetFile = $("#sheet-file")[0].files[0];
+    var reader = new FileReader();
+    reader.onload = function() {
+      var sheetData = JSON.parse(reader.result);
       var sheetName = sheetData.meta['sheet'];
       newSheet(sheetName, sheetData);
-    });
+    }
+    reader.readAsText(sheetFile)
     $("#sheet-file").val("");
   });
 }
