@@ -6,7 +6,7 @@
     - Should improve file sizes, load-times, and quality when zoomed.
     - May break static field placement.
 
-- [ ] Error handling for importing sheets.
+- [x] Error handling for importing sheets.
     - Non-existent module or incompatible version.
 
 - [ ] Determine if it is possible to easily generate a PDF client-side.

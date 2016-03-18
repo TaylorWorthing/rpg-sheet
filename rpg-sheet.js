@@ -89,13 +89,23 @@ function newSheet(sheetName, sheetData) {
   // Some error checking to make sure the style sheet and html files we want
   // even exist before we try to load them.
   if (!urlCheck(sheetCss) || !urlCheck(sheetHtml)){
-    alert("The sheet module you are attempting to laod is not supported by this instance of RPG Sheet.\n\nEither the sheet module is not installed or you are importing a sheet with bad meta values.");
+    alert("The sheet module you are attempting to load is not supported by this instance of RPG Sheet.\n\nEither the sheet module is not installed or you are importing a sheet with bad meta values.");
     return;
   }
   $("#sheet-css")[0].href = sheetCss;
   $("#sheet-html").load(sheetHtml, function() {
     if (sheetData) {
+      var sheetDataVersion = sheetData.meta['version'];
+      var sheetVersion = parseInt($("input[name=meta\\[version\\]]").val());
+      if (sheetDataVersion < sheetVersion) {
+        alert("The version of the sheet that you are importing is older than the current version of this module. There may be some incomplete or missing data.\n\nExporting will update your sheet to the current version.");
+      } else if (sheetDataVersion > sheetVersion) {
+        alert("The version of the sheet that you are importing is newer than the current version of this module. There may be some incomplete or missing data.\n\nExporting will overwrite your sheet with the older version.");
+      }
       $("#sheet").deserializeJSON(sheetData);
+      // set the sheet version back to what it was before deserializing data
+      // in case imported data changes it
+      $("input[name=meta\\[version\\]]").val(sheetVersion);
       $("input[type=text]").each(autoSizeInput);
       document.title = $("#filename").val();
     };
