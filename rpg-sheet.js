@@ -71,17 +71,23 @@ function exportSheet() {
   dirtyForm=false;
 }
 function importSheet() {
-  $("#sheet-file").trigger("click");
-  $("#sheet-file").bind("change", function () {
-    var sheetFile = $("#sheet-file")[0].files[0];
+  var uploader = $("#sheet-file")
+  uploader.trigger("click");
+  uploader.bind("change", function () {
+    var sheetFile = uploader[0].files[0];
+    uploader.val("");
     var reader = new FileReader();
-    reader.onload = function() {
-      var sheetData = JSON.parse(reader.result);
+    reader.onloadend = function() {
+      var sheetData;
+      try {
+        sheetData = JSON.parse(reader.result);
+      } catch (error) {
+        return alert("RPG Sheet was not able to import your sheet because of the following error:\n\n" + error);
+      }
       var sheetName = sheetData.meta['sheet'];
       newSheet(sheetName, sheetData);
     }
     reader.readAsText(sheetFile)
-    $("#sheet-file").val("");
   });
 }
 function newSheet(sheetName, sheetData) {
