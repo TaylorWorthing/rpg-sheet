@@ -241,5 +241,5 @@ $("#export-sheet").on("click", exportSheet);
 $("#print-sheet").on("click", function(){ window.print(); });
 $(".title").on("click", function(){ location.reload(true); });
 $("#sheet-html").on("keyup", 'input[type=text]', autoSizeInput);
-window.onload = function(){ newSheet("default"); browserCheck(); };
+window.onload = function(){ newSheet("home"); browserCheck(); };
 $(window).resize(setFooterPostion);
