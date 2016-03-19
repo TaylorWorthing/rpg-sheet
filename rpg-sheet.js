@@ -94,37 +94,40 @@ function newSheet(sheetName, sheetData) {
   var sheetDir = "sheets/" + sheetName + "/";
   var sheetCss = sheetDir + "sheet.css";
   var sheetHtml = sheetDir + "sheet.html";
-  // Some error checking to make sure the style sheet and html files we want
-  // even exist before we try to load them.
-  if (!urlCheck(sheetCss) || !urlCheck(sheetHtml)){
-    alert("The sheet module you are attempting to load is not supported by this instance of RPG Sheet.\n\nEither the sheet module is not installed or you are importing a sheet with bad meta values.");
-    return;
-  }
-  $("#sheet-css")[0].href = sheetCss;
-  $("#sheet-html").load(sheetHtml, function() {
-    if (sheetData) {
-      var sheetDataVersion = sheetData.meta['version'];
-      var sheetVersion = parseInt($("input[name=meta\\[version\\]]").val());
-      if (sheetDataVersion < sheetVersion) {
-        alert("The version of the sheet that you are importing is older than the current version of this module. There may be some incomplete or missing data.\n\nExporting will update your sheet to the current version.");
-      } else if (sheetDataVersion > sheetVersion) {
-        alert("The version of the sheet that you are importing is newer than the current version of this module. There may be some incomplete or missing data.\n\nExporting will overwrite your sheet with the older version.");
-      }
-      $("#sheet").deserializeJSON(sheetData);
-      // set the sheet version back to what it was before deserializing data
-      // in case imported data changes it
-      $("input[name=meta\\[version\\]]").val(sheetVersion);
-      $("input[type=text]").each(autoSizeInput);
-      document.title = $("#filename").val();
-    };
-    dirtyForm=false;
-    //super simple change event on every form input
-    $("form :input").change(function() {
-      dirtyForm=true;
-    });
-    $("figure").on("click", promptImage);
-    setImages();
-    setFooterPostion();
+  $.ajax({
+    type: "HEAD",
+    url: sheetHtml,
+    success: function() {
+      $("#sheet-css")[0].href = sheetCss;
+      $("#sheet-html").load(sheetHtml, function() {
+        if (sheetData) {
+          var sheetDataVersion = sheetData.meta['version'];
+          var sheetVersion = parseInt($("input[name=meta\\[version\\]]").val());
+          if (sheetDataVersion < sheetVersion) {
+            alert("The version of the sheet that you are importing is older than the current version of this module. There may be some incomplete or missing data.\n\nExporting will update your sheet to the current version.");
+          } else if (sheetDataVersion > sheetVersion) {
+            alert("The version of the sheet that you are importing is newer than the current version of this module. There may be some incomplete or missing data.\n\nExporting will overwrite your sheet with the older version.");
+          }
+          $("#sheet").deserializeJSON(sheetData);
+          // set the sheet version back to what it was before deserializing data
+          // in case imported data changes it
+          $("input[name=meta\\[version\\]]").val(sheetVersion);
+          $("input[type=text]").each(autoSizeInput);
+          document.title = $("#filename").val();
+        };
+        dirtyForm=false;
+        //super simple change event on every form input
+        $("form :input").change(function() {
+          dirtyForm=true;
+        });
+        $("figure").on("click", promptImage);
+        setImages();
+        setFooterPostion();
+      });
+    },
+    error: function() {
+      alert("The sheet module you are attempting to load is not supported by this instance of RPG Sheet.\n\nEither the sheet module is not installed or you are importing a sheet with bad meta values.");
+    }
   });
 }
 
@@ -138,18 +141,6 @@ function importCheckFirst(){
   }
   else
     importSheet();
-}
-function urlCheck(url){
-  // This works, but gives a warning in the console because it is a synchronous
-  // request, which is depreciated. This functionality might be removed from
-  // browsers in the future, because synchronous requests lock the browser and
-  // wait for the request to finish before moving forward. This is the behavior
-  // we want in this case as we do not want to start changing style sheets and
-  // html if they do not exist.
-  var http = new XMLHttpRequest();
-  http.open('HEAD', url, false);
-  http.send();
-  return http.status!=404;
 }
 function titleDataCheck(){
   if(dirtyForm)
