@@ -1,10 +1,5 @@
-var dirtyForm=false;
-window.onbeforeunload = function(e){
-  if(dirtyForm)
-    return 'Some changes have not been exported.';
-};
-// https://github.com/marioizquierdo/jquery.serializeJSON/issues/32#issuecomment-71833934
-(function($){
+var dirtyForm=false; // initialize form dirty state as clean
+(function($){ // https://github.com/marioizquierdo/jquery.serializeJSON/issues/32#issuecomment-71833934
   $.fn.deserializeJSON = function(s){
     $(this).find("input, select, textarea").each(function(){
       var o = s;
@@ -51,7 +46,7 @@ window.onbeforeunload = function(e){
     });
   };
 })(jQuery);
-function exportSheet() {
+function exportSheet() { // export current sheet to a JSON file for user to download
   var customParse = function(val, inputName) {
     if (val === "") return null; // parse empty strings as nulls
     if (val === "on")  return true; // parse "on" (from checkboxes) as true
@@ -70,7 +65,7 @@ function exportSheet() {
   document.title = filename;
   dirtyForm=false;
 }
-function importSheet() {
+function importSheet() { // import a JSON sheet uploaded by user
   var uploader = $("#sheet-file")
   uploader.trigger("click");
   uploader.bind("change", function () {
@@ -90,86 +85,74 @@ function importSheet() {
     reader.readAsText(sheetFile)
   });
 }
-function newSheet(sheetName, sheetData) {
+function newSheet(sheetName, sheetData) { // load a given sheet, deserialize data if given
   var sheetDir = "sheets/" + sheetName + "/";
-  var sheetCss = sheetDir + "sheet.css";
-  var sheetHtml = sheetDir + "sheet.html";
-  $.ajax({
-    type: "HEAD",
-    url: sheetHtml,
-    success: function() {
-      $("#sheet-css")[0].href = sheetCss;
-      $("#sheet-html").load(sheetHtml, function() {
-        if (sheetData) {
-          var sheetDataVersion = sheetData.meta['version'];
-          var sheetVersion = parseInt($("input[name=meta\\[version\\]]").val());
-          if (sheetDataVersion < sheetVersion) {
-            alert("The version of the sheet that you are importing is older than the current version of this module. There may be some incomplete or missing data.\n\nExporting will update your sheet to the current version.");
-          } else if (sheetDataVersion > sheetVersion) {
-            alert("The version of the sheet that you are importing is newer than the current version of this module. There may be some incomplete or missing data.\n\nExporting will overwrite your sheet with the older version.");
-          }
-          $("#sheet").deserializeJSON(sheetData);
-          // set the sheet version back to what it was before deserializing data
-          // in case imported data changes it
-          $("input[name=meta\\[version\\]]").val(sheetVersion);
-          $("input[type=text]").each(autoSizeInput);
-          document.title = $("#filename").val();
-        };
-        dirtyForm=false;
-        //super simple change event on every form input
-        $("form :input").change(function() {
-          dirtyForm=true;
-        });
-        $("figure").on("click", promptImage);
-        setImages();
-        getSheetOptions();
-        $(document).onloadend(setFooterPostion());
-      });
-    },
-    error: function() {
+  var sheetCss = sheetDir + "style.css";
+  var sheetMain = sheetDir + "main.html";
+  var sheetFooter = sheetDir + "footer.html";
+
+  $("main").load(sheetMain, function(response, status, xhr) {
+    if (status == "error") {
       alert("The sheet module you are attempting to load is not supported by this instance of RPG Sheet.\n\nEither the sheet module is not installed or you are importing a sheet with bad meta values.");
+      return;
     }
+
+    $("#sheet-css")[0].href = sheetCss;
+    $("footer").load(sheetFooter);
+
+    if (sheetData) {
+      var sheetDataVersion = sheetData.meta['version'];
+      var sheetVersion = parseInt($("input[name=meta\\[version\\]]").val());
+
+      if (sheetDataVersion < sheetVersion) {
+        alert("The version of the sheet that you are importing is older than the current version of this module. There may be some incomplete or missing data.\n\nExporting will update your sheet to the current version.");
+      } else if (sheetDataVersion > sheetVersion) {
+        alert("The version of the sheet that you are importing is newer than the current version of this module. There may be some incomplete or missing data.\n\nExporting will overwrite your sheet with the older version.");
+      }
+
+      $("#sheet").deserializeJSON(sheetData);
+      // set the sheet version back to what it was before deserializing data
+      $("input[name=meta\\[version\\]]").val(sheetVersion);
+      $("input[type=text]").each(autoSizeInput);
+      document.title = $("#filename").val();
+    };
+
+    dirtyForm=false;
+    //super simple change event on every form input
+    $("form :input").change(function() { dirtyForm=true; });
+    $("figure").on("click", promptImage);
+    setImages();
+    getSheetOptions();
   });
 }
-
-//If I thought about this longer I could probably consolodate these into one function, but I'm lazy for now
-function importCheckFirst(){
-  if(dirtyForm)
-  {
+function importCheckFirst(){ // confirm if user tries to import over a dirty form
+  if (dirtyForm) {
     var result=window.confirm('Some data may be overwritten by an import. Continue?');
-    if(result)
+    if (result) {
       importSheet();
-  }
-  else
+    }
+  } else {
     importSheet();
-}
-function titleDataCheck(){
-  if(dirtyForm)
-  {
-    var result=window.confirm('Some data may be overwritten. Are you sure you want to create a new sheet?');
-    if(result)
-      newSheet('default');
   }
-  else
-    newSheet('default');
 }
-function promptImage(e) {
+function promptImage(e) { // prompt user for image url for given figure
   var current = $(this).children("input").val();
   var url = window.prompt("Enter an image URL.", current);
+
   if (url === null || url === current) {
     return false;
   }
+
   $(this).children("input").val(url);
   setImages();
 }
-function setImages() {
+function setImages() { // take the image urls in figure inputs and load them in associated img tags
   $("figure input").each(function(i, obj){
     var url = $(obj).val();
     $(obj).next("img").attr("src", url);
   });
 }
-// auto adjusts size of user input to fit field
-function autoSizeInput(event) {
+function autoSizeInput(event) { // auto adjusts size of user input to fit field
   // fetch all initial size values
   var textHeight = parseInt($(this).css('font-size'), 10);
   var scrollHeight = this.scrollHeight;
@@ -178,10 +161,12 @@ function autoSizeInput(event) {
   var fieldCssWidth = parseInt($(this).css('width'), 10);
   var fieldInnerHeight = $(this).innerHeight();
   var fieldInnerWidth = $(this).innerWidth();
+
   // only re-adjust if text is too short, too tall, or too wide
   if (textHeight != fieldCssHeight || scrollHeight > fieldInnerHeight || scrollWidth > fieldInnerWidth ){
     // set baseline size to field height
     $(this).css('font-size', fieldCssHeight);
+
     // fetch updated text sizes
     var updatedTextHeight = parseInt($(this).css('font-size'), 10);
     var updatedScrollHeight = this.scrollHeight;
@@ -192,6 +177,7 @@ function autoSizeInput(event) {
       var newHeight = updatedTextHeight - variance;
       $(this).css('font-size', newHeight + 'px');
     }
+
     // fetch updated sizes, yet one more time
     var updatedTextHeight = parseInt($(this).css('font-size'), 10);
     var updatedScrollHeight = this.scrollHeight;
@@ -204,21 +190,7 @@ function autoSizeInput(event) {
     }
   }
 }
-// make sure footer is always at the bottom
-function setFooterPostion() {
-  if ($(document).height() <= window.innerHeight){
-    $("footer").css("position", "absolute");
-  } else {
-    $("footer").css("position", "");
-  }
-  if ($("footer").css("position") != "absolute" && $(document).width() >= window.innerHeight){
-    $("body").css("width", "");
-    $("body").css("width", $(document).width());
-  } else {
-    $("body").css("width", "");
-  }
-}
-function browserCheck() {
+function browserCheck() { // warn users of browser incompatability
   if (document.cookie.indexOf("browser_check") < 0) {
      // http://stackoverflow.com/a/9851769
     var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
@@ -228,17 +200,19 @@ function browserCheck() {
     var isEdge = !isIE && !!window.StyleMedia;
     var isChrome = !!window.chrome && !!window.chrome.webstore;
     var isBlink = (isChrome || isOpera) && !!window.CSS;
+
     if (isFirefox || isIE || isEdge){
       alert("RPG Sheet has only been tested in Chrome/Chromium. It is very likely to be broken in your browser. \n\nHere be dragons.");
     } else if (isOpera || isSafari){
       alert("RPG Sheet has only been tested in Chrome/Chromium. While it should work in most WebKit browsers, there are likely to be some bugs.\n\nHere be dragons.");
     }
+
     document.cookie="browser_check=true"
   }
 }
-function getSheetOptions() {
-  var options = $("#sheet");
-  if (options.hasClass("exportable")) {
+function getSheetOptions() { // check #sheet-main for known data- attributes to set options for sheets
+  var options = $("#sheet-main");
+  if (options.data("exportable")) {
     $(".export-control").css("display", "list-item");
   }
 }
@@ -246,6 +220,7 @@ function getSheetOptions() {
 $("#import-sheet").on("click", importCheckFirst);
 $("#export-sheet").on("click", exportSheet);
 $(".title").on("click", function(){ location.reload(true); });
-$("#sheet-html").on("keyup", 'input[type=text]', autoSizeInput);
+$("main").on("keyup", 'input[type=text]', autoSizeInput);
+window.onbeforeunload = function(){if (dirtyForm) return 'Some changes have not been exported.'};
 window.onload = function(){ newSheet("home"); browserCheck(); };
-$(window).resize(setFooterPostion);
+// vim: set fdn=1 :

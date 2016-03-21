@@ -1,34 +1,49 @@
-/* General Styling */
+/* general style */
 body {
   margin: 0;
   padding-top: 65px;
+  padding-bottom: 65px;
   background-color: #f8e9d5;
   min-width: 360px;
   height: auto;
 }
-nav {
+nav, footer {
   width: 100%;
   min-width: 360px;
   position: fixed;
-  top: 0px;
+}
+nav {
+  top: 0;
   z-index: 999;
 }
-nav ul {
+footer {
+  bottom: 0;
+}
+nav ul, footer ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #3d4048;
 }
-nav li a {
+nav li a, footer li a {
   border: none;
-  float:right;
   display: block;
   padding: 14px 16px;
   font-family: sans-serif;
   color: #aa7570;
   text-decoration: none;
   cursor: pointer;
+}
+nav li a {
+  float:right;
+}
+footer li a {
+  float:left;
+}
+nav li a:hover, footer li a:hover {
+  color: #3d4048;
+  background-color: #aa7570;
 }
 nav a.title {
   float: left;
@@ -41,42 +56,15 @@ nav a.title img {
   margin: -9px;
   margin-right: 4px
 }
-nav li a:hover {
-  color: #3d4048;
-  background-color: #aa7570;
-}
-#sheet-file {
+
+#sheet-file { /* always hidden */
   display: none;
 }
-.export-control {
+.export-control { /* made visible by sheet option */
   display: none;
 }
-#sheet-html footer {
-  width: 100%;
-  bottom: 0;
-  left: 0;
-}
-#sheet-html footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #3d4048;
-}
-#sheet-html footer li a {
-  border: none;
-  float:left;
-  display: block;
-  padding: 14px 16px;
-  font-family: sans-serif;
-  color: #aa7570;
-  text-decoration: none;
-  cursor: pointer;
-}
-#sheet-html footer li a:hover {
-  color: #3d4048;
-  background-color: #aa7570;
-}
+
+/* sheet element style */
 #sheet section {
   background-color: white;
   position: relative;
@@ -95,8 +83,7 @@ nav li a:hover {
   min-width: 100%;
   display: block;
 }
-#sheet input,
-#sheet textarea {
+#sheet input, #sheet textarea {
   border: 0;
   outline: 0;
   position: absolute;
@@ -135,7 +122,7 @@ nav li a:hover {
   cursor: pointer;
 }
 #sheet input[type=checkbox]:focus {
-  outline: 0px;
+  outline: 0;
   border: 1px dotted black;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;

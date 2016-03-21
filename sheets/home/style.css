@@ -1,4 +1,4 @@
-#sheet-html h2 {
+#sheet-main h2 {
   font-family: sans-serif;
   text-align: center;
   color: #aa7570;
@@ -10,7 +10,7 @@ ul#new-sheet {
   list-style-type: none;
   text-align: center;
 }
-#new-sheet li a {
+ul#new-sheet li a {
   border: none;
   display: block;
   margin: 0;
@@ -23,7 +23,7 @@ ul#new-sheet {
   text-decoration: none;
   cursor: pointer;
 }
-#new-sheet a:hover {
+ul#new-sheet a:hover {
   color: #3d4048;
   background-color: #aa7570;
 }
