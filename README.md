@@ -11,8 +11,7 @@ will format fields one way, another will change font sizes, and there was no
 easy way to version control. RPG Sheet exports data to a flat-file as a JSON
 object, than can be imported back in. This means your exported character sheet
 can be shared, edited, synced with dropbox, or even put in a git repo, all with
-a file that will still only be a few KBs. RPG Sheet is also printable, for when
-you want a hard copy of your sheet.
+a file that will still only be a few KBs.
 
 RPG Sheet itself is also easy to modify. It is static HTML, CSS, JavaScript and
 images. You can host it yourself using something as simple as `python -m
