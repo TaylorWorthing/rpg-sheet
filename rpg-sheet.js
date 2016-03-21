@@ -123,6 +123,7 @@ function newSheet(sheetName, sheetData) {
         $("figure").on("click", promptImage);
         setImages();
         setFooterPostion();
+        getSheetOptions();
       });
     },
     error: function() {
@@ -233,6 +234,12 @@ function browserCheck() {
       alert("RPG Sheet has only been tested in Chrome/Chromium. While it should work in most WebKit browsers, there are likely to be some bugs.\n\nHere be dragons.");
     }
     document.cookie="browser_check=true"
+  }
+}
+function getSheetOptions() {
+  var options = $("#sheet");
+  if (options.hasClass("exportable")) {
+    $(".export-control").css("display", "list-item");
   }
 }
 

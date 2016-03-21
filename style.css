@@ -48,6 +48,9 @@ nav li a:hover {
 #sheet-file {
   display: none;
 }
+.export-control {
+  display: none;
+}
 #sheet-html footer {
   width: 100%;
   bottom: 0;
@@ -142,9 +145,6 @@ nav li a:hover {
   background-color: black;
   text-align: center;
   border-radius: 100%;
-}
-.hidden {
-  display: none;
 }
 
 /* only show character sheet pages when printing */
