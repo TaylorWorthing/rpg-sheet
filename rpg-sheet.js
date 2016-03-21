@@ -122,8 +122,8 @@ function newSheet(sheetName, sheetData) {
         });
         $("figure").on("click", promptImage);
         setImages();
-        setFooterPostion();
         getSheetOptions();
+        $(document).onloadend(setFooterPostion());
       });
     },
     error: function() {
