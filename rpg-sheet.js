@@ -113,8 +113,13 @@ function newSheet(sheetName, sheetData) { // load a given sheet, deserialize dat
       $("#sheet").deserializeJSON(sheetData);
       // set the sheet version back to what it was before deserializing data
       $("input[name=meta\\[version\\]]").val(sheetVersion);
-      $("input[type=text]").each(autoSizeInput);
       document.title = $("#filename").val();
+      // There is no DOM event to indicate that elements have fully rendered CSS
+      // changes. Use a timeout to attempt to queue sizing input text until
+      // after the changes are rendered.
+      setTimeout(function() {
+        $("input[type=text]").each(autoSizeInput);
+      }, 0);
     };
 
     dirtyForm=false;
