@@ -1,0 +1,210 @@
+/* color things for mapping */
+/*#sheet input, #sheet textarea, #sheet figure {
+  background: pink !important;
+  opacity: 0.5 !important;
+}*/
+
+/* sheet style */
+#sheet input {
+  text-align: center;
+}
+
+/* page images */
+#page-1 img.page {
+  content: url(page-1.svg);
+}
+
+/* page-1 */
+#sheet figure#hero {
+  top: 16px;
+  left: 29px;
+  height: 288px;
+  width: 262px;
+}
+#sheet [name="hero-name"] {
+  top: 26px;
+  left: 305px;
+  height: 88px;
+  width: 623px;
+}
+#sheet [name="stat[move]"] {
+  top: 342px;
+  left: 29px;
+  height: 34px;
+  width: 84px;
+}
+#sheet [name="stat[agility]"] {
+  top: 342px;
+  left: 117px;
+  height: 34px;
+  width: 84px;
+}
+#sheet [name="stat[save]"] {
+  top: 342px;
+  left: 205px;
+  height: 34px;
+  width: 84px;
+}
+#sheet [name="die[1]"] {
+  top: 154px;
+  left: 368px;
+  height: 84px;
+  width: 84px;
+}
+#sheet [name="die[2]"] {
+  top: 154px;
+  left: 506px;
+  height: 84px;
+  width: 84px;}
+#sheet [name="die[3]"] {
+  top: 154px;
+  left: 644px;
+  height: 84px;
+  width: 84px;
+}
+#sheet [name="die[4]"] {
+  top: 154px;
+  left: 782px;
+  height: 84px;
+  width: 84px;
+}
+#sheet [name="weapon[1][action]"] {
+  top: 305px;
+  left: 310px;
+  height: 21px;
+  width: 310px;
+  text-align: left;
+}
+#sheet [name="weapon[1][range]"] {
+  top: 304px;
+  left: 630px;
+  height: 21px;
+  width: 86px;
+}
+#sheet [name="weapon[1][hit]"] {
+  top: 304px;
+  left: 726px;
+  height: 21px;
+  width: 45px;
+}
+#sheet [name="weapon[1][damage]"] {
+  top: 304px;
+  left: 781px;
+  height: 21px;
+  width: 105px;
+}
+#sheet [name="weapon[2][action]"] {
+  top: 330px;
+  left: 310px;
+  height: 21px;
+  width: 310px;
+  text-align: left;
+}
+#sheet [name="weapon[2][range]"] {
+  top: 330px;
+  left: 630px;
+  height: 21px;
+  width: 86px;
+}
+#sheet [name="weapon[2][hit]"] {
+  top: 330px;
+  left: 726px;
+  height: 21px;
+  width: 45px;
+}
+#sheet [name="weapon[2][damage]"] {
+  top: 330px;
+  left: 781px;
+  height: 21px;
+  width: 105px;
+}
+#sheet [name="weapon[3][action]"] {
+  top: 355px;
+  left: 310px;
+  height: 21px;
+  width: 310px;
+  text-align: left;
+}
+#sheet [name="weapon[3][range]"] {
+  top: 355px;
+  left: 630px;
+  height: 21px;
+  width: 86px;
+}
+#sheet [name="weapon[3][hit]"] {
+  top: 355px;
+  left: 726px;
+  height: 21px;
+  width: 45px;
+}
+#sheet [name="weapon[3][damage]"] {
+  top: 355px;
+  left: 781px;
+  height: 21px;
+  width: 105px;
+}
+#sheet [name="skills"] {
+  top: 392px;
+  left: 29px;
+  height: 182px;
+  width: 897px;
+}
+#sheet [name="traits"] {
+  top: 593px;
+  left: 29px;
+  height: 32px;
+  width: 897px;
+  text-align: left;
+}
+#sheet [name="renown"] {
+  top: 643px;
+  left: 29px;
+  height: 70px;
+  width: 897px;
+  text-align: left;
+}
+#sheet figure#companion {
+  top: 767px;
+  left: 29px;
+  height: 288px;
+  width: 262px;
+}
+#sheet [name="companion[name]"] {
+  top: 777px;
+  left: 304px;
+  height: 89px;
+  width: 623px;
+}
+#sheet [name="companion[stat][move]"] {
+  top: 1094px;
+  left: 29px;
+  height: 33px;
+  width: 83px;
+}
+#sheet [name="companion[stat][agility]"] {
+  top: 1094px;
+  left: 117px;
+  height: 33px;
+  width: 83px;
+}
+#sheet [name="companion[stat][save]"] {
+  top: 1094px;
+  left: 205px;
+  height: 33px;
+  width: 83px;
+}
+#sheet [name="companion[rule][1]"] {
+  top: 893px;
+  left: 303px;
+  height: 234px;
+  width: 621px;
+  text-align: left;
+}
+#sheet [name="companion[rule][2]"] {
+  top: 1140px;
+  left: 29px;
+  height: 90px;
+  width: 897px;
+  text-align: left;
+}
+
