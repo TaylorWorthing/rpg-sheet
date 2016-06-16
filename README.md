@@ -1,4 +1,4 @@
-# RPG Sheet
+ # RPG Sheet
 RPG Sheet is a web-based character sheet tool for role-playing games.
 
 > This project is still under development. There is a chance that changes might
